@@ -265,7 +265,8 @@ def fetch_all_stories():
                 continue
 
             count = 0
-            for entry in feed.entries[:20]:
+            max_per_feed = 5 if source_name.startswith("GNews") else 20
+            for entry in feed.entries[:max_per_feed]:
                 pub_date = None
                 if hasattr(entry, 'published_parsed') and entry.published_parsed:
                     pub_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
@@ -313,7 +314,7 @@ def fetch_all_stories():
                     "tier": tier,
                     "title": title,
                     "summary": summary,
-                    "link": entry.get("link", ""),
+                    "link": link,
                     "date": pub_date.strftime("%Y-%m-%d %H:%M") if pub_date else "Unknown",
                 }
                 all_stories.append(story)
@@ -395,8 +396,23 @@ def generate_newsletter(stories, weather):
         print("❌ ANTHROPIC_API_KEY not set!")
         sys.exit(1)
 
+    # Cap stories to avoid massive prompts — prioritize hyperlocal
+    tier1 = [s for s in stories if "Tier 1" in s["tier"]]
+    tier2 = [s for s in stories if "Tier 2" in s["tier"]]
+    tier3 = [s for s in stories if "Tier 3" in s["tier"]]
+
+    # Take all Tier 1 & 2, then fill remaining slots with Tier 3
+    MAX_STORIES = 45
+    selected = tier1 + tier2
+    remaining_slots = MAX_STORIES - len(selected)
+    if remaining_slots > 0:
+        selected += tier3[:remaining_slots]
+
+    print(f"   Selected {len(selected)} of {len(stories)} stories "
+          f"(T1: {len(tier1)}, T2: {len(tier2)}, T3: {min(len(tier3), max(0, remaining_slots))})")
+
     today = datetime.now().strftime("%A, %B %d, %Y")
-    stories_text = format_stories_for_prompt(stories)
+    stories_text = format_stories_for_prompt(selected)
 
     user_message = (
         f"Today's date is {today}.\n\n"
@@ -409,10 +425,10 @@ def generate_newsletter(stories, weather):
         f"Write today's newsletter edition following your system prompt. "
         f"Output ONLY the inner HTML content — no <html>, <head>, <body>, or "
         f"<style> tags. The content will be inserted into an email template.\n\n"
-        f"RAW STORIES ({len(stories)} total):\n\n{stories_text}"
+        f"RAW STORIES ({len(selected)} total):\n\n{stories_text}"
     )
 
-    print(f"\n📝 Sending {len(stories)} stories to Claude...")
+    print(f"\n📝 Sending {len(selected)} stories to Claude...")
 
     headers = {
         "Content-Type": "application/json",
@@ -429,12 +445,22 @@ def generate_newsletter(stories, weather):
         ],
     }
 
-    resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers=headers,
-        json=payload,
-        timeout=120,
-    )
+    for attempt in range(2):
+        try:
+            resp = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers=headers,
+                json=payload,
+                timeout=300,
+            )
+            break
+        except requests.exceptions.ReadTimeout:
+            if attempt == 0:
+                print("⚠️  Claude API timed out — retrying once...")
+                continue
+            else:
+                print("❌ Claude API timed out twice. Try reducing MAX_STORIES.")
+                sys.exit(1)
 
     if resp.status_code != 200:
         print(f"❌ Claude API error {resp.status_code}: {resp.text}")
