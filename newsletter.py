@@ -52,7 +52,16 @@ RSS_FEEDS = {
     "Patch Hoover": "https://patch.com/alabama/hoover/rss",
     "Patch Vestavia": "https://patch.com/alabama/vestavia-hills/rss",
 
+    # Tier 2.5: GOOGLE NEWS — location-filtered feeds that catch al.com, BBJ,
+    # Shelby County Reporter, and any other source mentioning our communities.
+    # These act as a safety net for stories the direct feeds miss.
+    "GNews Hoover": "https://news.google.com/rss/search?q=%22Hoover%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "GNews Mountain Brook": "https://news.google.com/rss/search?q=%22Mountain+Brook%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "GNews Vestavia Hills": "https://news.google.com/rss/search?q=%22Vestavia+Hills%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "GNews Shelby County AL": "https://news.google.com/rss/search?q=%22Shelby+County%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
+
     # Tier 3: METRO — Birmingham-wide (use only if locally relevant)
+    "al.com": "https://www.al.com/arc/outboundfeeds/rss/?outputType=xml",
     "WVTM 13": "https://www.wvtm13.com/topstories-rss",
     "Birmingham Watch": "https://birminghamwatch.org/feed",
     "Bham Now": "https://bhamnow.com/feed",
@@ -63,8 +72,10 @@ RSS_FEEDS = {
 
 # Which sources are hyperlocal vs metro (used in the prompt)
 TIER_1_SOURCES = ["Hoover Sun", "Village Living", "Vestavia Voice", "280 Living", "The Homewood Star"]
-TIER_2_SOURCES = ["Patch Hoover", "Patch Vestavia"]
-TIER_3_SOURCES = ["WVTM 13", "Birmingham Watch", "Bham Now", "CBS 42", "Birmingham Times", "BirminghamMommy"]
+TIER_2_SOURCES = ["Patch Hoover", "Patch Vestavia",
+                  "GNews Hoover", "GNews Mountain Brook", "GNews Vestavia Hills", "GNews Shelby County AL"]
+TIER_3_SOURCES = ["al.com", "WVTM 13", "Birmingham Watch", "Bham Now", "CBS 42",
+                  "Birmingham Times", "BirminghamMommy"]
 
 # ---------------------------------------------------------------------------
 # EMAIL HTML TEMPLATE
@@ -147,7 +158,9 @@ REJECT stories that are:
 - University of Alabama or Auburn sports (unless a local athlete is featured)
 - Generic business press releases with no local connection
 
-SOURCE PRIORITY: Stories from Tier 1 sources (Hoover Sun, Village Living, Vestavia Voice, 280 Living, Homewood Star) and Tier 2 (Patch Hoover, Patch Vestavia) are almost always relevant. Stories from Tier 3 metro sources (WVTM, CBS 42, Birmingham Watch, etc.) need a CLEAR local connection to make the cut.
+SOURCE PRIORITY: Stories from Tier 1 sources (Hoover Sun, Village Living, Vestavia Voice, 280 Living, Homewood Star) and Tier 2 (Patch Hoover, Patch Vestavia, Google News location feeds) are almost always relevant. Stories from Tier 3 metro sources (al.com, WVTM, CBS 42, Birmingham Watch, etc.) need a CLEAR local connection to make the cut.
+
+DEDUPLICATION: You will often see the same story from multiple sources (e.g., from both the Hoover Sun direct feed and a Google News result linking to the Hoover Sun). Use the best/most detailed version and link to the original source. Do not repeat the same story twice in the newsletter.
 
 ## TOPIC PRIORITIES
 
@@ -276,10 +289,29 @@ def fetch_all_stories():
                 summary = re.sub(r'<[^>]+>', '', summary)
                 summary = summary.strip()[:500]
 
+                # Google News appends " - Source Name" to titles — extract it
+                original_source = None
+                title = entry.get("title", "No title")
+                if source_name.startswith("GNews"):
+                    title_match = re.match(r'^(.+)\s+-\s+(.+)$', title)
+                    if title_match:
+                        title = title_match.group(1).strip()
+                        original_source = title_match.group(2).strip()
+
+                # Google News uses redirect URLs — try to get the real URL
+                link = entry.get("link", "")
+                if "news.google.com" in link:
+                    # The real URL is sometimes in the entry's source or links
+                    if hasattr(entry, 'links'):
+                        for l in entry.links:
+                            if l.get('href') and 'news.google.com' not in l.get('href', ''):
+                                link = l['href']
+                                break
+
                 story = {
-                    "source": source_name,
+                    "source": f"{source_name} (via {original_source})" if original_source else source_name,
                     "tier": tier,
-                    "title": entry.get("title", "No title"),
+                    "title": title,
                     "summary": summary,
                     "link": entry.get("link", ""),
                     "date": pub_date.strftime("%Y-%m-%d %H:%M") if pub_date else "Unknown",
@@ -522,4 +554,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
