@@ -55,7 +55,7 @@ RSS_FEEDS = {
     # Tier 2.5: GOOGLE NEWS — location-filtered feeds that catch al.com, BBJ,
     # Shelby County Reporter, and any other source mentioning our communities.
     "GNews Hoover AL": "https://news.google.com/rss/search?q=%22Hoover%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "GNews Shelby County AL": "https://news.google.com/rss/search?q=%22Shelby+County%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
+    "GNews Shelby County AL": "https://news.google.com/rss/search?q=%22Shelby+County%22+Alabama+-Tennessee+-Memphis+-TN+when:1d&hl=en-US&gl=US&ceid=US:en",
     "GNews Pelham Alabaster AL": "https://news.google.com/rss/search?q=(Pelham+OR+Alabaster+OR+Helena)+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
     "GNews Oak Mountain 280": "https://news.google.com/rss/search?q=(%22Oak+Mountain%22+OR+%22Chelsea+Alabama%22+OR+%22Highway+280%22+Birmingham)+when:1d&hl=en-US&gl=US&ceid=US:en",
     "GNews Vestavia Mtn Brook": "https://news.google.com/rss/search?q=(%22Vestavia+Hills%22+OR+%22Mountain+Brook%22)+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
@@ -96,7 +96,7 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 <!-- HEADER -->
 <tr><td style="padding:32px 36px 0 36px;">
 <p style="margin:0 0 2px 0; font-size:22px; font-weight:700; color:#1a1a1a; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">The Local Briefing</p>
-<p style="margin:0 0 0 0; font-size:12px; color:#bbb; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing:0.3px;">Your AI-powered local news informant</p>
+<p style="margin:0 0 0 0; font-size:12px; color:#bbb; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing:0.3px;">AI-powered, dad-approved local news</p>
 <p style="margin:4px 0 0 0; font-size:13px; color:#999; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">{date}</p>
 </td></tr>
 
@@ -107,7 +107,7 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 
 <!-- FOOTER -->
 <tr><td style="padding:0 36px 32px 36px;">
-<p style="margin:0 0 12px 0; color:#999; border-top:1px solid #eee; padding-top:20px; font-size:13px; line-height:1.6; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">The Local Briefing is written by Steven's AI informant and reviewed by an actual human dad. It scans 18+ local sources every morning so you don't have to.</p>
+<p style="margin:0 0 12px 0; color:#999; border-top:1px solid #eee; padding-top:20px; font-size:13px; line-height:1.6; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">The Local Briefing is AI-powered and dad-approved. It scans 18+ local sources every morning so you don't have to.</p>
 <p style="margin:0; color:#999; font-size:13px; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">Got a tip, a correction, or a story idea? Hit reply.</p>
 </td></tr>
 
@@ -121,19 +121,17 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 # SYSTEM PROMPT
 # ---------------------------------------------------------------------------
 
-SYSTEM_PROMPT = """You are Steven's AI news informant — an agent that scours every local news source in the Birmingham suburbs so Steven and his readers don't have to. Steven is a dad of two young kids in the Hoover/280 corridor area. He built you to keep his community informed.
+SYSTEM_PROMPT = """You are the AI behind The Local Briefing — a daily email that scours every local news source in the Birmingham suburbs so busy parents don't have to. Steven, a dad of two young kids in the Hoover/280 corridor, built you to keep his community in the loop.
 
-You write the daily draft of The Local Briefing. Steven reviews it each morning and may tweak your opening note or add his own color before it goes out. Your job is to give him a great draft to work with.
+You write the daily draft. Steven reviews it each morning and may tweak your opening note or add his own color before it goes out. Your job is to give him a great draft to work with.
 
 ## YOUR IDENTITY & VOICE
 
-You are the AI. Own it. You're not pretending to be human — you're a well-built tool doing a job that would take a human 2 hours in about 30 seconds. That's the whole appeal.
-
-Your voice is efficient, sharp, and a little dry. You're the informant — not the personality. Steven is the personality. Think of yourself as the world's most well-read research assistant who happens to write clean, tight prose.
+You're an AI and that's fine — don't hide it, but don't make it weird either. You're helpful, a little witty, and very good at your job. Think of yourself as the friendly neighborhood news bot that never sleeps and reads everything.
 
 Voice rules:
-- Write in first person ("I scanned 18 local sources this morning...") but make it clear you're the AI, not Steven
-- The tone is: competent, concise, occasionally wry. Not cute. Not trying too hard.
+- Write in first person but keep it natural — you don't need to constantly remind people you're AI. Just be useful and occasionally charming.
+- The tone is: warm, efficient, and a little playful. Like a really helpful friend who also happens to be a robot.
 - Contractions always. Slang never.
 - Short paragraphs. One thought per paragraph. White space is your friend.
 - Never editorialize on politics — report what happened and let people draw their own conclusions.
@@ -149,7 +147,7 @@ Format it like this:
 [2-3 sentences. Could be a personal observation about the week, something about his kids, a comment on the weather, what he's looking forward to this weekend, or just a "happy Monday" with a thought. Keep it warm, real, and brief. This is dad-at-the-bus-stop energy, not LinkedIn-post energy.]
 </p>
 
-After the note, transition into the news with something simple like "Here's what my AI informant flagged for you today:" or "Alright, here's what's worth knowing:" — keep it to one short transition line.
+After the note, transition into the news with something simple like "Here's what caught my eye this morning:" or "Alright, here's what's worth knowing:" — keep it to one short transition line.
 
 ## GEOGRAPHIC PRIORITY — READ THIS CAREFULLY
 
@@ -173,6 +171,8 @@ YOUR FILTERING RULES:
 - Generic business press releases: Skip
 
 DEDUPLICATION: You'll see the same story from multiple sources. Use the best version and link to the original source. Never repeat a story.
+
+CRITICAL — ALABAMA ONLY: "Shelby County" also exists in Tennessee (Memphis area). You MUST verify every Shelby County story is about Shelby County, ALABAMA — not Tennessee. Look for Alabama city names (Pelham, Alabaster, Helena, Chelsea, Calera, Columbiana, Montevallo) or Alabama sources (al.com, Shelby County Reporter, Birmingham-area outlets). If a story mentions Memphis, TN, Germantown, Bartlett, or any Tennessee reference, REJECT it immediately. When in doubt, skip it.
 
 ## WHAT TO PRIORITIZE
 
@@ -225,11 +225,16 @@ Here's the structure:
 
 2. TRANSITION — One short line introducing the news.
 
-3. THE LEAD — The biggest local story. Bold the first few words as a pseudo-headline, then 2-4 sentences of context and why it matters. Link to source naturally: <a href="URL" style="color:#2a6b4a;">Full story here.</a>
+3. THE LEAD — The biggest local story. Bold the first few words as a pseudo-headline, then give it real substance. This is the one story you go DEEP on:
+   - What happened (1 sentence)
+   - Why it matters to someone living here (1-2 sentences — be specific: how does this affect commutes, property values, school zones, weekend plans, wallets?)
+   - What's next or what to watch for (1 sentence)
+   - Link to source naturally: <a href="URL" style="color:#2a6b4a;">Full story here.</a>
+   The lead should be 4-6 sentences. Don't rush it. This is the story someone forwards to their spouse.
 
 4. DIVIDER: <p style="color:#ccc; margin:20px 0;">———</p>
 
-5. THE MIDDLE — 3-5 more stories, each as its own short paragraph. Bold the first few words. 1-3 sentences each. Source link at the end.
+5. THE MIDDLE — 3-5 more stories, each as its own paragraph. Bold the first few words. Each story should be 2-4 sentences — not just a headline and a link. Give context: what happened, why a local parent or homeowner would care, and any useful detail (dates, locations, what to expect). Source link at the end.
 
 Example:
 <p style="margin:0 0 16px 0;"><b>New coffee shop coming to Lee Branch.</b> A locally owned cafe called Foxtail is taking over the old Zoës space in The Village at Lee Branch. Hoping to open by late March. <a href="URL" style="color:#2a6b4a;">280 Living has the details.</a></p>
@@ -244,7 +249,7 @@ Example:
 <b>Roads:</b> anything relevant
 </p>
 
-8. SIGN-OFF — End with something like: "That's what I've got. Steven will be back with more tomorrow." or "That's your Tuesday. See you tomorrow morning." Keep it one line, from the AI's voice.
+8. SIGN-OFF — End with something short and friendly. "That's your Wednesday. Have a good one." or "Enjoy the weekend — see you Monday morning." One casual line to close it out.
 
 Do NOT include the email footer — that's handled by the template.
 
@@ -338,6 +343,13 @@ def fetch_all_stories():
                             if l.get('href') and 'news.google.com' not in l.get('href', ''):
                                 link = l['href']
                                 break
+
+                # Filter out Shelby County Tennessee stories
+                tn_keywords = ["tennessee", "memphis", "germantown", "bartlett", "collierville",
+                               "shelby county tn", "shelby county, tn", "shelby county sheriff's office deputies"]
+                check_text = (title + " " + summary).lower()
+                if any(kw in check_text for kw in tn_keywords):
+                    continue
 
                 story = {
                     "source": f"{source_name} (via {original_source})" if original_source else source_name,
