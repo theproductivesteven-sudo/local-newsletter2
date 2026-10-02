@@ -1,113 +1,90 @@
 #!/usr/bin/env python3
 """
-Local Birmingham Newsletter Generator v2
-Pulls RSS feeds, gets weather, sends to Claude for drafting, emails the result.
+The Local Briefing — v3 (beehiiv paste-in workflow)
 
-Sources: 13 feeds across Starnes Media hyperlocals, Patch, and Birmingham metro news.
+Every morning this script:
+  1. Pulls stories from local RSS feeds (Starnes Media, Google News, Birmingham metro)
+  2. Grabs the weather for Hoover
+  3. Has Claude write the day's edition
+  4. Emails a "paste-in kit" to the editor only: subject, preview text, editor
+     notes, feed health, and the edition body ready to copy into beehiiv
+  5. Saves the edition to archive/YYYY-MM-DD.html
+
+Run locally without sending:  python newsletter.py --preview
 """
 
-import feedparser
-import requests
-import json
+import base64
+import time
 import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
-# Load .env file if present (for local development)
+import feedparser
+import requests
+
 try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
-    pass  # dotenv not required in production
+    pass
 
 # ---------------------------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------------------------
 
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+# Override with the ANTHROPIC_MODEL secret when a newer model ships — no code change needed.
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL") or "claude-sonnet-5-5"
+
 RESEND_API_KEY = os.getenv("RESEND_API_KEY")
-EMAIL_TO = os.getenv("EMAIL_TO", "")
-EMAIL_FROM = os.getenv("EMAIL_FROM", "newsletter@yourdomain.com")
+EDITOR_EMAIL = os.getenv("EMAIL_TO", "").split(",")[0].strip()   # draft goes to you only
+EMAIL_FROM = os.getenv("EMAIL_FROM") or "The Local Briefing <onboarding@resend.dev>"
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "")
 
-WEATHER_LAT = 33.4054
-WEATHER_LON = -86.8114
+LOCAL_TZ = ZoneInfo("America/Chicago")
+WEATHER_LAT, WEATHER_LON = 33.4054, -86.8114   # Hoover
 LOOKBACK_HOURS = 28
+MAX_STORIES = 45
+ARCHIVE_DIR = Path("archive")
+PREVIEW_MODE = "--preview" in sys.argv
 
 # ---------------------------------------------------------------------------
-# RSS SOURCES — ordered by priority (hyperlocal first)
+# RSS SOURCES
 # ---------------------------------------------------------------------------
+
+GN = "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q="
 
 RSS_FEEDS = {
-    # Tier 1: HYPERLOCAL — Starnes Media Network (all Metro Publisher CMS)
+    # Tier 1 — hyperlocal (Starnes Media, Metro Publisher CMS)
     "Hoover Sun": "https://hooversun.com/api/rss/content.rss",
+    "280 Living": "https://280living.com/api/rss/content.rss",
     "Village Living": "https://www.villagelivingonline.com/api/rss/content.rss",
     "Vestavia Voice": "https://vestaviavoice.com/api/rss/content.rss",
-    "280 Living": "https://280living.com/api/rss/content.rss",
     "The Homewood Star": "https://thehomewoodstar.com/api/rss/content.rss",
 
-    # Tier 2: HYPERLOCAL — Patch (community-specific feeds)
-    "Patch Hoover": "https://patch.com/alabama/hoover/rss",
-    "Patch Vestavia": "https://patch.com/alabama/vestavia-hills/rss",
+    # Tier 2 — Google News location searches (catch al.com, Shelby County Reporter, BBJ, etc.)
+    "GNews Hoover": GN + "%22Hoover%22+Alabama+when:1d",
+    "GNews Shelby County": GN + "%22Shelby+County%22+Alabama+-Tennessee+-Memphis+when:1d",
+    "GNews Pelham Alabaster Helena": GN + "(Pelham+OR+Alabaster+OR+Helena)+Alabama+when:1d",
+    "GNews Oak Mountain 280": GN + "(%22Oak+Mountain%22+OR+%22Chelsea+Alabama%22+OR+%22Highway+280%22+Birmingham)+when:1d",
+    "GNews Vestavia Mtn Brook": GN + "(%22Vestavia+Hills%22+OR+%22Mountain+Brook%22)+Alabama+when:1d",
 
-    # Tier 2.5: GOOGLE NEWS — location-filtered feeds that catch al.com, BBJ,
-    # Shelby County Reporter, and any other source mentioning our communities.
-    "GNews Hoover AL": "https://news.google.com/rss/search?q=%22Hoover%22+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "GNews Shelby County AL": "https://news.google.com/rss/search?q=%22Shelby+County%22+Alabama+-Tennessee+-Memphis+-TN+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "GNews Pelham Alabaster AL": "https://news.google.com/rss/search?q=(Pelham+OR+Alabaster+OR+Helena)+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "GNews Oak Mountain 280": "https://news.google.com/rss/search?q=(%22Oak+Mountain%22+OR+%22Chelsea+Alabama%22+OR+%22Highway+280%22+Birmingham)+when:1d&hl=en-US&gl=US&ceid=US:en",
-    "GNews Vestavia Mtn Brook": "https://news.google.com/rss/search?q=(%22Vestavia+Hills%22+OR+%22Mountain+Brook%22)+Alabama+when:1d&hl=en-US&gl=US&ceid=US:en",
-
-    # Tier 3: METRO — Birmingham-wide (use only if locally relevant)
-    "al.com": "https://www.al.com/arc/outboundfeeds/rss/?outputType=xml",
+    # Tier 3 — Birmingham metro (only if there's a clear local angle)
     "WVTM 13": "https://www.wvtm13.com/topstories-rss",
-    "Birmingham Watch": "https://birminghamwatch.org/feed",
-    "Bham Now": "https://bhamnow.com/feed",
     "CBS 42": "https://cbs42.com/feed",
+    "Bham Now": "https://bhamnow.com/feed",
+    "Birmingham Watch": "https://birminghamwatch.org/feed",
     "Birmingham Times": "https://birminghamtimes.com/feed",
     "BirminghamMommy": "https://birminghammommy.com/feed",
 }
 
-# Which sources are hyperlocal vs metro (used in the prompt)
-TIER_1_SOURCES = ["Hoover Sun", "Village Living", "Vestavia Voice", "280 Living", "The Homewood Star"]
-TIER_2_SOURCES = ["Patch Hoover", "Patch Vestavia",
-                  "GNews Hoover AL", "GNews Shelby County AL", "GNews Pelham Alabaster AL",
-                  "GNews Oak Mountain 280", "GNews Vestavia Mtn Brook"]
-TIER_3_SOURCES = ["al.com", "WVTM 13", "Birmingham Watch", "Bham Now", "CBS 42",
-                  "Birmingham Times", "BirminghamMommy"]
-
-# ---------------------------------------------------------------------------
-# EMAIL HTML TEMPLATE
-# ---------------------------------------------------------------------------
-
-EMAIL_TEMPLATE = """<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body style="margin:0; padding:0; background-color:#ffffff; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#ffffff;">
-<tr><td align="center" style="padding:32px 16px;">
-<table role="presentation" width="520" cellpadding="0" cellspacing="0">
-
-<!-- CONTENT — no card, no box, just text -->
-<tr><td style="color:#222; font-size:16px; line-height:1.75; font-family:-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;">
-{content}
-</td></tr>
-
-<!-- FOOTER -->
-<tr><td style="padding-top:28px;">
-<p style="margin:0; color:#bbb; font-size:12px; border-top:1px solid #eee; padding-top:16px;">The Local Briefing · AI-powered, dad-approved · <a href="mailto:{reply_to}" style="color:#bbb;">Reply with tips or feedback</a></p>
-</td></tr>
-
-</table>
-</td></tr>
-</table>
-</body>
-</html>"""
+TIER_1 = {"Hoover Sun", "280 Living", "Village Living", "Vestavia Voice", "The Homewood Star"}
+TN_KEYWORDS = ["tennessee", "memphis", "germantown", "bartlett", "collierville",
+               "shelby county tn", "shelby county, tn"]
 
 # ---------------------------------------------------------------------------
 # SYSTEM PROMPT
@@ -115,483 +92,423 @@ EMAIL_TEMPLATE = """<!DOCTYPE html>
 
 SYSTEM_PROMPT = """You are the AI behind The Local Briefing — a daily email that scours every local news source in the Birmingham suburbs so busy parents don't have to. Steven, a dad of two young kids in the Hoover/280 corridor, built you to keep his community in the loop.
 
-You write the daily draft. Steven reviews it each morning and may tweak your opening note or add his own color before it goes out. Your job is to give him a great draft to work with.
+You write the daily draft. Steven reviews it each morning, tweaks anything he wants, and pastes it into beehiiv to send. Your job is to give him a draft so good he barely has to touch it.
 
 ## YOUR IDENTITY & VOICE
 
-You're an AI and that's fine — don't hide it, but don't make it weird either. You're helpful, a little witty, and very good at your job.
-
-But here's the thing: this email should NOT read like AI wrote it. It should feel like one real person talking to another. One-to-one energy. If you read it out loud, it should sound normal — like something a neighbor would actually say. Honest, not polished. Clear and direct, never "corporate content."
+You're an AI and that's fine — but this email should NOT read like AI wrote it. It should feel like one real person talking to another. One-to-one energy. Read out loud, it should sound like something a neighbor would actually say. Honest, not polished. Clear and direct, never "corporate content."
 
 Voice rules:
-- Write in first person. You're one person talking to a friend over coffee.
+- First person. One person talking to a friend over coffee.
 - Contractions always. Slang never.
-- ONE TO TWO SENTENCES PER PARAGRAPH. MAX. This is the single most important formatting rule. Every paragraph break creates momentum and pulls the reader forward. A single sentence standing alone is great — do it often. Think of each <p> tag as one beat in a conversation. If you catch yourself writing 3+ sentences in one paragraph, split it up.
-- The writing should pull the reader along effortlessly. It shouldn't feel like "content" — it should feel like a smart friend catching you up. Zero friction. No effort to read. If someone has to re-read a sentence, you've failed.
+- ONE TO TWO SENTENCES PER PARAGRAPH. MAX. This is the most important formatting rule. Every paragraph break creates momentum. A single sentence standing alone is great — do it often. If you write 3+ sentences in one paragraph, split it.
+- The writing should pull the reader along effortlessly. Zero friction. If someone has to re-read a sentence, you've failed.
 - Never editorialize on politics — report what happened and let people draw their own conclusions.
-- NEVER use: "in other news," "without further ado," "let's dive in," "here's the scoop," "stay tuned," or any newsletter cliché. If it sounds like a morning show host or a content marketer would say it, cut it.
+- NEVER use: "in other news," "without further ado," "let's dive in," "here's the scoop," "stay tuned," or any newsletter cliché. If a morning show host or a content marketer would say it, cut it.
 
-## EDITORIAL PHILOSOPHY — WHAT MAKES THIS WORTH READING
+## EDITORIAL PHILOSOPHY
 
-This newsletter lives or dies by whether people actually look forward to it. Not just open it — look forward to it. Here's how:
+This newsletter lives or dies by whether people look forward to it.
 
-LEAD WITH INSIGHT, NOT RECAP: Don't just summarize what happened. Help readers see why it matters in a way they hadn't considered. "The council approved a rezoning" is a recap. "That rezoning means the empty lot you drive past every morning is about to become 200 apartments" is insight. Less recap, more perspective. Give people observations they haven't named yet.
+LEAD WITH INSIGHT, NOT RECAP: "The council approved a rezoning" is a recap. "That rezoning means the empty lot you drive past every morning is about to become 200 apartments" is insight. Give people observations they haven't named yet.
 
-BE ZERO-CLICK: Readers should get the full value from this email alone. Don't tease stories and force people to click links to understand what happened. The links are there for people who want more — not as a requirement to get the point. Every story should be self-contained in the email.
+BE ZERO-CLICK: Readers should get the full value from the email alone. Links are for people who want more, never a requirement to get the point.
 
-CREATE HIGH VALUE: Every item should feel intentional, not filler. If a story doesn't make someone think "oh, interesting" or "I should tell my spouse about this," cut it. The goal is an email that's worth forwarding — one that people would notice if it stopped showing up. Scarce, thoughtful, not disposable.
+CREATE HIGH VALUE: Every item should feel intentional. If a story wouldn't make someone think "oh, interesting" or "I should tell my spouse about this," cut it. Worth forwarding. Noticed if it stopped showing up.
 
-BE CONSISTENT: Same voice every day. Same structure readers can rely on. Trust is built slowly through consistency, not through occasional viral editions. This email should feel like a daily ritual, not a random notification.
+BE CONSISTENT: Same voice, same structure, every day. Trust builds through consistency, not viral one-offs.
 
-## THE OPENING — "STEVEN'S NOTE"
+## GEOGRAPHIC PRIORITY
 
-Every edition starts with a short personal note from Steven to his readers. Since Steven will review and may edit this before sending, draft something he'd plausibly say. This is the ONE section that should feel human and personal.
-
-Format it simply — no box, no background color:
-<p style="margin:0 0 4px 0; font-weight:600; font-size:14px; color:#888; text-transform:uppercase; letter-spacing:0.5px;">From Steven</p>
-<p style="margin:0 0 6px 0;">[First sentence of the note.]</p>
-<p style="margin:0 0 20px 0;">[Second sentence. Keep to 2-3 sentences total. Dad-at-the-bus-stop energy, not LinkedIn-post energy.]</p>
-
-After the note, transition into the news with something simple like "Here's what caught my eye this morning:" — one short line.
-
-## GEOGRAPHIC PRIORITY — READ THIS CAREFULLY
-
-Your PRIMARY audience lives in:
+PRIMARY audience:
 - Hoover (Meadow Brook, Ross Bridge, Greystone, Lake Cyrus, Bluff Park, Stadium Trace, Riverchase)
 - The 280 corridor (Oak Mountain, Mt Laurel, Shoal Creek, Brook Highland, Inverness)
 - Shelby County cities: Pelham, Helena, Alabaster, Chelsea, Calera
 
-Your SECONDARY audience lives in:
-- Vestavia Hills (Cahaba Heights, Liberty Park)
-- Mountain Brook (Crestline, English Village)
-- Homewood
+SECONDARY audience:
+- Vestavia Hills (Cahaba Heights, Liberty Park), Mountain Brook (Crestline, English Village), Homewood
 
-YOUR FILTERING RULES:
-- Stories about primary-area communities: ALWAYS include if newsworthy
-- Stories about secondary-area communities: Include the best 1-2 per day
-- BIG Birmingham metro news: Include ONLY if it's genuinely major. Maybe 1 per edition at most.
-- State/national news: Almost never. Only if there's a hyper-specific local impact.
-- Crime in distant Birmingham neighborhoods: Skip
-- Generic business press releases: Skip
+Filtering rules:
+- Primary-area stories: always include if newsworthy
+- Secondary-area stories: the best 1-2 per day
+- Big Birmingham metro news: only if genuinely major. One per edition at most.
+- State/national news: almost never — only with a hyper-specific local impact
+- Crime in distant Birmingham neighborhoods: skip
+- Generic business press releases: skip
 
-DEDUPLICATION: You'll see the same story from multiple sources. Use the best version and link to the original source. Never repeat a story.
+DEDUPLICATION: The same story often appears in several sources. Use the best version, link the original source, never repeat a story.
 
-CRITICAL — ALABAMA ONLY: "Shelby County" also exists in Tennessee (Memphis area). You MUST verify every Shelby County story is about Shelby County, ALABAMA — not Tennessee. Look for Alabama city names (Pelham, Alabaster, Helena, Chelsea, Calera, Columbiana, Montevallo) or Alabama sources (al.com, Shelby County Reporter, Birmingham-area outlets). If a story mentions Memphis, TN, Germantown, Bartlett, or any Tennessee reference, REJECT it immediately. When in doubt, skip it.
+ALABAMA ONLY: "Shelby County" also exists in Tennessee. Every Shelby County story must be about Shelby County, ALABAMA. If a story mentions Memphis, Germantown, Bartlett, or anything Tennessee, reject it. When in doubt, skip it.
 
 ## WHAT TO PRIORITIZE
 
-Your readers are busy parents and homeowners. They want to feel connected to their community, not anxious. Focus on stories that are useful, surprising, or make people feel something about where they live. Every story needs a "why you should care" angle — if you can't articulate why a Hoover parent would care about this story, skip it.
+Readers are busy parents and homeowners. They want to feel connected, not anxious. Every story needs a "why you should care" angle — if you can't say why a Hoover parent would care, skip it.
 
-In rough order of what your readers care about most:
-1. Development & business — new restaurants, new shops, construction updates, closings of places people love. "What's going into that empty space?" is the #1 question neighbors ask each other.
-2. Local government — zoning, council votes, tax changes, anything that affects property values or daily life
-3. Schools — schedule changes, board decisions, programs, achievements. The stuff parents actually need to know.
-4. Community — events, family-friendly activities, things to do this weekend, volunteer opportunities, local human interest stories
-5. Useful parent info — resources, programs, seasonal stuff (camp signups, sports registrations, library events)
-6. Economy & jobs — local employer news, cost of living, housing market, anything that affects wallets
-7. Weather — only if it's going to meaningfully affect plans
+In rough order:
+1. Development & business — new restaurants and shops, construction, closings of places people love. "What's going into that empty space?" is the #1 question neighbors ask.
+2. Local government — zoning, council votes, taxes, anything affecting property values or daily life
+3. Schools — schedule changes, board decisions, programs, achievements
+4. Community — events, family activities, weekend plans, volunteering, human interest
+5. Useful parent info — camp signups, rec registrations, library events, seasonal stuff
+6. Economy & jobs — local employers, housing market, cost of living
+7. Weather — only if it meaningfully affects plans
 
-WHAT TO SKIP OR MINIMIZE:
-- SPORTS: This is critical. Sports stories should RARELY appear. The ONLY sports that make the cut: a state championship win, a record-breaking achievement, a notable college signing, or a major coaching hire/departure. Routine game scores, weekly recaps, playoff updates, and "team is having a great season" stories should ALL be skipped. If you include a sports item, it goes in Quick Hits as a one-liner — never as the lead or a full story. Most editions should have ZERO sports. Your readers can get sports elsewhere.
-- Crime and accidents: SKIP routine crime, car crashes, and "shots fired" stories. Only include if it's (a) a major incident everyone will be talking about, or (b) directly actionable safety info.
-- University sports: Always skip.
-- State/national news: Almost never.
-- Generic press releases: Skip.
+SKIP OR MINIMIZE:
+- SPORTS: Most editions should have ZERO sports. Only a state championship, a record, a notable college signing, or a major coaching change makes the cut — and only as a one-line quick hit, never the lead. Skip routine scores, recaps, playoff updates, and "great season" stories. University sports: always skip.
+- Crime and accidents: skip routine crime and crashes. Include only a major incident everyone will be talking about, or directly actionable safety info.
 
-## SUBJECT LINE
+## OUTPUT FORMAT — FOLLOW EXACTLY
 
-Before the email body, output a subject line on its own line in this exact format:
-SUBJECT: Your subject line here
+Your response must start with this header block, then the body:
 
-Then a blank line, then the email body HTML.
+SUBJECT: [under 50 characters, conversational, about the lead story]
+PREVIEW: [one sentence, under 90 characters, that makes someone open the email — complements the subject, doesn't repeat it]
+EDITOR NOTES:
+- [Anything Steven should double-check before sending: a date you inferred, a detail the source was vague on, a story you almost cut. Max 3 items. Write "- None" if nothing.]
+---BODY---
+[the edition HTML]
 
-The subject line should be short (under 50 characters), conversational, and make someone want to open the email. It should reference the day's lead story or the most interesting thing in the edition.
+Subject line examples — good: "A new coffee shop is headed to Lee Branch", "That empty lot on 280? Here's what's coming". Bad: "Your Local Briefing — Tuesday" (boring), "BREAKING: Major news in Hoover" (clickbait).
 
-Good examples:
-- "A new coffee shop is headed to Lee Branch"
-- "Hoover council just rezoned your neighborhood"
-- "Spain Park's new principal starts Monday"
-- "That empty lot on 280? Here's what's coming"
-- "Pelham finally got a brewery"
+## BODY HTML RULES
 
-Bad examples:
-- "Your Local Briefing — Tuesday, Feb 18" (boring)
-- "BREAKING: Major news in Hoover" (clickbait)
-- "Here's What's Happening in Your Community This Week" (corporate)
+The body gets pasted into beehiiv, which applies its own fonts, colors, and footer. So write CLEAN, PLAIN HTML:
+- Allowed tags only: <p>, <strong>, <em>, <a href="...">, <hr>
+- NO inline styles, NO classes, NO divs, NO tables, NO headings, NO lists, NO emoji-heavy decoration
+- No email footer, no unsubscribe text — beehiiv adds those
 
-## FORMAT & HTML
+Structure:
 
-Output the email body as HTML. Do NOT include <html>, <head>, <body>, or <style> tags — just the inner content.
+1. STEVEN'S NOTE — 2-3 sentences he'd plausibly say. Dad-at-the-bus-stop energy, not LinkedIn energy. A seasonal observation, the weather, the weekend ahead.
+<p><strong>From Steven</strong></p>
+<p>First sentence or two.</p>
+<p>Another short beat.</p>
 
-THE OVERALL FEEL: This should look like a plain text email written by a real person who just happens to use bold and links well. No colored backgrounds on sections. No boxes. No cards. No section-label styling with uppercase/letter-spacing. Just clean text with good spacing. Think: the email a smart friend would actually send you.
+2. TRANSITION — one short line, like "Here's what caught my eye this morning:"
 
-Here's the structure:
+3. THE LEAD — the biggest local story, in 3-4 short paragraphs:
+<p><strong>Headline in a few words.</strong> What happened, in one sentence.</p>
+<p>Why it matters — the insight the reader hasn't thought of yet. Be specific: commutes, property values, school zones, weekend plans, wallets.</p>
+<p>What's next or what to watch for. <a href="URL">Full story here.</a></p>
 
-1. STEVEN'S NOTE — The personal opening (format described above). Plain text, no box.
+4. <hr>
 
-2. TRANSITION — One short line.
+5. THE MIDDLE — 3-5 stories, each 2-3 short paragraphs:
+<p><strong>New coffee shop coming to Lee Branch.</strong> A locally owned cafe is taking over the old Zoës space in The Village at Lee Branch.</p>
+<p>They're hoping to open by late March. <a href="URL">280 Living has the details.</a></p>
 
-3. THE LEAD — Bold the first few words as a headline. Then break it into short beats. Remember: insight, not recap. Don't just say what happened — tell the reader what it means for their daily life, their commute, their property value, their weekend plans.
-<p style="margin:0 0 12px 0;"><b>The headline in a few words.</b> What happened in one sentence.</p>
-<p style="margin:0 0 12px 0;">Why it matters — the insight your reader hasn't thought of yet.</p>
-<p style="margin:0 0 12px 0;">What's next or what to watch for. <a href="URL" style="color:#2a6b4a;">Full story here.</a></p>
+6. QUICK HITS (optional) — "A few more quick ones:" then one paragraph per item:
+<p>→ <strong>Topic:</strong> One sentence. <a href="URL">Link.</a></p>
 
-4. DIVIDER: <p style="color:#ddd; margin:24px 0;">———</p>
+7. BEFORE YOU HEAD OUT (only if actionable):
+<p><strong>Before you head out</strong></p>
+<p><strong>Weather:</strong> forecast<br><strong>Schools:</strong> anything relevant<br><strong>Roads:</strong> anything relevant</p>
 
-5. THE MIDDLE — 3-5 stories. Each gets 2-3 short <p> tags. Bold the first few words. Source link at end.
-
-Example:
-<p style="margin:0 0 6px 0;"><b>New coffee shop coming to Lee Branch.</b> A locally owned cafe is taking over the old Zoës space in The Village at Lee Branch.</p>
-<p style="margin:0 0 24px 0;">Hoping to open by late March. <a href="URL" style="color:#2a6b4a;">280 Living has the details.</a></p>
-
-6. QUICK HITS — If there are smaller items, introduce them casually ("A few more quick ones:"):
-<p style="margin:0 0 8px 0;">→ <b>Topic:</b> One sentence. <a href="URL" style="color:#2a6b4a;">Link.</a></p>
-
-7. PARENT RADAR — Only if actionable. Keep it dead simple, no background box:
-<p style="margin:24px 0 4px 0; font-weight:600; font-size:14px; color:#888; text-transform:uppercase; letter-spacing:0.5px;">Before you head out</p>
-<p style="margin:0 0 4px 0;"><b>Weather:</b> forecast</p>
-<p style="margin:0 0 4px 0;"><b>Schools:</b> anything relevant</p>
-<p style="margin:0 0 16px 0;"><b>Roads:</b> anything relevant</p>
-
-8. SIGN-OFF — One casual line. "Have a good one," or "Enjoy the weekend." Then: "— Steven"
-
-Do NOT include the email footer — that's handled by the template.
+8. SIGN-OFF — one casual line ("Enjoy the weekend."), then:
+<p>— Steven</p>
 
 ## THIN NEWS DAYS
 
-Keep it short. Steven's note + a lead + 2 quick hits + parent radar is fine. Never pad with filler just to fill space. A tight 2-minute read that feels intentional beats a bloated 5-minute one stuffed with stories nobody cares about. If the email is short, it should feel like "not much happened today, which is nice" — not like you ran out of things to say.
+Steven's note + a lead + 2 quick hits + weather is plenty. Never pad. A short edition should feel like "not much happened today, which is nice" — not like you ran out of things to say.
 
 ## SENSITIVE TOPICS
 
-- Crime: Facts only. No sensationalizing.
-- Schools: Extra care with anything involving minors. Official sources only.
-- Politics: What happened and what it means locally. No editorial slant.
-- Tragedies: Brief, respectful, factual.
+- Crime: facts only, no sensationalizing
+- Schools: extra care with anything involving minors; official sources only
+- Politics: what happened and what it means locally, no slant
+- Tragedies: brief, respectful, factual
 """
 
 # ---------------------------------------------------------------------------
-# STEP 1: FETCH RSS STORIES
+# STEP 1: FETCH STORIES
 # ---------------------------------------------------------------------------
+
+def tier_for(source_name):
+    if source_name in TIER_1:
+        return "Tier 1 — HYPERLOCAL"
+    if source_name.startswith("GNews"):
+        return "Tier 2 — HYPERLOCAL"
+    return "Tier 3 — METRO (needs local angle)"
+
+
+def entry_date(entry):
+    for attr in ("published_parsed", "updated_parsed"):
+        parsed = getattr(entry, attr, None)
+        if parsed:
+            return datetime(*parsed[:6], tzinfo=timezone.utc)
+    if getattr(entry, "published", None):
+        try:
+            return parsedate_to_datetime(entry.published)
+        except Exception:
+            pass
+    return None
+
 
 def fetch_all_stories():
-    """Pull stories from all RSS feeds, filtered to last LOOKBACK_HOURS."""
+    """Returns (stories, feed_health). feed_health lists feeds that look broken."""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    all_stories = []
+    stories, broken, seen_titles = [], [], set()
 
-    for source_name, feed_url in RSS_FEEDS.items():
-        # Determine source tier
-        if source_name in TIER_1_SOURCES:
-            tier = "Tier 1 — HYPERLOCAL"
-        elif source_name in TIER_2_SOURCES:
-            tier = "Tier 2 — HYPERLOCAL"
-        else:
-            tier = "Tier 3 — METRO (needs local angle)"
-
+    for source_name, url in RSS_FEEDS.items():
         try:
-            print(f"  Fetching {source_name}...")
-
-            try:
-                resp = requests.get(feed_url, timeout=15, headers={
-                    "User-Agent": "LocalNewsletterBot/1.0"
-                })
-                resp.raise_for_status()
-                feed = feedparser.parse(resp.content)
-            except requests.RequestException:
-                feed = feedparser.parse(feed_url)
-
-            if feed.bozo and not feed.entries:
-                print(f"  ⚠️  {source_name}: Feed error — skipping")
-                continue
-
-            count = 0
-            max_per_feed = 5 if source_name.startswith("GNews") else 20
-            for entry in feed.entries[:max_per_feed]:
-                pub_date = None
-                if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                    pub_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-                    pub_date = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
-                elif hasattr(entry, 'published') and entry.published:
-                    try:
-                        pub_date = parsedate_to_datetime(entry.published)
-                    except Exception:
-                        pub_date = None
-
-                if pub_date and pub_date < cutoff:
-                    continue
-
-                summary = ""
-                if hasattr(entry, 'summary'):
-                    summary = entry.summary
-                elif hasattr(entry, 'description'):
-                    summary = entry.description
-
-                summary = re.sub(r'<[^>]+>', '', summary)
-                summary = summary.strip()[:500]
-
-                # Google News appends " - Source Name" to titles — extract it
-                original_source = None
-                title = entry.get("title", "No title")
-                if source_name.startswith("GNews"):
-                    title_match = re.match(r'^(.+)\s+-\s+(.+)$', title)
-                    if title_match:
-                        title = title_match.group(1).strip()
-                        original_source = title_match.group(2).strip()
-
-                # Google News uses redirect URLs — try to get the real URL
-                link = entry.get("link", "")
-                if "news.google.com" in link:
-                    # The real URL is sometimes in the entry's source or links
-                    if hasattr(entry, 'links'):
-                        for l in entry.links:
-                            if l.get('href') and 'news.google.com' not in l.get('href', ''):
-                                link = l['href']
-                                break
-
-                # Filter out Shelby County Tennessee stories
-                tn_keywords = ["tennessee", "memphis", "germantown", "bartlett", "collierville",
-                               "shelby county tn", "shelby county, tn", "shelby county sheriff's office deputies"]
-                check_text = (title + " " + summary).lower()
-                if any(kw in check_text for kw in tn_keywords):
-                    continue
-
-                story = {
-                    "source": f"{source_name} (via {original_source})" if original_source else source_name,
-                    "tier": tier,
-                    "title": title,
-                    "summary": summary,
-                    "link": link,
-                    "date": pub_date.strftime("%Y-%m-%d %H:%M") if pub_date else "Unknown",
-                }
-                all_stories.append(story)
-                count += 1
-
-            print(f"  ✅ {source_name}: {count} recent stories")
-
+            resp = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0 LocalBriefingBot/3.0"})
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
         except Exception as e:
-            print(f"  ❌ {source_name}: Error — {e}")
+            broken.append(f"{source_name}: couldn't load ({type(e).__name__})")
+            print(f"  ❌ {source_name}: {e}")
             continue
 
-    return all_stories
+        if not feed.entries:
+            broken.append(f"{source_name}: feed returned no items")
+            print(f"  ⚠️  {source_name}: no items")
+            continue
+
+        count = 0
+        max_items = 5 if source_name.startswith("GNews") else 20
+        for entry in feed.entries[:max_items]:
+            pub = entry_date(entry)
+            if pub and pub < cutoff:
+                continue
+
+            title = entry.get("title", "").strip()
+            via = None
+            if source_name.startswith("GNews"):
+                m = re.match(r"^(.+)\s+-\s+([^-]+)$", title)
+                if m:
+                    title, via = m.group(1).strip(), m.group(2).strip()
+
+            summary = re.sub(r"<[^>]+>", "", entry.get("summary", "") or entry.get("description", ""))
+            summary = re.sub(r"\s+", " ", summary).strip()[:500]
+
+            if any(k in (title + " " + summary).lower() for k in TN_KEYWORDS):
+                continue
+
+            key = re.sub(r"[^a-z0-9]", "", title.lower())[:80]
+            if not key or key in seen_titles:
+                continue
+            seen_titles.add(key)
+
+            stories.append({
+                "source": f"{source_name} (via {via})" if via else source_name,
+                "tier": tier_for(source_name),
+                "title": title,
+                "summary": summary,
+                "link": entry.get("link", ""),
+                "date": pub.astimezone(LOCAL_TZ).strftime("%a %b %d, %I:%M %p") if pub else "Unknown",
+            })
+            count += 1
+
+        print(f"  ✅ {source_name}: {count} recent")
+
+    return stories, broken
 
 
 # ---------------------------------------------------------------------------
-# STEP 2: GET WEATHER
+# STEP 2: WEATHER
 # ---------------------------------------------------------------------------
 
 def get_weather():
-    """Fetch today's weather forecast for Hoover, AL."""
     if not OPENWEATHER_API_KEY:
-        return "Weather data unavailable (no API key configured)."
-
+        return "Weather data unavailable."
     try:
-        url = "https://api.openweathermap.org/data/2.5/forecast"
-        params = {
-            "lat": WEATHER_LAT,
-            "lon": WEATHER_LON,
-            "appid": OPENWEATHER_API_KEY,
-            "units": "imperial",
-            "cnt": 8,
-        }
-        resp = requests.get(url, params=params, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
-
-        temps = [item["main"]["temp"] for item in data["list"]]
-        high = round(max(temps))
-        low = round(min(temps))
-        conditions = data["list"][0]["weather"][0]["description"].capitalize()
-
-        precip = any(
-            item["weather"][0]["main"] in ["Rain", "Thunderstorm", "Snow", "Drizzle"]
-            for item in data["list"]
+        resp = requests.get(
+            "https://api.openweathermap.org/data/2.5/forecast",
+            params={"lat": WEATHER_LAT, "lon": WEATHER_LON, "appid": OPENWEATHER_API_KEY,
+                    "units": "imperial", "cnt": 8},
+            timeout=15,
         )
-        precip_note = " Rain expected — plan accordingly." if precip else ""
-
-        return f"Weather: {conditions}, high {high}°F / low {low}°F.{precip_note}"
-
+        resp.raise_for_status()
+        items = resp.json()["list"]
+        temps = [i["main"]["temp"] for i in items]
+        conditions = items[0]["weather"][0]["description"].capitalize()
+        wet = any(i["weather"][0]["main"] in ("Rain", "Thunderstorm", "Snow", "Drizzle") for i in items)
+        return (f"{conditions}, high {round(max(temps))}°F / low {round(min(temps))}°F."
+                + (" Rain likely at some point in the next 24 hours." if wet else ""))
     except Exception as e:
-        print(f"  ⚠️  Weather fetch failed: {e}")
+        print(f"  ⚠️  Weather failed: {e}")
         return "Weather data temporarily unavailable."
 
 
 # ---------------------------------------------------------------------------
-# STEP 3: BUILD PROMPT AND CALL CLAUDE
+# STEP 3: CLAUDE
 # ---------------------------------------------------------------------------
 
-def format_stories_for_prompt(stories):
-    """Format stories with tier labels so Claude knows which to prioritize."""
-    if not stories:
-        return "No stories were found in the feeds today."
-
-    lines = []
-    for s in stories:
-        lines.append(
-            f"SOURCE: {s['source']} [{s['tier']}]\n"
-            f"HEADLINE: {s['title']}\n"
-            f"SUMMARY: {s['summary']}\n"
-            f"LINK: {s['link']}\n"
-            f"DATE: {s['date']}"
-        )
-    return "\n---\n".join(lines)
+def select_stories(stories):
+    """All Tier 1 and 2, then fill with Tier 3 up to MAX_STORIES."""
+    local = [s for s in stories if not s["tier"].startswith("Tier 3")]
+    metro = [s for s in stories if s["tier"].startswith("Tier 3")]
+    return (local + metro)[:max(MAX_STORIES, len(local))]
 
 
-def generate_newsletter(stories, weather):
-    """Send stories to Claude API and get back newsletter HTML content."""
+def generate_edition(stories, weather, now):
     if not ANTHROPIC_API_KEY:
-        print("❌ ANTHROPIC_API_KEY not set!")
-        sys.exit(1)
+        sys.exit("❌ ANTHROPIC_API_KEY not set")
 
-    # Cap stories to avoid massive prompts — prioritize hyperlocal
-    tier1 = [s for s in stories if "Tier 1" in s["tier"]]
-    tier2 = [s for s in stories if "Tier 2" in s["tier"]]
-    tier3 = [s for s in stories if "Tier 3" in s["tier"]]
-
-    # Take all Tier 1 & 2, then fill remaining slots with Tier 3
-    MAX_STORIES = 45
-    selected = tier1 + tier2
-    remaining_slots = MAX_STORIES - len(selected)
-    if remaining_slots > 0:
-        selected += tier3[:remaining_slots]
-
-    print(f"   Selected {len(selected)} of {len(stories)} stories "
-          f"(T1: {len(tier1)}, T2: {len(tier2)}, T3: {min(len(tier3), max(0, remaining_slots))})")
-
-    today = datetime.now().strftime("%A, %B %d, %Y")
-    stories_text = format_stories_for_prompt(selected)
-
+    selected = select_stories(stories)
+    stories_text = "\n---\n".join(
+        f"SOURCE: {s['source']} [{s['tier']}]\nHEADLINE: {s['title']}\n"
+        f"SUMMARY: {s['summary']}\nLINK: {s['link']}\nPUBLISHED: {s['date']}"
+        for s in selected
+    )
     user_message = (
-        f"Today's date is {today}.\n\n"
-        f"WEATHER DATA:\n{weather}\n\n"
-        f"Here are today's raw news stories from Birmingham-area sources. "
-        f"Each story is labeled with its source tier. Prioritize Tier 1 and Tier 2 "
-        f"(hyperlocal) stories. Only include Tier 3 (metro) stories if they have a "
-        f"CLEAR, DIRECT impact on Hoover, Mountain Brook, Vestavia Hills, or "
-        f"Shelby County residents.\n\n"
-        f"Write today's newsletter edition following your system prompt. "
-        f"Output ONLY the inner HTML content — no <html>, <head>, <body>, or "
-        f"<style> tags. The content will be inserted into an email template.\n\n"
-        f"RAW STORIES ({len(selected)} total):\n\n{stories_text}"
+        f"Today is {now:%A, %B %d, %Y} (Central time).\n\n"
+        f"WEATHER FOR HOOVER (next 24 hours): {weather}\n\n"
+        f"Here are {len(selected)} raw stories from Birmingham-area sources, labeled by tier. "
+        f"Write today's edition following your system prompt exactly, starting with the SUBJECT line.\n\n"
+        f"{stories_text}"
     )
 
-    print(f"\n📝 Sending {len(selected)} stories to Claude...")
-
-    headers = {
-        "Content-Type": "application/json",
-        "x-api-key": ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
-    }
-
+    print(f"   Sending {len(selected)} of {len(stories)} stories to {ANTHROPIC_MODEL}...")
     payload = {
-        "model": "claude-sonnet-4-20250514",
-        "max_tokens": 4096,
+        "model": ANTHROPIC_MODEL,
+        "max_tokens": 6000,
         "system": SYSTEM_PROMPT,
-        "messages": [
-            {"role": "user", "content": user_message}
-        ],
+        "messages": [{"role": "user", "content": user_message}],
     }
+    headers = {"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
+               "content-type": "application/json"}
 
-    for attempt in range(2):
+    resp = None
+    for attempt in range(3):
         try:
-            resp = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers=headers,
-                json=payload,
-                timeout=300,
-            )
-            break
-        except requests.exceptions.ReadTimeout:
-            if attempt == 0:
-                print("⚠️  Claude API timed out — retrying once...")
+            resp = requests.post("https://api.anthropic.com/v1/messages",
+                                 headers=headers, json=payload, timeout=300)
+            if resp.status_code in (429, 500, 502, 503, 529) and attempt < 2:
+                print(f"   ⚠️  API returned {resp.status_code}, retrying...")
+                time.sleep(15 * (attempt + 1))
                 continue
-            else:
-                print("❌ Claude API timed out twice. Try reducing MAX_STORIES.")
-                sys.exit(1)
+            break
+        except requests.exceptions.RequestException as e:
+            if attempt == 2:
+                sys.exit(f"❌ Claude API failed: {e}")
+            print(f"   ⚠️  {e} — retrying...")
+            time.sleep(15 * (attempt + 1))
 
-    if resp.status_code != 200:
-        print(f"❌ Claude API error {resp.status_code}: {resp.text}")
-        sys.exit(1)
+    if resp is None or resp.status_code != 200:
+        sys.exit(f"❌ Claude API error {resp.status_code if resp else '?'}: {resp.text if resp else ''}")
 
-    result = resp.json()
-    newsletter_content = result["content"][0]["text"]
-
-    input_tokens = result.get("usage", {}).get("input_tokens", 0)
-    output_tokens = result.get("usage", {}).get("output_tokens", 0)
-    print(f"✅ Newsletter generated ({input_tokens} input / {output_tokens} output tokens)")
-
-    # Parse subject line from Claude's response
-    raw_output = result["content"][0]["text"]
-    subject_line = None
-    newsletter_content = raw_output
-
-    if raw_output.strip().startswith("SUBJECT:"):
-        lines = raw_output.split("\n", 2)
-        subject_line = lines[0].replace("SUBJECT:", "").strip()
-        newsletter_content = lines[2] if len(lines) > 2 else lines[-1]
-
-    return subject_line, newsletter_content.strip()
+    data = resp.json()
+    raw = "".join(b.get("text", "") for b in data["content"] if b.get("type") == "text")
+    usage = data.get("usage", {})
+    print(f"   ✅ Written ({usage.get('input_tokens')} in / {usage.get('output_tokens')} out tokens)")
+    return parse_output(raw)
 
 
-# ---------------------------------------------------------------------------
-# STEP 4: ASSEMBLE AND SEND EMAIL
-# ---------------------------------------------------------------------------
+def parse_output(raw):
+    """Split Claude's response into subject, preview, editor notes, and body HTML."""
+    if "---BODY---" in raw:
+        header, body = raw.split("---BODY---", 1)
+    else:
+        first_tag = raw.find("<")
+        header, body = (raw[:first_tag], raw[first_tag:]) if first_tag > 0 else ("", raw)
 
-def wrap_in_template(content, date_str):
-    """Wrap Claude's content output in the styled email template."""
-    return (EMAIL_TEMPLATE
-            .replace("{content}", content)
-            .replace("{reply_to}", EMAIL_FROM or "hello@localbriefing.com"))
+    def field(name):
+        m = re.search(rf"^\s*{name}:\s*(.+)$", header, re.M)
+        return m.group(1).strip() if m else ""
 
+    notes = []
+    m = re.search(r"EDITOR NOTES:\s*(.*)", header, re.S)
+    if m:
+        for line in m.group(1).splitlines():
+            line = line.strip().lstrip("-•* ").strip()
+            if line and line.lower() not in ("none", "none."):
+                notes.append(line)
 
-def send_email(html_content, custom_subject=None):
-    """Send the newsletter via Resend API."""
-    if not RESEND_API_KEY:
-        print("⚠️  RESEND_API_KEY not set — saving to file instead.")
-        save_to_file(html_content)
-        return
-
-    if not EMAIL_TO:
-        print("⚠️  EMAIL_TO not set — saving to file instead.")
-        save_to_file(html_content)
-        return
-
-    today = datetime.now().strftime("%A, %B %d")
-    subject = custom_subject if custom_subject else f"The Local Briefing — {today}"
-    print(f"   Subject: {subject}")
-
-    recipients = [e.strip() for e in EMAIL_TO.split(",")]
-
-    payload = {
-        "from": EMAIL_FROM,
-        "to": recipients,
-        "subject": subject,
-        "html": html_content,
+    body = re.sub(r"^```(?:html)?\s*|\s*```$", "", body.strip())
+    return {
+        "subject": field("SUBJECT") or "The Local Briefing",
+        "preview": field("PREVIEW"),
+        "notes": notes,
+        "body": body.strip(),
     }
+
+
+# ---------------------------------------------------------------------------
+# STEP 4: PASTE-IN KIT EMAIL + ARCHIVE
+# ---------------------------------------------------------------------------
+
+def esc(text):
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def build_kit_email(edition, broken_feeds, story_count, now):
+    font = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+    label = f"font-size:11px; font-weight:600; letter-spacing:0.6px; text-transform:uppercase; color:#888; margin:14px 0 4px 0;"
+    notes = "".join(f"<li style='margin:0 0 4px 0;'>{esc(n)}</li>" for n in edition["notes"]) or "<li>Nothing flagged.</li>"
+    health = ("".join(f"<li style='margin:0 0 4px 0;'>{esc(b)}</li>" for b in broken_feeds)
+              if broken_feeds else "<li>All feeds loaded.</li>")
+    cut = (f"<p style='margin:28px 0; text-align:center; font-size:12px; color:#bbb; "
+           f"letter-spacing:1px; font-family:{font};'>{{}}</p>")
+
+    return f"""<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body style="margin:0; padding:24px 16px; background:#ffffff; font-family:{font};">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center">
+<table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;">
+
+<tr><td style="background:#f6f6f3; border-radius:8px; padding:18px 22px; font-size:14px; line-height:1.5; color:#333;">
+<p style="margin:0; font-weight:700; font-size:15px;">Today's draft is ready · {now:%A, %B %d}</p>
+<p style="{label}">Subject line</p>
+<p style="margin:0; font-size:16px; font-weight:600;">{esc(edition['subject'])}</p>
+<p style="{label}">Preview text</p>
+<p style="margin:0;">{esc(edition['preview']) or '<em>none</em>'}</p>
+<p style="{label}">Double-check before sending</p>
+<ul style="margin:0; padding-left:18px;">{notes}</ul>
+<p style="{label}">Feed health · {story_count} stories pulled</p>
+<ul style="margin:0; padding-left:18px; color:#666;">{health}</ul>
+</td></tr>
+
+<tr><td>{cut.format("✂ &nbsp;COPY FROM HERE INTO BEEHIIV&nbsp; ✂")}</td></tr>
+
+<tr><td style="font-size:16px; line-height:1.7; color:#222;">
+{edition['body']}
+</td></tr>
+
+<tr><td>{cut.format("✂ &nbsp;END OF EDITION&nbsp; ✂")}</td></tr>
+
+</table></td></tr></table></body></html>"""
+
+
+def archive_edition(edition, now):
+    ARCHIVE_DIR.mkdir(exist_ok=True)
+    path = ARCHIVE_DIR / f"{now:%Y-%m-%d}.html"
+    path.write_text(
+        f"<!-- SUBJECT: {edition['subject']} -->\n<!-- PREVIEW: {edition['preview']} -->\n\n"
+        f"{edition['body']}\n",
+        encoding="utf-8",
+    )
+    print(f"   💾 Archived to {path}")
+    return path
+
+
+def send_kit(kit_html, edition, archive_path):
+    if PREVIEW_MODE or not RESEND_API_KEY or not EDITOR_EMAIL:
+        Path("draft_preview.html").write_text(kit_html, encoding="utf-8")
+        reason = "preview mode" if PREVIEW_MODE else "RESEND_API_KEY or EMAIL_TO missing"
+        print(f"   💾 Not sending ({reason}) — open draft_preview.html")
+        return
 
     resp = requests.post(
         "https://api.resend.com/emails",
-        headers={
-            "Authorization": f"Bearer {RESEND_API_KEY}",
-            "Content-Type": "application/json",
+        headers={"Authorization": f"Bearer {RESEND_API_KEY}", "Content-Type": "application/json"},
+        json={
+            "from": EMAIL_FROM,
+            "to": [EDITOR_EMAIL],
+            "subject": f"[Draft] {edition['subject']}",
+            "html": kit_html,
+            "attachments": [{
+                "filename": archive_path.name,
+                "content": base64.b64encode(archive_path.read_bytes()).decode(),
+            }],
         },
-        json=payload,
         timeout=30,
     )
-
-    if resp.status_code == 200:
-        print(f"📧 Email sent to {', '.join(recipients)}")
+    if resp.status_code in (200, 201):
+        print(f"   📧 Draft sent to {EDITOR_EMAIL}")
     else:
-        print(f"❌ Email send failed ({resp.status_code}): {resp.text}")
-        save_to_file(html_content)
-
-
-def save_to_file(html_content):
-    """Save newsletter to a local HTML file as fallback."""
-    today = datetime.now().strftime("%Y-%m-%d")
-    filename = f"newsletter_{today}.html"
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print(f"💾 Newsletter saved to {filename}")
+        Path("draft_preview.html").write_text(kit_html, encoding="utf-8")
+        sys.exit(f"❌ Resend error {resp.status_code}: {resp.text}")
 
 
 # ---------------------------------------------------------------------------
@@ -599,42 +516,27 @@ def save_to_file(html_content):
 # ---------------------------------------------------------------------------
 
 def main():
-    print("=" * 60)
-    print("📰 THE LOCAL BRIEFING — Newsletter Generator v2")
-    print(f"   {datetime.now().strftime('%A, %B %d, %Y at %I:%M %p')}")
-    print("=" * 60)
+    now = datetime.now(LOCAL_TZ)
+    print(f"📰 The Local Briefing v3 — {now:%A, %B %d, %Y %I:%M %p} CT\n")
 
-    # Step 1: Fetch stories
-    print("\n📡 Step 1: Fetching RSS feeds...")
-    stories = fetch_all_stories()
-
-    tier1_count = sum(1 for s in stories if "Tier 1" in s["tier"])
-    tier2_count = sum(1 for s in stories if "Tier 2" in s["tier"])
-    tier3_count = sum(1 for s in stories if "Tier 3" in s["tier"])
-    print(f"\n   Total: {len(stories)} stories "
-          f"(Tier 1: {tier1_count}, Tier 2: {tier2_count}, Tier 3: {tier3_count})")
-
+    print("📡 Fetching feeds...")
+    stories, broken = fetch_all_stories()
+    print(f"   {len(stories)} unique recent stories, {len(broken)} feed problem(s)")
     if not stories:
-        print("❌ No stories found. Exiting.")
-        sys.exit(1)
+        sys.exit("❌ No stories found — every feed came back empty or broken.")
 
-    # Step 2: Get weather
-    print("\n🌤️  Step 2: Getting weather forecast...")
+    print("\n🌤  Weather...")
     weather = get_weather()
     print(f"   {weather}")
 
-    # Step 3: Generate newsletter with Claude
-    print("\n✍️  Step 3: Generating newsletter with Claude...")
-    subject_line, content = generate_newsletter(stories, weather)
+    print("\n✍️  Writing edition...")
+    edition = generate_edition(stories, weather, now)
+    print(f"   Subject: {edition['subject']}")
 
-    # Step 4: Wrap in email template and send
-    print("\n📧 Step 4: Assembling and sending newsletter...")
-    today = datetime.now().strftime("%A, %B %d, %Y")
-    full_email = wrap_in_template(content, today)
-    send_email(full_email, custom_subject=subject_line)
-
-    print("\n✅ Done! Check your inbox.")
-    print("=" * 60)
+    print("\n📧 Building paste-in kit...")
+    archive_path = archive_edition(edition, now)
+    send_kit(build_kit_email(edition, broken, len(stories), now), edition, archive_path)
+    print("\n✅ Done.")
 
 
 if __name__ == "__main__":

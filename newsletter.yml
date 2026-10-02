@@ -1,0 +1,44 @@
+name: Daily Newsletter Draft
+
+on:
+  schedule:
+    # 10:00 UTC = 5:00 AM CDT (Mar–Nov) / 4:00 AM CST (Nov–Mar)
+    - cron: '0 10 * * *'
+  workflow_dispatch: # "Run workflow" button for manual tests
+
+permissions:
+  contents: write # lets the job commit each edition to archive/
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write today's edition and email the draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: python newsletter.py
+
+      # Saving each edition gives you an archive AND keeps the repo active,
+      # so GitHub doesn't pause the daily schedule after 60 quiet days.
+      - name: Archive edition
+        run: |
+          git config user.name "local-briefing-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive/
+          git diff --cached --quiet || git commit -m "Edition $(TZ=America/Chicago date +%F)"
+          git push
