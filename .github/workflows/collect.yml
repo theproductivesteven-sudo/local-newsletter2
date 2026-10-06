@@ -1,0 +1,29 @@
+name: Collect morning news
+
+on:
+  schedule:
+    # 9:30 UTC = 4:30 AM CDT / 3:30 AM CST — ready before the 5 AM Cowork task
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install feedparser requests tzdata
+      - run: python collect_feeds.py
+      - name: Save digest
+        run: |
+          git config user.name "carpool-line-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digest/
+          git diff --cached --quiet || git commit -m "News digest $(TZ=America/Chicago date +%F)"
+          git push
