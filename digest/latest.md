@@ -1,617 +1,617 @@
-# Carpool Line news digest — Saturday, November 21, 2026
-Collected 10:52 AM CT · 147 news stories from the last 28 hours, plus 6 upcoming events and agenda items
+# Carpool Line news digest — Sunday, November 22, 2026
+Collected 11:16 AM CT · 123 news stories from the last 28 hours, plus 6 upcoming events and agenda items
 
 ## Tier 1 — Hyperlocal
 
-### S1. Cattywampus Cocktails & Spirits closed on Columbiana Main Street
+### S1. Infused with flavor, fueled by ‘wows’
+- Outlet: 280 Living (via 280 Living)
+- Published: Sat Nov 21, 2:49 PM
+- Link: https://280living.com/businesses/infused-with-flavor-fueled-by-%E2%80%98wows%E2%80%99/
+- Summary: Cheryl Harper’s Simply Infused olive oil and balsamic vinegar tasting room, now in Brook Highland Plaza, has been wowing customers since 2015.
+
+### S2. Hoover council to take another look at self-storage denial, Lorna Road sale deadline
+- Outlet: 280 Living (via 280 Living)
+- Published: Sat Nov 21, 2:41 PM
+- Link: https://280living.com/news/hoover-council-112026/
+- Summary: The Hoover City Council meets Monday at 6 p.m.
+
+### S3. Helena set to kick off holiday season with annual Christmas Tree Lighting Friday, Dec. 4
+- Outlet: Shelby County Reporter (via Shelby County Reporter)
+- Published: Sat Nov 21, 1:51 PM
+- Link: https://www.shelbycountyreporter.com/news/helena-set-to-kick-off-holiday-season-with-annual-christmas-tree-lighting-friday-dec-4-4b8cc181
+- Summary: (headline only — open the link for details)
+
+### S4. Cattywampus Cocktails & Spirits closed on Columbiana Main Street
 - Outlet: Shelby County Reporter (via Shelby County Reporter)
 - Published: Sat Nov 21, 10:05 AM
 - Link: https://www.shelbycountyreporter.com/news/cattywampus-cocktails-spirits-closed-on-columbiana-main-street-8b0f94c3
 - Summary: Cattywampus Cocktails & Spirits is now closed in Columbiana after serving the community for nearly two years on Main Street.
 
-### S2. Hundreds left stranded in Calera after North Pole train derailed
+### S5. Hundreds left stranded in Calera after North Pole train derailed
 - Outlet: Shelby County Reporter (via Shelby County Reporter)
 - Published: Sat Nov 21, 9:14 AM
 - Link: https://www.shelbycountyreporter.com/news/hundreds-left-stranded-in-calera-after-north-pole-train-derailed-40f9679d
 - Summary: Around 6 p.m. on Nov. 20, one of the train cars from the Heart of Dixie North Pole Express experience derailed, no injuries were reported.
 
-### S3. Briarwood headed to first state championship since 2017 after flipping switch against American Christian
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Sat Nov 21, 12:05 AM
-- Link: https://www.shelbycountyreporter.com/sports/briarwood-headed-to-first-state-championship-since-2017-after-flipping-switch-against-american-christian-82443116
-- Summary: The Briarwood Christian Lions are in the state championship game for the first time since 2017 after outscoring American Christian 21-7 in the second half to pull away for the semifinal win.
-
-### S4. Thompson blanks Opelika in championship rematch, advances to semifinals
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 10:13 PM
-- Link: https://www.shelbycountyreporter.com/sports/thompson-blanks-opelika-in-championship-rematch-advances-to-semifinals-35021d97
-- Summary: One year after dominating Opelika for a state championship, Thompson returned to the Bulldogs' home field Friday night and delivered another emphatic performance.
-
-### S5. Calera police officer dedicated to bettering the community and its families
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 7:04 PM
-- Link: https://www.shelbycountyreporter.com/news/calera-police-officer-dedicated-to-bettering-the-community-and-its-families-9935bb56
-- Summary: Committed to seeing Calera come together and grow as a community, Officer Brandon Allen is leading through initiatives like his mentorship program, For the People Youth Mentorship.
-
-### S6. OPINION: When teachers become our heroes
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 5:44 PM
-- Link: https://www.shelbycountyreporter.com/opinion/opinion-when-teachers-become-our-heroes-436d21d4
-- Summary: Teachers leave their lessons on our hearts and our minds, their investments into us transcend the bounds of the classroom walls.
-
-### S7. Onelife Fitness brings wellness surge to Village at Lee Branch
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 5:30 PM
-- Link: https://www.shelbycountyreporter.com/news/onelife-fitness-brings-wellness-surge-to-village-at-lee-branch-eedf1279
-- Summary: The new gym, Onelife Fitness, located within the Lee Branch shopping center has brought the Highway 280 corridor a fresh new perspective on health and fitness.
-
-### S8. Hoover man charged with shooting BB gun at two occupied vehicles
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 1:17 PM
-- Link: https://www.shelbycountyreporter.com/news/hoover-man-charged-with-shooting-bb-gun-at-two-occupied-vehicles-f9b16d9b
-- Summary: A 47-year-old Hoover man has been arrested on two felony charges after investigators determined that a BB or pellet gun was used to strike two vehicles in the same area of Hoover earlier this month, according to police.
-
-### S9. The Arc of Shelby County to host special needs estate planning workshop
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 12:53 PM
-- Link: https://www.shelbycountyreporter.com/news/the-arc-of-shelby-county-to-host-special-needs-estate-planning-workshop-3b5a85f0
-- Summary: Families and caregivers of individuals with intellectual and developmental disabilities will have an opportunity to learn how to plan for their loved ones' futures during a free educational workshop hosted by The Arc of Shelby County.
-
-### S10. Shelby County Schools BOE awards Bob Fitzgerald with Journey Shaper Award, recognizes student artists
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 12:48 PM
-- Link: https://www.shelbycountyreporter.com/news/shelby-county-schools-boe-awards-bob-fitzgerald-with-journey-shaper-award-recognizes-student-artists-state-report-card-a250bcbb
-- Summary: (headline only — open the link for details)
-
-### S11. City of Chelsea preparing to celebrate the holidays with parade
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 12:35 PM
-- Link: https://www.shelbycountyreporter.com/news/city-of-chelsea-preparing-to-celebrate-the-holidays-with-parade-84ac0c28
-- Summary: On the morning of Saturday, Dec. 19 at 10 a.m., the community of Chelsea will be celebrating the holiday season with its annual Christmas parade.
-
-### S12. The Way Digital Entertainment Is Changing the Way Arsenal Supporters Follow Football
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 11:19 AM
-- Link: https://www.shelbycountyreporter.com/sponsored-content/the-way-digital-entertainment-is-changing-the-way-arsenal-supporters-follow-football-6acef1b7
-- Summary: Ask an Arsenal fan who grew up in the Highbury years how they followed an away game, and the answer usually involves a radio and a lot of waiting.
-
-### S13. The Old Farm Hand Pump Still Works Inside Modern Labs
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 10:47 AM
-- Link: https://www.shelbycountyreporter.com/sponsored-content/the-old-farm-hand-pump-still-works-inside-modern-labs-4316fe19
-- Summary: On older farms across Alabama, a cast-iron hand pump once stood near the back door or out by the stock tank.
-
-### S14. Vincent gearing up to bring holiday cheer to community with parade
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 10:34 AM
-- Link: https://www.shelbycountyreporter.com/news/vincent-gearing-up-to-bring-holiday-cheer-to-community-with-parade-87907b36
-- Summary: On Dec. 4, the streets of Vincent will be lit up by parade floats and cheering crowds as they enjoy the annual Christmas parade.
-
-### S15. Shelby County Shops Learn What Makes an In-Store Event Work
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 10:24 AM
-- Link: https://www.shelbycountyreporter.com/sponsored-content/shelby-county-shops-learn-what-makes-an-in-store-event-work-eb62c9b1
-- Summary: Drive through Shelby County on a Saturday and you pass a long run of independent storefronts...
-
-### S16. Shelby County Families Ask Whether Dinner Shapes Their Mood
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 10:15 AM
-- Link: https://www.shelbycountyreporter.com/sponsored-content/shelby-county-families-ask-whether-dinner-shapes-their-mood-12ffa4ea
-- Summary: Weeknights in Shelby County have a familiar rhythm.
-
-### S17. Alabama's 2026 SEC Championship Path: Games That Could Change Everything
-- Outlet: Shelby County Reporter (via Shelby County Reporter)
-- Published: Fri Nov 20, 7:52 AM
-- Link: https://www.shelbycountyreporter.com/sponsored-content/alabamas-2026-sec-championship-path-games-that-could-change-everything-2169e9ed
-- Summary: The 2026 college football season is entering a crucial stage, and Alabama remains in the race for a spot in the SEC Championship Game.
-
-### S18. Graze Craze opens charcuterie shop in Mountain Brook Plaza
+### S6. Mountain Brook Baptist sets Advent and Christmas schedule
 - Outlet: Village Living (via Village Living)
-- Published: Fri Nov 20, 9:26 AM
-- Link: https://www.villagelivingonline.com/business/restaurants/graze-craze-opens-112026/
-- Summary: Graze Craze, a charcuterie and grazing board franchise, has opened in Mountain Brook Plaza under owner Oliver Walton, a 2018 Mountain Brook High School graduate.
+- Published: Sat Nov 21, 2:40 PM
+- Link: https://www.villagelivingonline.com/news/mountain-brook-baptist-sets-advent-and-christmas-schedule/
+- Summary: Mountain Brook Baptist Church will celebrate Advent and Christmas with worship services, choir concerts, a Living Nativity and Christmas Eve candlelight services from Nov. 29 through Dec. 24.
 
-### S19. Rebels comeback bid falls short
-- Outlet: Vestavia Voice (via Vestavia Voice)
-- Published: Fri Nov 20, 11:23 PM
-- Link: https://vestaviavoice.com/sports/vestavia-hills-central-football-recap-112026/
-- Summary: Vestavia Hills fell to Central-Phenix City in the quarterfinals on Friday night.
+### S7. Council to hear Mountain Brook Village parking study update Monday
+- Outlet: Village Living (via Village Living)
+- Published: Sat Nov 21, 2:33 PM
+- Link: https://www.villagelivingonline.com/news/council-preview-112026/
+- Summary: The Mountain Brook City Council meets Monday.
 
-### S20. Vestavia Hills names Teachers of the Year
+### S8. Snoozy’s Kids keeps up with changing toy trends
+- Outlet: Village Living (via Village Living)
+- Published: Sat Nov 21, 2:25 PM
+- Link: https://www.villagelivingonline.com/business/snoozy%E2%80%99s-kids-keeps-up-with-changing-toy-trends/
+- Summary: After 38 years in Mountain Brook, Snoozy’s Kids keeps adjusting its selection as social media and phones change how children discover toys.
+
+### S9. Andy’s Garden Center plans four days of holiday workshops
 - Outlet: Vestavia Voice (via Vestavia Voice)
-- Published: Fri Nov 20, 9:53 AM
-- Link: https://vestaviavoice.com/schools/vestavia-hills-names-teachers-of-the-year-112026/
-- Summary: Vestavia Hills City Schools has named its Teachers of the Year for each campus, with Gemma Skinner and Jessica Sutherland earning the system-wide elementary and secondary honors.
+- Published: Sat Nov 21, 2:31 PM
+- Link: https://vestaviavoice.com/businesses/andy%E2%80%99s-garden-center-plans-four-days-of-holiday-workshops/
+- Summary: Andy’s Garden Center will host four days of hands-on holiday workshops Dec. 2-5, with classes focused on wreaths, porch planters, mailbox decorations and smaller Christmas arrangements.
+
+### S10. Thirty years in and no plans to stop
+- Outlet: Vestavia Voice (via Vestavia Voice)
+- Published: Sat Nov 21, 7:51 AM
+- Link: https://vestaviavoice.com/news/thirty-years-in-and-no-plans-to-stop/
+- Summary: Vestavia Hills Fire Chief Marvin Green reflects on three decades of service and a department fewer than 1% of the country can match.
+
+### S11. John Carroll names Paula Marino to new executive leadership role
+- Outlet: The Homewood Star (via The Homewood Star)
+- Published: Sat Nov 21, 2:24 PM
+- Link: https://thehomewoodstar.com/schools/john-carroll-names-paula-marino-to-new-executive-leadership-/
+- Summary: John Carroll Catholic High School has named Paula Marino executive director of institutional advancement and operations, bringing more than 30 years of leadership experience at Southern Company to the role.
+
+### S12. Council to hold hearing on Dutch Bros site Monday
+- Outlet: The Homewood Star (via The Homewood Star)
+- Published: Sat Nov 21, 2:21 PM
+- Link: https://thehomewoodstar.com/news/council-preview-112026/
+- Summary: Homewood City Council meets Monday at 6 p.m.
+
+### S13. Homewood dedicates Christina’s Trail in memory of Christina Chambers
+- Outlet: The Homewood Star (via The Homewood Star)
+- Published: Sat Nov 21, 2:20 PM
+- Link: https://thehomewoodstar.com/news/homewood-dedicates-christina%E2%80%99s-trail-in-memory-of-christina-/
+- Summary: Homewood has dedicated Christina’s Trail along Shades Creek Trail in memory of avid runner and former WBRC sports reporter Christina Chambers.
 
 ## Tier 2 — Local search (Google News)
 
-### S21. An Alabama dad gave $5,000 to put cameras in classrooms. The district sent it back
-- Outlet: AL.com (via Google News: Hoover)
+### S14. Marcell Dareus Mugshot Shows Bruises After Alabama Arrest
+- Outlet: Yahoo Sports (via Google News: Hoover)
+- Published: Sun Nov 22, 9:32 AM
+- Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxPeElPMFdRQjhCaS1IX2pHVVE4RTY2UHpxektwYXhuYTJOMk9pZkE1TXFVMUl2bXVEMjhDRXN6WUpZcTNnSmM2N1ZtZUI3aGVPa2I0bF9mZ3VvR2pwZlM0YlBaZWNiaFplOG5UWG5BMlBQeWNDbkpkOFBFUmxqaGdoSFd3a0xPMF94MTVZOXln?oc=5
+- Summary: Marcell Dareus Mugshot Shows Bruises After Alabama Arrest &nbsp;&nbsp; Yahoo Sports
+
+### S15. Car and tractor-trailer catch fire after fatal head-on crash Alabama interstate
+- Outlet: wvtm (via Google News: Hoover)
+- Published: Sat Nov 21, 7:41 PM
+- Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDZiaVduTWxKOUFxcmJrUDlhNHRmcUJLX3NYNS1WN1F4UlMwME5OSEtCUE9fT0loNHVpZ1p3dXd1UGhsR3ZNWF90aW9STVFTUEhEQmZKalpVODM1R3FtR21tWDh3cTZlS1RCczFueUF4ZXlyUzdOOEVVN1dydk1Ma1BTdElpNldBNzNKNk90MW43R0ZiWDJMMXE1TTZ1Zm9GMkdiRg?oc=5
+- Summary: Car and tractor-trailer catch fire after fatal head-on crash Alabama interstate &nbsp;&nbsp; wvtm
+
+### S16. Varsity Boys And Girls Basketball Spain Park High School - 11/23/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Hoover)
+- Published: Sat Nov 21, 8:09 PM
+- Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeG0wVWFyS1hlck1wVXdQSUZaZGdUdGRpdjRLVkh5bXhUZUxYaDNvUHllSVcyRmxYck9iUXZORmJiRFhRNXN5bDJrYjljZW9SZ0V6RTNCZ2hZa2JwOEdMWmN1eDhnY0JDLVJKdW92aml5NWZBbDlWZ24xYk9yeVp5ejhIU2s5bmd2?oc=5
+- Summary: Varsity Boys And Girls Basketball Spain Park High School - 11/23/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S17. BlueDot Meetings Announces Business Continuity Initiative
+- Outlet: The Detroit News (via Google News: Hoover)
+- Published: Sat Nov 21, 12:47 PM
+- Link: https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0oyUFRTaU5USF9fRUVqa1d4UnlUWGxuSGt3R0hrdmsxbjR4TktIRVFhdkloSjRibzdIOURBMVZkaHFWNDA0bHdYczBpbXpsUy1VdjFwUW9RMmNtTHJtNFBSSFRhNUdjSzZFcE44N0NRNFV6VG4wYWtEZENWajZJVjdHYm51c2FNaGNvcW1wUVlwbTM2YVZMWjhSMUc4bjBJYWZIeGxwU3lTWXVua1NGUk1hZw?oc=5
+- Summary: BlueDot Meetings Announces Business Continuity Initiative &nbsp;&nbsp; The Detroit News
+
+### S18. Varsity Boys And Girls Basketball Spain Park High School - 11/21/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Hoover)
+- Published: Sat Nov 21, 6:00 PM
+- Link: https://news.google.com/rss/articles/CBMiiAFBVV95cUxORnlWZUFITVNudnRNTFdIWFRIdGhWZ01Sd2dXZ0tTaG5adldnQ3Z3cWZ5Wk5KR1JJWnY3S2Z6Wmg4RnpUZHRWeHJ5RW03Tno1RVRVVFdtZzlmc3Z5MUJWMUF4Y2licG1NbU1fUzlMb2REM2s2RXhnZnE2U0lGUVUzMGNEVS1DODhq?oc=5
+- Summary: Varsity Boys And Girls Basketball Spain Park High School - 11/21/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S19. Carmelo Anthony calls out Ravens' Marlon Humphrey after controversial Baltimore 'criminals' comment
+- Outlet: thepress.net (via Google News: Hoover)
+- Published: Sat Nov 21, 12:50 PM
+- Link: https://news.google.com/rss/articles/CBMilgJBVV95cUxNVS1SVFlienVrOE9sNnZTWXlSUWRwYW9CSlhBMnU4VHZ6ODJQeEIxVEtvU3ZOYndWRk5hQUx3MjVxXzJpZE13OEM3eU5iTjljTTBPdHhGSUxFTW9sR1JkYnIwYWZXOU1xa0o4VkVsVEY1MFVtNEFuMTlQZER5bUl2TmUzR2VYcHBRdGxKUTFsNFBsbndkVE5QcEFnUmJBOWExWGJGRC1nY0U5bUtxQTVpM2lTQ280MU9iZDhoWGp1Q3l3bWNlbDJSQjJaVUNkUUwzSE5SMnI5bnlEaXk3Qm5KQlphUHZodFB4OGlSLXNQd3FnUkFkWnhTeWtfcnM0bkJYMFNyQ3VhZUNyVzdKMW55b1BVWnlsUQ?oc=5
+- Summary: Carmelo Anthony calls out Ravens' Marlon Humphrey after controversial Baltimore 'criminals' comment &nbsp;&nbsp; thepress.net
+
+### S20. Hoover vs Chelsea - Boys Junior Varsity Basketball 11/21/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Hoover)
+- Published: Sat Nov 21, 12:30 PM
+- Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxOd1hQQ0VIVUFKc3pnTm1YcUpjQUhQR1dHSTZuM2MyUWdTbTNnYXkzSUxCN3RERUNnRks3UGh3WWtKQlJwdlVTVWxNMjFDWGZZUTZ0dll4T0FTLXVreHRqSzJoWWs0Z1ZvYWlUdmdYZEZPdXdHbFBaUlNKeS1IaWdzY0xqMA?oc=5
+- Summary: Hoover vs Chelsea - Boys Junior Varsity Basketball 11/21/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S21. Pedestrian Struck And Killed Near Downtown Tuscaloosa
+- Outlet: Patch (via Google News: Hoover)
+- Published: Sun Nov 22, 6:11 AM
+- Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxPSl9SZ3NFTjJuRFVzSjFHLUJoNDAwOHhsOURVRlQxM3BaTFJ0NG1UcTA3YkZYWlBqM202dU1zSzFtSnV5S3h3YWlmeGR2N3dUSk1LdHFQVWxrRjU1b19lOG9wY3JTRFN2a0JfRUsyZEVRU2NsRzA3MElIenAxWFQxaTRLSVYyaUxrN204QVdnZ9IBpgFBVV95cUxQa2RkcUZnNmthVlZhOEUwRHFGMW5DVU1JQ1lLaklwcnJ3NVZhXzA0c1RJdWFKMU8yWFo3OWRESDl2NkdaY3l4Z0NydWZtNS1yMFZfSWFUaTFsSXQwcFZYZXgxd2Fvd1V2TktYWVFCVk9BSnFRZnlPSmdTRGNya3hvRm9hakNnYm15dDJrLXpnaU1Dc0tRMzRmS0Q0eUNicnN5U1JYSjJB?oc=5
+- Summary: Pedestrian Struck And Killed Near Downtown Tuscaloosa &nbsp;&nbsp; Patch
+
+### S22. Shelby County train derails; FBC Columbiana and others provide rides
+- Outlet: The Alabama Baptist (via Google News: Shelby County)
+- Published: Sun Nov 22, 6:31 AM
+- Link: https://news.google.com/rss/articles/CBMinwFBVV95cUxOVlJYUlJRTE9UTjZJNVl1Y1l3dWRka25EV1BuM3hqaG0tWTdzWlNuQ0dDS1FkZllPMktZZ3FLYzVZRTV5SmY5Z1VVNWFyS2dTUDdnN0NiVjdGYmRPVkc1dlNyNEtVRE5ycTZ4blpTaXllZXVwSUNqM0tDTkxoNjRsa3hqT0VhX3RxRmVlSGp3VEd0X1ZOYVExWUtJdDg2Wmc?oc=5
+- Summary: Shelby County train derails; FBC Columbiana and others provide rides &nbsp;&nbsp; The Alabama Baptist
+
+### S23. Orange Beach vs Shelby County - Boys Varsity Basketball 11/21/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Shelby County)
+- Published: Sat Nov 21, 6:22 PM
+- Link: https://news.google.com/rss/articles/CBMikwFBVV95cUxQSEJaZVNQSXNFTXNIX2FTa1c3UTJEdzBoMUc3dmRybHRKbzdVOElwLXpITDNnUXFNOWRNaE5nT0g2RmtmZVBTY2pmazM0RmdJSHkwUnFGcElubmVjeFBxdXFNREI3TndWdThaUUZIMzlqQXBBbmI4a0s0NUdlQ2JVeTk0dVdJemlWMTNsaU9ObkJwZ1k?oc=5
+- Summary: Orange Beach vs Shelby County - Boys Varsity Basketball 11/21/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S24. Some Rain Expected Early Week After Dry Day Today
+- Outlet: Alabama Weather Network (via Google News: Shelby County)
+- Published: Sun Nov 22, 7:45 AM
+- Link: https://news.google.com/rss/articles/CBMijAFBVV95cUxPc0UwaTVRdXhEMHlxR0RacWZ0TmtYRHFzczRCWjhzams5ak1HVUZ5dUR5ZmVSSG42UDRBaDBpdnpWUms0Z0RDbmg3RXB0dXBOSFhzSTZwdkU5azNFZkhheWZiVHJBemdwMEM5V1pIV3A2Rk5nZV9ZSVJrcXNDbGcteG1QUklGTG5CSHUyWg?oc=5
+- Summary: Some Rain Expected Early Week After Dry Day Today &nbsp;&nbsp; Alabama Weather Network
+
+### S25. Alabama man proved you can break bread with anyone, even in world’s most hostile places
+- Outlet: AL.com (via Google News: Shelby County)
+- Published: Sun Nov 22, 6:07 AM
+- Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxPcnlCZC10YXVEUjNtVmZvMXR1ekpjRG9pVXF5SmdkRVp0dlprUXpkdWh5NmtCZlhFdHZ5M1czVHBsSkg3MkV5VFlob0VJaXpDTFZ3YkRpRDdvTXRsd0FjVi1GUE04OEpZN0prZU4tY2lKUHE2elI0MGJoaWNucm9jVzFJc0s2dl9FUVozZ01JOTFNMGdWR29MaVlzMVlyY1oyYnFySlhNQ1pReGhCUTlVT1ZDSDlXaVRsbHBPY0Y3WdIB0wFBVV95cUxQMW80OHgwcHdlRm5KeUhLZDJ4U052Rnhhd1NXdUJoUTA5UFdCOXM5T1ltM3RGQ1hVTDF4SzFKZlpBcTdOVVJwbDlHQWxCZ1ZqdXo4LUoyeFRFMWpfalVEaHN3WnZMckdBMGtqamtEbm9QeE5zTlJwSHVpdmtRWGdtS2RwQU5BVFhMN1FoVnpmSDNwNEh5WWNvN3czWnpoTXJaaVFxYzBrT1Y2SVNIZmpiQXpsLWdfV0Job3BtYjhMVXV4bzA3cHZGRC1wWmtfa3ZVeHJR?oc=5
+- Summary: Alabama man proved you can break bread with anyone, even in world’s most hostile places &nbsp;&nbsp; AL.com
+
+### S26. West Alabama gas pipeline explosion: Mayor urges calm after blast visible for miles
+- Outlet: AL.com (via Google News: Shelby County)
+- Published: Sun Nov 22, 8:17 AM
+- Link: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSjRCVS15SDBfRkRjcjVmSDZBbzN2QWlMQ3I0bXo0MXJLUmgxU2VTVnFkanNMb1kyQVBNR2tHVGYzcV9kV0s3azNjSW83YzVRMHVlZmZTWThfNG1zeU9XSUFxdWdYNHZkZlh6SDcxbjNYQVlwYV9BSUNKZjN6TlAxNEdOVS1IaHNTT2p6QVEtaHlCYzFSYmVqSEZwSjF5SFNpOFQ5ekNac1k5X2VrRFI5Xy1kVldXVkdHNzRB0gHPAUFVX3lxTE5qMC1MOUxvaGo3WEd4a0xSVWZaeG1BT0ppZ21Xam5YSEJHRGo3TkkwTkxRN1ZpMTJaT0tjR01TSE41QTNzMDQ3S3dBV21sRFRwRlRNMVFDYjlzWFZaQlUtUzQyREk5TmpDdVpDMHpkcmFWcEp0bFlFalhfdmNqd0RWdkhTMnlHTF82WHZlNDNDVWh5V09lT1V6b3V2ZWxQUjUtTlEtX1R4RFdINFdLd3ktYW5JUlBSaUQ4LVVmRHd5alBTNm5Ec0p3VFJtVWlrcw?oc=5
+- Summary: West Alabama gas pipeline explosion: Mayor urges calm after blast visible for miles &nbsp;&nbsp; AL.com
+
+### S27. A Thanksgiving to remember? Hint, it’s not at grandma’s house
+- Outlet: The Alabama Baptist (via Google News: Shelby County)
+- Published: Sun Nov 22, 7:00 AM
+- Link: https://news.google.com/rss/articles/CBMikgFBVV95cUxOLXVraWJueWMySmZoVGdGLW9TMEFEdmRNVWZ3WDB0dFpfZ0l0OWRSeGI5UW5CXzBJd2ttcElmbVQtXzJzQWZPaEtwSEgtNkZOMWY1QldKTGdKOG9wOVI2d3pGZFlVWEp4Tm4wUjlISmFqYmMwcThJSFRCVnI2a180VmRwd2xFaE4tWFV0Q1NNdTBLZw?oc=5
+- Summary: A Thanksgiving to remember? Hint, it’s not at grandma’s house &nbsp;&nbsp; The Alabama Baptist
+
+### S28. Alabama’s North Pole Express train is back on track after derailment
+- Outlet: AL.com (via Google News: Shelby County)
+- Published: Sat Nov 21, 3:25 PM
+- Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxONzNTUXhBb1ZNR05aR1ctcmhDWHIxNnFsRGw5emxySGJEMEhaeXVXd1BiTjlYVzZRRUJySFd1S2FGMmp0UTRCWWx0TzVBYlJ1TXhvdjM0X2g0bnpZbHN4Q1B3QThsYU53el94dDBmWFhWX043bmV0VmQ1SDhMQ1ZHWTljS0psc2poM3FERThRSGtZbHNBYkI4eDFZLXBRaVRGS3pQbEJOMNIBuwFBVV95cUxQQkhyalZUeWJJRjhHYk9wV2c1TTFHejlmZ2p6MXQ5Z0dhZDBfTHR5N0h4RlN2SDhVNF8xaE1oNU1WM2RZVUlwb1Z4ZFkyUnA2ajhPakx3enhsSVQ0bFNfbnhKVEEwc1lrYm9rSVpIRkhUVjd0Tno1eFpoUTFmTnB6WGtybDB2T0VzNl9ZM05Mb1NRbDhpUWcyNTBpcWpzaGNZVUpMdndYRFFYRFdFQmZ4cUpmWG00d3pLWDJR?oc=5
+- Summary: Alabama’s North Pole Express train is back on track after derailment &nbsp;&nbsp; AL.com
+
+### S29. Michael J. Brooks: God looks on the heart
+- Outlet: Yellowhammer News (via Google News: Pelham/Alabaster/Helena)
+- Published: Sun Nov 22, 6:00 AM
+- Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE9kQ0VGOHJRWm9vSkE5YjFhOGpMaHRZRDFDWm1GbnktYS1rQ2JxanlOUHpDTEpOeUlTdXJTZXgweFlUVnhpYTJzTWM0S2xYSVU1MlVCRUNzcG5nckhhdW5jT1ptWi1HQjRiNFNyODFwM3JQSS0xZ0N0Uw?oc=5
+- Summary: Michael J. Brooks: God looks on the heart &nbsp;&nbsp; Yellowhammer News
+
+### S30. Pelham vs Gardendale Boys Basketball - Nov 23, 2026
+- Outlet: Sports Illustrated (via Google News: Pelham/Alabaster/Helena)
+- Published: Sun Nov 22, 7:06 AM
+- Link: https://news.google.com/rss/articles/CBMilAFBVV95cUxOb0pfYVBEWWFvRUxHSHdDaGdYN1FaSEdCb1JRZ2ZSbk9UbjNGNkMtdnl0QWl0eDVaZnJRY0IwbTBhS08tR3dnZEEwOHR1Vkd3bWpkNWoyN0MwNmEyVDNkc2p3SE5BZ0FsWmNUVlEyclVZOUJMQVQ5RjNrSTQwWVZkUDFUNTJxdUI1WHhJQThYSXRsVGpp?oc=5
+- Summary: Pelham vs Gardendale Boys Basketball - Nov 23, 2026 &nbsp;&nbsp; Sports Illustrated
+
+### S31. Pelham vs Fultondale - Girls Varsity Basketball 11/23/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Pelham/Alabaster/Helena)
+- Published: Sun Nov 22, 3:02 AM
+- Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVFJVjZQZnBQeHJ4X0R6R0lBeE82bDdQdmxkQjZ4V1dIZU9MVjZlUkV4bjBhYWRLT3dOTi1BLWtxd2JUSzV1MGRMWXZ1NkpjMXJxa1Bid3RNYzduMWoyUzBUS3dJSVRjRkhLOXVfWWVOVHM1OTZFUkw3cEJMMFkwbHNhaw?oc=5
+- Summary: Pelham vs Fultondale - Girls Varsity Basketball 11/23/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S32. Videos - Thompson Warriors (Alabaster, AL) Football
+- Outlet: MaxPreps (via Google News: Pelham/Alabaster/Helena)
+- Published: Sat Nov 21, 11:17 AM
+- Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTF9lVEM3UGMxVXpPRV95Y1NxZm1TMUMyTF9ZbUJDOGk1Mm0tV1lVQnhmaFJBOGhXbEhMUEJmTXREQWJGeXljOU9fdEJCQ1l4NjB0bkl1WVZQeXVJa0FRbmFDNjNDb0Y5eWJURGJLMllIeUZaWEl6T3FtWld6ZUVHZm9McExiNzdONUktR20zWDZBWTU3VjBKZzhudXR1amFrN2dfYWROVlZSOW92em16U3lpbWFvc3ZDeGVoSHF3Tnc?oc=5
+- Summary: Videos - Thompson Warriors (Alabaster, AL) Football &nbsp;&nbsp; MaxPreps
+
+### S33. Steve El khatib
+- Outlet: Sports Illustrated (via Google News: Pelham/Alabaster/Helena)
+- Published: Sun Nov 22, 12:56 AM
+- Link: https://news.google.com/rss/articles/CBMitAFBVV95cUxQTVVXZncxOUZVOWY2RUYwRnZ4Tzc1VjEwUFZNa05MUFlGNjdVMy1jam1zNmhRXzJMVUM0UUNldTdWeXlzanVXREJWbm83dG5weG94RzAzVi1SYTVzblBUUjVJM1Z3eGVrWGdXcktiOWFKUDFGNVZhWkRibHZEb3NkVGs5Vy0wZmxYQjJGLVJFcXlEREI3YXJlV25ndy1VS0ltN0RQSmlrUS1VY0ViZFZaTGZMeDQ?oc=5
+- Summary: Steve El khatib &nbsp;&nbsp; Sports Illustrated
+
+### S34. Gardendale vs Pelham - Boys Varsity Basketball 11/23/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Pelham/Alabaster/Helena)
+- Published: Sat Nov 21, 8:57 PM
+- Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxPNC1PVENhczJDOGtwWW1WZURCUnNfWml3aGctdTVNU3MxSi1MUHpJYVR4YjBraEdnNktYMGV6ZU96VWpVZHdMOE5oNUpWRXFZakVPaGpkTHJGRGpvMm5MS0dGWUYxeDNJQXVnRFJtRmdFWkh5dlptVWZINlB2MnloVVItenRQTXdxZjVaZ25R?oc=5
+- Summary: Gardendale vs Pelham - Boys Varsity Basketball 11/23/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S35. Pelham vs Away - Boys Varsity Basketball 11/21/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Pelham/Alabaster/Helena)
+- Published: Sat Nov 21, 3:27 PM
+- Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxQc2pvN19QNmY1T3FCbGtaS2NnS3FhNnJfZXBZUHBrWGFwenZuVHk3TDRJLU90REJaeExULXBNVFFnR2Qza0dRclVZQzdQZEpqbUVpTlkwNXVBYzNndHVuRnQwOGxhcWZ4aVNOM211VEJKdUVacUhuNEg1bkp6X0NxdjVIVQ?oc=5
+- Summary: Pelham vs Away - Boys Varsity Basketball 11/21/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S36. Helena vs Minor - Girls Varsity Basketball 11/23/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Pelham/Alabaster/Helena)
+- Published: Sat Nov 21, 6:53 PM
+- Link: https://news.google.com/rss/articles/CBMigwFBVV95cUxObEdvREZTR2xqMGVQRDJsYlptdTVDUkhxZkwzVFcwZnFLY2FjLTRpZUJhN0d5R3hkVFI1aGtoa0Q4NWpjUDNwT1N5WVR4RThfYUhmTVFaWjlGMFFMZmp2YlF4a3lMdlpjMGp4My1qakFocm5KYVpTVW1QanFFby1jWWtTcw?oc=5
+- Summary: Helena vs Minor - Girls Varsity Basketball 11/23/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S37. Oak Mountain vs Minor - Boys Junior Varsity Basketball 11/21/2026 | Watch Live & On Demand
+- Outlet: NFHS Network (via Google News: Oak Mountain/280)
+- Published: Sat Nov 21, 6:58 PM
+- Link: https://news.google.com/rss/articles/CBMikAFBVV95cUxQckVwSHFPdUdSQlpwUFRXREI1Wm9Bc0tiQ0dXRnVxRGdVWnBRNE5LSGNHU3pnX0VHUFdKbFNqRU56TjFSa1JSUXhQbzhpblBLaHNrWHhXc1UzUFNIYXFRREpjc0h6ODhhNXBKdFRZVkwxSzNoamlPTjhDeTVYT3l4dGpsaDhZN05WX2M3ZEJVVUc?oc=5
+- Summary: Oak Mountain vs Minor - Boys Junior Varsity Basketball 11/21/2026 | Watch Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S38. Varsity Girls Basketball Westminster School at Oak Mountain - 12/01/2026 | Live & On Demand
+- Outlet: NFHS Network (via Google News: Oak Mountain/280)
+- Published: Sun Nov 22, 5:19 AM
+- Link: https://news.google.com/rss/articles/CBMi3AJBVV95cUxPQ29tZDFCMTU0N1ZwWmpMVS1FQXBnbnlxbmNjX3BnaExhUmhRSXFjR0hiblhKMGdxa2pIT0Y3TFAweEdUaGZubm1aaG91NVNodE5xT1hRdWloQlZhWUNuSXBkX3dnVEJCLXA1UjJ3elJlMUoxUkNyMFZTY3BsUG5xWF9qWHd3Wjh6YlZGQkpXdXQyUGkyYWtCbzJTUGJQVXB0TTNJeGpvbjZsZklUZ3YyaXBHbThJMXAwaWpHb2VGOUwyeDJVaXRUa3hhMDZ2MTVVNUtBbEk2dnZqUm9YT2ZBdmxZLVVBRUg3UElVcDg5T1YwWW91bkdSM3BOUkxlQXN5MVFGaFRFc25vYUgtaFNsbG1rQlliT1BXQ05teC1qeUJJUDJGSTFUcERmdTFWb2EwRktNdU1lLUEzLWdINmVZSUNRUlpaZkxCZXMtRFhIOWlRVElVcEdpNDBRdVo?oc=5
+- Summary: Varsity Girls Basketball Westminster School at Oak Mountain - 12/01/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S39. Altamont vs Fultondale - Girls Varsity Basketball 12/18/2026 | Live & On Demand
+- Outlet: NFHS Network (via Google News: Oak Mountain/280)
+- Published: Sun Nov 22, 2:48 AM
+- Link: https://news.google.com/rss/articles/CBMisgJBVV95cUxNaXBBOGxtbUhIWEZyZGUyMGNsTXdyU0pUUkZiWUx3YVdrTkN2bHNJalkyc2xGekZGOElzaE95enpibTc5RFVuUWFNZTRUS1J3c1AzLTBBSkJYNGtnZkZhakY5WWx3bV9TUkMzT0JzUjFYREMzbGJuZnlaQWtzYUZZNkNrb0JUTUFTLWtyd1BDd0pWTHhGQVMySTdaQnhYN2xWdEkzLU9XLTNmRFY4Um04X3cwSjBfQ013ZVAzcGlpM2FBUWhPdVZOX3FIdlVnMUdORXloTk9iMnlFdGpHNlhGbW9PVFB6bWktMDZfT3FRMm5UbENLTUVjWXVwYmlXWjJTSmhZaFVndWxkbXRQcXUyMGNEOXZHcWpIQUt3cU4zQ0hOb2EtRFVwcFVsQXNtVjhsdGc?oc=5
+- Summary: Altamont vs Fultondale - Girls Varsity Basketball 12/18/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S40. Pinson Valley vs Bessemer City - Girls Varsity Basketball 12/03/2026 | Live & On Demand
+- Outlet: NFHS Network (via Google News: Oak Mountain/280)
+- Published: Sat Nov 21, 1:59 PM
+- Link: https://news.google.com/rss/articles/CBMitAJBVV95cUxQWWh6MlZzR1c0NXA3eVAtSTA3Z0lRS0JQRzVMS2F1VU1wNjJ3TE9XdVRLSnJiRkpKU3hwMVZJeXdtSFJHX3FPcHZuS0t0WVZUTjdkUER6ajdZUGM0NlAyZC1Ca3BzX3pqbV8wUF9QVFdDZ0drblBXbTM1Y19saUs5QjhtZFAwMGxMSXFoWnFjR1gxdmRWZEJLRUI4d1hxT2JqcEpfZHdsZWtIUjVVTEdvcjdMemIzcHZiaDQ4N3NXaktxejNDTllOdEhRSnM3NXpSeDN6dUxXQzE2MjB6bmRyalMzN1NkV3paSkdiYmlJXzdlVzJYMzdpRTRaZ01pbWU0TmZxRkFRZFI3VWFiUUhOSkVXNk44NE5BcncyUVZ4QTBuUWsySkE0cUR5cE8zd1NvT21KRQ?oc=5
+- Summary: Pinson Valley vs Bessemer City - Girls Varsity Basketball 12/03/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
+
+### S41. Abigail Kearley
+- Outlet: Sports Illustrated (via Google News: Vestavia/Mountain Brook)
+- Published: Sat Nov 21, 9:32 PM
+- Link: https://news.google.com/rss/articles/CBMiygFBVV95cUxOOFBSWGh4VmVFSDFKc0ZFcmNZUWZMVFRJV3l3LTRMWTFDdjJnMk5FVGVUWlhxM21vb0FpaHYyNjdoN19wN3d6Q3J0WjFEbEFTclltd0tLUmltZzFNM3NyeGU3YzZDQjlsS3lpNDVMaEhmOGYyNHpMZm9CaVNIVkVwRGxSc0dXSjRqeFhrVmt2M1BnR3E5R1lQM0hFdXo4UU81N2R3eEtRTFk3TXNFUnNMc2VxM1FwRDFTUl96MDZEbk15ZExJbWx4UTdR?oc=5
+- Summary: Abigail Kearley &nbsp;&nbsp; Sports Illustrated
+
+### S42. One dead, tractor-trailer driver hospitalized after wrong-way crash on I-459
+- Outlet: WBMA (via Google News: Vestavia/Mountain Brook)
+- Published: Sat Nov 21, 8:56 PM
+- Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX0FqV0FhRjVvbktuZVRLcWptdHVJRUVia3dkZWM3d1p6cnRacGM2Y2d1SGV5UWwtbnJPNG9JLVoxWFB0X09RaWwxa19ET1phMUZNRFdpNko3RGlENU9kRTk3cEFXRmlyNTZWVDY4eFBISVBialN0UGtfTDhwd0l4cmpzdEhFYm10S3YyOU5DSDNvaUZUVHdOYnlCc002MUF3Ny1FUGFpcVZJQQ?oc=5
+- Summary: One dead, tractor-trailer driver hospitalized after wrong-way crash on I-459 &nbsp;&nbsp; WBMA
+
+### S43. Comeback Town: Alabama, we should take action or shut up
+- Outlet: AL.com (via Google News: Vestavia/Mountain Brook)
+- Published: Sun Nov 22, 8:00 AM
+- Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxQU0tLYWR0VEJBRVJyaHJTYjRwZ0tnTDBUUVR1LWg0Q04wNjNOQ3YydEhRUF9WSGpZa0E5VFhLb1lYQ0h4T2xfdkgteE5sS29iX1pNTGJDQWJ1Z2d4cVZMXzhVaHl0Q2xsSUF3VFIyVlB0T1hXZjRoTlU3YTJmTlRRanBXOTBqVkNJRzRnbHNIRDJhVnZsVGVBUXI2VkhnQ20xczBySw?oc=5
+- Summary: Comeback Town: Alabama, we should take action or shut up &nbsp;&nbsp; AL.com
+
+### S44. Alabama’s regular gun deer season opens Saturday; officials share safety and rule reminders
+- Outlet: WRBL (via Google News: Vestavia/Mountain Brook)
+- Published: Sat Nov 21, 4:02 PM
+- Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxPZl9uY0VJMUt5LWk0ck1nekZFMnVKTGUxSFdHWEpoOUlIX0NxNUp0S1ZqZUxwWDJHU05mZVNnZ2NOeG5hUm9IRF9MRVhSeWI4VE9yV2FiSHdKNmVvTnhGbTd4d0tuZUZHcG5jbFVyY1BCOUVpWk5Qd1lsMnk0a1BtN09fdG9SeGdveDBhUW1YZ2I2SGNad1NBTGgwUDR1N1RMTzNvVk5Dblo4YmU0cVk1UzJRaDRSQmx5Q3JZT2pzZlVkMjFD0gHKAUFVX3lxTE5NUnplNVZTLVNtNWJBNUVZVE9zSURaUUFENjhQZFFSWlZJSEMxUnR0Q2FCZmVtSE9SUkt3ODNXSjhjbW9vMUJHbGVGSVF0dXgtNnFzWUVaZzF1YUNKVTBNNHFIZGlnUlI0OVQxTUpLWkhGRFQ5c1E0b1NNeWdNa2p4MVJHaWwxaFhuQXlxUEt4Q1BIQkpoQzYtRVJPMEt1VkhISWhOZmgwZ1JQZnpJVmZudExrTzZXZEM5cFJiekRZY2tDM2Y3NGZoMHc?oc=5
+- Summary: Alabama’s regular gun deer season opens Saturday; officials share safety and rule reminders &nbsp;&nbsp; WRBL
+
+### S45. Gardendale High School (AL) Basketball
+- Outlet: MaxPreps (via Google News: Vestavia/Mountain Brook)
+- Published: Sun Nov 22, 2:04 AM
+- Link: https://news.google.com/rss/articles/CBMieEFVX3lxTE5PQjVtV3Y2S29ZajhrUXN5RFNtbzhnYmQyRFUySW8zRHFWbnZ3M3F5UWtfdnBscnktN0k4UWRPS2NLWFN0YkdCOTJISld4c0xGZjlFVUtYU1VJV0cxcVJockF3UlB3dndQMFMxbFJpU1dLZ0M4bTFJaA?oc=5
+- Summary: Gardendale High School (AL) Basketball &nbsp;&nbsp; MaxPreps
+
+### S46. An Alabama dad gave $5,000 to put cameras in classrooms. The district sent it back
+- Outlet: AL.com (via Google News: local schools)
 - Published: Sat Nov 21, 8:00 AM
 - Link: https://news.google.com/rss/articles/CBMitwFBVV95cUxOWkVJT2dZVEk0aVNaSjdqNlpUcHFPMjhxYnFHR0toYjdWendadEtSalpFVXZZTS1WdU1WT0thYzE3dDhoSVhpR0JMMWVIY29NM09NclNlZ1JvM0VoRlBCMzdGZ3hPbHZmRHR2VHZBYTBIMnJYYXRSNVY1UnEydFNxdmVxQkdOWHJ2Zmp6N1NBaTJDbk1zQ3J6Mm1kS21GMkY3ZFFFQ3ExUlFhQzgyRWJvemRSdGFxdjTSAcsBQVVfeXFMTm1sMTEyZHY4NS05eUtCelRWc3ZSMDd3bUFPbFNldGlZUDJiZ2Y0MnZVLUlzQ2hZV01WSmEzWUk1NHFZZ1dEYXd1STJyRFQwQllWa3RqUUVJdWtDUDU0a0djVTRQUHEzdWowcnNRUGI3Q2R5Tk5tTHBOTVUxajcwUVhobmFVUWxHZWJiR2thRndiVlZEZ1J5YlZMbFpzNGtfVjJVenlvdWRyVGJzRjZtNU8yYm00eEhUdnVIX19WT2ZMVmhUZUgxRnFYVVk?oc=5
 - Summary: An Alabama dad gave $5,000 to put cameras in classrooms. The district sent it back &nbsp;&nbsp; AL.com
 
-### S22. Hoover man arrested after police say he fired BB gun at occupied vehicles
-- Outlet: wvtm (via Google News: Hoover)
-- Published: Fri Nov 20, 2:45 PM
-- Link: https://news.google.com/rss/articles/CBMiswFBVV95cUxQWkFaS01rZEs4VVhSSnJOZ3FhVFBYeTJNNm1iNnhfQU4yei1BVmlvbVJOZU8zZG9wYW04WEpaWlp6a2o2Sjd4NnhoWS0wZzVaZGh6bVhaSWRjclJWRmt3al82WjdQOVBwbENLV1R4RjVLMjRscEZJeEo5QmRuVW4xeDNVVXA4NkduNGtZOHo0YWdNMG5PUGNSYk94ZVRBbFNSa2RVeE9ldjBZYy1GWXRPRjJyQQ?oc=5
-- Summary: Hoover man arrested after police say he fired BB gun at occupied vehicles &nbsp;&nbsp; wvtm
-
-### S23. Abigail Rosner
-- Outlet: Sports Illustrated (via Google News: Hoover)
-- Published: Fri Nov 20, 2:29 PM
-- Link: https://news.google.com/rss/articles/CBMiugFBVV95cUxNaW0wZHhQVEtVaFFDeG90d1Nia0lvb0lkZ1BKcGhCYTdFOVBPcjVLQV92NHdncm12ZDloVm94a0NiZ2Q0a2F2QVNFNnpmNWtUQWhQR3Z0Z0NVZnl6RzVJa2NlYUoydUFSMFJnaTBiMGJjYk91VjR1YXFZM0tmb0ZqSmVMNmo5YnJPaUx3TzRETUUxM20yblRXVnlOWmhfMHYxVXNaM18xN2xQUTZSNTd3ZGhtVWJSYjlLaHc?oc=5
-- Summary: Abigail Rosner &nbsp;&nbsp; Sports Illustrated
-
-### S24. 9 holiday markets worth driving to in Alabama
-- Outlet: Hville Blast (via Google News: Hoover)
-- Published: Fri Nov 20, 12:08 PM
-- Link: https://news.google.com/rss/articles/CBMiekFVX3lxTE45aUpJR1QyMkhWV09INTNLcjdEekdkTzE4cmY0S1d2UU1neGF1VE4yVThOSnhKWndTaHBrbWpiaFRWeGhCWldwbjZUOHNiSFRRRC1kRU5rTjNqdlIwUzNPTHRRNi1KT0JoZlZ2clV6OUplS1JuWEdqSVpn?oc=5
-- Summary: 9 holiday markets worth driving to in Alabama &nbsp;&nbsp; Hville Blast
-
-### S25. Graduation rate increases among local public schools
-- Outlet: The Business Journals (via Google News: Hoover)
-- Published: Fri Nov 20, 12:53 PM
-- Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxNd2xjeEFoZk9QUlNFbTg4MWI3N3VIME56VEk5SUx1SjhORThfY2wwWFdYZlVQczVHQ0NHOWhZeDV1dVFPYmFPY0ZVUGlzNlA4aTItYnJkVVZ1dnhJSEdjSU0xUW14bk1RNndRUDZZQ21oRGdyNU16LVFLSDNTUUE0dXZuaURLTkE2dzZPekV3?oc=5
-- Summary: Graduation rate increases among local public schools &nbsp;&nbsp; The Business Journals
-
-### S26. Alabama Athletics Announces New Partnership With Milo's Tea Co.
-- Outlet: Patch (via Google News: Hoover)
-- Published: Fri Nov 20, 1:32 PM
-- Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPTTdlV2dUdWFWZ2RnelRqSXgzSG5VNjVQZzdrdG5YLWlOSE82aW1KS01GNEVROTR4UU9NY2tfM2Q3RzlYd0hTSW1zdnJtMDdJWnFQQVJNMXBtRGtFazAweHRGQ3BPUHRuMG9XOWp6MmRNYjNBeThIUVZkeUxxY09LX0NsUGhkR3MzSTRUVHp4Z2xJTkI2dVpvddIBsAFBVV95cUxQTEFyRkN5MHhyZEFjMFZEVkFOSUt1VUR3RVhzS1FhMklRY05iWllOMmJiMzFxWGJBT01IQ0o4LXNma1FKaGNTYy1fczJtOFFCNmc2WnRyLW5haDI5aGNhd1RNZUdrS1d3d1RILWd3VWtTNTVFcldHS2VDVTM1azRHU2tOeGVHSzZfdUlIa3UwRFI1TE9KWjdjeE4ybHhzaUtGVWcwVG1IWmdPS243V1dDWA?oc=5
-- Summary: Alabama Athletics Announces New Partnership With Milo's Tea Co. &nbsp;&nbsp; Patch
-
-### S27. 9 spots to get a live Christmas tree around Birmingham
-- Outlet: Bham Now (via Google News: Hoover)
-- Published: Fri Nov 20, 11:50 AM
-- Link: https://news.google.com/rss/articles/CBMidEFVX3lxTE1KVURqQ211WGhUbzBMTTZfemJXb3NxTktlNnVOLXpKRUlrN3RaYmVmV05pMFNESGdKYmlXTHBmeEhfWnJobWZNREplME1LTzF5TVFwdzFIeHJDSUpiNF96R0xEVURzaFhRdkpxMmVpMjE0VHV3?oc=5
-- Summary: 9 spots to get a live Christmas tree around Birmingham &nbsp;&nbsp; Bham Now
-
-### S28. Multi-Vehicle Crash Blocks Northbound I-59 In Greene County
-- Outlet: Patch (via Google News: Hoover)
-- Published: Fri Nov 20, 1:21 PM
-- Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPRE1odkotUmM4OWFoc2ZoSEtVdGZhZ2FCMm55R29iRl9QWFlUQmRGYTM3dUNjLTVYdmVsLTR0VkFEdDFNWFZicWtheFo5SGF5U29SdU5WT1BTajRqVWZqSVB0Y2NNblVoMU9nTnRfSGxJLVpGUXh3WUZNS1hrUGZ0TUVoZlhjMlFqWmVIRmRmTlhNdGFpdnhIedIBrgFBVV95cUxPWXJZMTFBWnRMd3RHazFQMUdCN1hXMFduSDY1RnBSZXItcUpCakVGdWRUV2NUeFFyX2NkRUtPZkp5UVpYY0JqXzdHT2VqZC05dDBNRkhqV0E0dndvMnYzZEVMUm85aDlOdjVQVWRWWlRPNnhBSlphLVQ1TDNNRXlKMEplR1h1a1ZDbHgyNnlQN3pYN2MtT1Q1c0tXWTBBSms3Wm1VejRDZ3RTUG00Q2c?oc=5
-- Summary: Multi-Vehicle Crash Blocks Northbound I-59 In Greene County &nbsp;&nbsp; Patch
-
-### S29. Crash blocks both lanes of Alabama 25 in Shelby County
-- Outlet: WBMA (via Google News: Shelby County)
-- Published: Sat Nov 21, 1:18 AM
-- Link: https://news.google.com/rss/articles/CBMijgFBVV95cUxPMnktSXIzYjlIN05tWnAtejlid0ZzREgwVHhPbzdTaDNqRzF6bVRSelNDUk03Vks4cGtYVWdBUVlfQ2NvSjU0YkxMNjdHRVdIUHRTdXl4eG52X29BMjcydHVaVmpRMEhMTXAyTEMtTmNJMlJ1eXlqSEtLSFd6b1VnNzNCeDFmUlJTQnZ4RE9B?oc=5
-- Summary: Crash blocks both lanes of Alabama 25 in Shelby County &nbsp;&nbsp; WBMA
-
-### S30. Calera’s ‘Heart of Dixie’ train derails with hundreds on board for Christmas event
-- Outlet: AL.com (via Google News: Shelby County)
-- Published: Fri Nov 20, 9:00 PM
-- Link: https://news.google.com/rss/articles/CBMitwFBVV95cUxNU0lIZ1hmWGt6X1lGT0dMSUs3VDZYOGNzUkk0NXZpLVh6VERIeHQyN1BsbFRoNWxPaXNSQm83NHZUWjBtU3FiZ2JOZTk4MkRTd2stem1UdmdZSU9OZGQwRC1ib3dlUGpTSnhlVGhYNTFkanZIb1o5VTktRDNXalltVFJBT0JRaVZTZF9lSkpJU0hmY05YaUE3Q1E3cENxbkNzcTJraGpYaFFmMF9tZHJ6ZWtob1pNLUnSAcsBQVVfeXFMUExEX1ozYW03V1RoemNPZzdLNU1RTDRNRy1KZHZGQkk5QXh6ZFRIUWNWLWhEb2lwMVVyQ1k1aTdIbV8yWEFCT3JaOVNxcFVIX3VHSEsybkdUbVE4RHREa3ZmbXhRSjZsRnpqWlpmVXYwOVV2cHI4THltc21ZUkRfZkRFZVpMTkYyOElhTGJ0WlRTVFVscXFLS2I0QXJ5emIzMVZ1ZGRGZk9laHowX3VYb3BJaDdGd0R0VWlwVUJoTC1vb0FVRDAyZFR3RWM?oc=5
-- Summary: Calera’s ‘Heart of Dixie’ train derails with hundreds on board for Christmas event &nbsp;&nbsp; AL.com
-
-### S31. Calera police officer dedicated to bettering the community a...
-- Outlet: Shelby County Reporter (via Google News: Shelby County)
-- Published: Fri Nov 20, 7:06 PM
-- Link: https://news.google.com/rss/articles/CBMixAFBVV95cUxNMGYzd2g0NjJBcmdkVkxVVjl1WTJLeXQwRzdtZ01uakJfTDE0dmtQMFJJV21PalZMT2FRY0JYYWFJMUlYb1ZEeFNidFU1R21KbE5hVkdWODBDRmstZlY1ZzlFQmRCUE5NeVFYd1BLR2lIaDJxd3kzSXl5MUdnc2NCSE55eGNBTE52S25GUThrSGZjdjBSMjRYUFYwbUdJM2RfMktLbWNqSlphb0RtcW1EaGxxMFlac3pvQVVkTjlWanlGU09q?oc=5
-- Summary: Calera police officer dedicated to bettering the community a... &nbsp;&nbsp; Shelby County Reporter
-
-### S32. Fenn Church sets up 'mobile command center' to thwart Alabama Power…
-- Outlet: 1819 News (via Google News: Shelby County)
-- Published: Fri Nov 20, 2:07 PM
-- Link: https://news.google.com/rss/articles/CBMi-gFBVV95cUxPRkhlWFBSdXlIb2wyY0FrV2lSaTdTSUtVU3hyRG9LeWU5UGhQM3FZenB2WkZWd1BYZ1k5Zy1JX09xdktUV2M1c0tBeDBNQUU0ZG5hNFEyTXQxelFRWGx1Y1hyNWdCU3VwWFNSekdyQ3FnSS0yS3dHakM3VmJIVHplTFRQbFgtbjFES3ptQ1BGeFlxRnpRdWh3azg5aVZMSC1Wd3pvMHYxZVJsTk44dUVDbWZNX2pRcjhZNm03U3NqM25EMmVhUXZ3dlItWkZ2VElLZWVIdllxam9oVGNSU1N1eklyc19hLW1JTk5qQS1vN00xaTlCc1RlNzNR?oc=5
-- Summary: Fenn Church sets up 'mobile command center' to thwart Alabama Power… &nbsp;&nbsp; 1819 News
-
-### S33. Alabama Power seeks immediate Supreme Court action in Fenn Church dispute
-- Outlet: WBMA (via Google News: Shelby County)
-- Published: Fri Nov 20, 4:41 PM
-- Link: https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ3RRcmljUEk4dlhQckF4dFBXSDN0Wnl5UzcxaFNiTXdYWElVSFBjM1UwZ1A2dHRUUmVJbnVwMUhZd3ZTV0Z1QkZna09DU2ZpNDA4OFlYOS04TGpaN1MtLWxNYllKTklDNE90T3prcVFlak5mcFRqVmN5QUVNZ3ZkYjZzVE5YR0hKb0dSWm9VeXl3WXptdGFpUWZfejR6TEhDemZzdXpEUQ?oc=5
-- Summary: Alabama Power seeks immediate Supreme Court action in Fenn Church dispute &nbsp;&nbsp; WBMA
-
-### S34. Pike County deputies find 3 people with gunshot wounds during welfare check
-- Outlet: WBMA (via Google News: Shelby County)
-- Published: Fri Nov 20, 3:05 PM
-- Link: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLU5FcE1iQUZoX3p2elhEeFdqbml2cHVTSzFrMVlJaXZyX0E1eDdoal9TT2FTV25nS0N3bE0zcWtMVC02bm5JWkQtTFVDa1o0UUZ5eDlqQjJxUGp5Qm1aSUVYQ1N2YW9BYkR6VFpwTWJIeUM4b2JoWWhJbVBUMUJ2ZlVhR1JsNXEya0RHYU55dDdVWHkwOEZCRWpHMmFEcnNxbGpOWWtkODhIQQ?oc=5
-- Summary: Pike County deputies find 3 people with gunshot wounds during welfare check &nbsp;&nbsp; WBMA
-
-### S35. Cullman Christkindlmarkt aims to make Alabama a Christmas destination
-- Outlet: WBMA (via Google News: Shelby County)
-- Published: Fri Nov 20, 2:41 PM
-- Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlg2NzU5b0JhcEZJOWZhcVVsY1U5TjlCdlNzb0UxTW4wSnZDeHEyNVhLb0Y4QkZ2dlU3dkl6M2d6eG1mNUxXSzNLNHdWRjA2cEZRWF9xenp2LU1ZQlBCVlNWMWFjTnU2OVFSMEduc3F0cWcyS2R4LVc1ZzFtYldaNUtBYzlpRnREa2k2M0ZpN2p6UTdaUVN1bW9Sa181N0VpYUE?oc=5
-- Summary: Cullman Christkindlmarkt aims to make Alabama a Christmas destination &nbsp;&nbsp; WBMA
-
-### S36. Cherokee County burglar sentenced to 25 years in prison
-- Outlet: WBMA (via Google News: Shelby County)
-- Published: Fri Nov 20, 2:41 PM
-- Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxOT19wM3JFbGl1OVNkWHNOak93NE1KVTlxQnppc1dZQjVMaWpfOW1oYmN4ZnRreWVNblFUdjBuLTQ1Zm1POWtkMnBYdjk4WERETTkxcTRSc2d2bkw5N0IxdE5ZSnBOM2xzY2RqVmxwUmtxM0JISzBIUjNMUDk5bFhUaTRDVThvLUQ0MEFpN011cw?oc=5
-- Summary: Cherokee County burglar sentenced to 25 years in prison &nbsp;&nbsp; WBMA
-
-### S37. Videos - Thompson Warriors (Alabaster, AL) Football
-- Outlet: MaxPreps (via Google News: Pelham/Alabaster/Helena)
-- Published: Sat Nov 21, 8:14 AM
-- Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa3RwSFpTc2JFcWs4Y080VGdlejFVZ0drQ0NaR0lqeUMxTE1kZTlteG81cmFGSXc2cW5UMVJSRDBqbGo1UUZ3VjQxbFVrNkNYUmcwZjlOaXpFUDFlcHF0elZBZzZxc25NX2F5c3V2VDMwQnZBck96N1hfOFRmRTZpUi1Cdno3XzhUOHJDWVVsQy1YNUhrUlRMUTlzd3pwZS1aRVZMb0RFZ1ZZZTFhdFBycmlZQmNMWTFHLUhMcHdNanU?oc=5
-- Summary: Videos - Thompson Warriors (Alabaster, AL) Football &nbsp;&nbsp; MaxPreps
-
-### S38. Helena sports complex still faces questions over site, cost and timeline
-- Outlet: WBMA (via Google News: Pelham/Alabaster/Helena)
-- Published: Sat Nov 21, 1:28 AM
-- Link: https://news.google.com/rss/articles/CBMipAFBVV95cUxOM1R6b0R4SnlsMm5UWTcySWFSNHFmYzZMbjZPYW8tSWNVdW9ITHhMbXkxWHlZZ3JVTkt1T2ZtVFdveG9YblJvSGtzZERxOGx4YXFwVTZyWHNUeTNVR29JTWVXRDZHNTZLaUpMVGVhUF9vRUNPQWdpUjZNN1pLVFUzSUJqMWhuZVJBVXBoaEt3VG9QQ3pZbk9yU0xiWTBPTHI2dlQ0eA?oc=5
-- Summary: Helena sports complex still faces questions over site, cost and timeline &nbsp;&nbsp; WBMA
-
-### S39. Don’t wait to call 911: Pelham fire chief’s Thanksgiving warning as drought dries out Alabama
-- Outlet: WBRC 6 News (via Google News: Pelham/Alabaster/Helena)
-- Published: Fri Nov 20, 3:44 PM
-- Link: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdWpWZVJpUG1EREtVaDM1blZCODRfc0IwZGhnWlpDZHdYdVRVRWR1c2NUZTYtdXpQNXQzYmQwMlRJaVJza1VTSG1lRUo5QkJFRjY4SWtOLU42YWNTM29tWXF1UHJtVTk5Z1NTdFJxakFuaWVBY0pnaDBMNUtBRllmaUVDM3RtN0ljbElDM2wtNE1JYXlNNjloZWttM3lLT3A0bURGc3FxekpTSkVrQWJ1bWxjNkdBcXk3?oc=5
-- Summary: Don’t wait to call 911: Pelham fire chief’s Thanksgiving warning as drought dries out Alabama &nbsp;&nbsp; WBRC 6 News
-
-### S40. Hewitt-Trussville vs Helena Boys Soccer - Apr 16, 2027
-- Outlet: Sports Illustrated (via Google News: Pelham/Alabaster/Helena)
-- Published: Fri Nov 20, 11:23 PM
-- Link: https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFFpOFl2ZWVQdjZtVGNpUnhLMWg2dkZadGZJNE5UeWZTMldWQl96OGdGRnA5ams0UTFTM01qcUppVklVRndUUG9Gbk5XU19NWWFrWndEVUpxeFNpVGU4ZTVST2tuN0JHTE9XMnJ5QUJ4NVZBNlpMR3lrSlZTcGJuenlEQVNJcDZxSUpxRWM5OWd4a29CaTZj?oc=5
-- Summary: Hewitt-Trussville vs Helena Boys Soccer - Apr 16, 2027 &nbsp;&nbsp; Sports Illustrated
-
-### S41. James Daniel "Dan" Connell Sr. Obituary (2026) - Alabaster, AL - Charter Funeral Home
-- Outlet: Legacy | Obituary (via Google News: Pelham/Alabaster/Helena)
-- Published: Fri Nov 20, 3:38 PM
-- Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxNbTViY1NLU3g3cHlySnZpVDR5aUFfWU0zWmE0YmJZMTl6TG52TG9jZFp0ZGU5VVM1ZWxtSWdvSVJnU3FLOG1OaGhpS0FFTmlEMkhYNkZFYXlEN2hJNnVhZmpPTmhaS0JZY1hETHlVS0pZck9UWGtBUk5UV1FYaW9FdDd3?oc=5
-- Summary: James Daniel "Dan" Connell Sr. Obituary (2026) - Alabaster, AL - Charter Funeral Home &nbsp;&nbsp; Legacy | Obituary
-
-### S42. Dabo Swinney fires off at critics 'inside and outside of Clemson' following gutsy win over Duke
-- Outlet: thepress.net (via Google News: Pelham/Alabaster/Helena)
-- Published: Sat Nov 21, 9:44 AM
-- Link: https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNjVOdmFiWlZ3a1U0YnRpY1RvcnFGa2pTdGU0bFhna3AwYS16SXI1TkNXTzBoRmxCNlVCRmZrV1h3NjBRMHZ5cjRYaXF3NENRNkoxZlNaRmRNYmtQWWt1VG8wSzZaZ0ZCcU9PcnIxbkJzSjBweE15YnJxRXVRSDZER0d6RlFySDJzV3FWSTY5cEFMUXRvVlFxNzB3U3Qza29EeTg0NWRINmlsVmZyVm1RSzFmTUw4NnEtOTFncVd4TEpPeFBaRWVZbXdKclYwUHZuck9SQk5VajFUVEd0RkhtMkJxSXZ3OEpzaHA1LTdpMlNqT0RYbGJsMlhxOFBqRTFwOGg1dWs1RFdfNTQ?oc=5
-- Summary: Dabo Swinney fires off at critics 'inside and outside of Clemson' following gutsy win over Duke &nbsp;&nbsp; thepress.net
-
-### S43. Syracuse football 2027 commit officially visiting Alabama; Crimson Tide trying to flip 3-star DB
-- Outlet: Inside the Loud House (via Google News: Pelham/Alabaster/Helena)
-- Published: Fri Nov 20, 1:09 PM
-- Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOenlWeHZKWFQtWmdud25obnNDbFNYRnNmRUNrS3A3SDZ0SHZGMUZVbVdlNmhud204ekZaVkV1d2FTV2o0WXpnTTJKY1JZVmprcTJmNDF4WmlReFFiaGttQWkyWkZMS0hybk5ILWs5eWttSDhLbm1pZVAtLXJ5bV9BWEVPX3VlSGp2dkZleklsbjhZUDNtOVltNGtUcWpJRGxFblFwQy1ha0Y2czFXczRVaXlWUU95NTNOcTBTWDk3X3Y?oc=5
-- Summary: Syracuse football 2027 commit officially visiting Alabama; Crimson Tide trying to flip 3-star DB &nbsp;&nbsp; Inside the Loud House
-
-### S44. Self-Defense Possible Motive In Fatal Stabbing At Northport Apartment Complex
-- Outlet: Patch (via Google News: Pelham/Alabaster/Helena)
-- Published: Sat Nov 21, 6:28 AM
-- Link: https://news.google.com/rss/articles/CBMiogFBVV95cUxNREoxTlpqbThsRFdBNE1jN1BWbUJvMHVabFpHOHJJRFZUOVEtU0VsLUN0a1NPWGVsTndjZ3k1UTlpTWVLaGRRWlpvTy1rY05VbDM5c0hqcUxWZkxOV2JZVXlaUERLRmdmSzItaUh1bG5qTDNqa2tPb3NnNE5OLUJUNXQ0WnpKUXV1QUg3ZXNqc25RYzlic0M3MU95ME55YTJLNnfSAcYBQVVfeXFMTVNxSkwxMEVWVzlsVHRlaHZJeU1YUkRfUkE3SVZ1UkVJZVdoWDlSS1FJYTZIaEsxekVuUlViWEVVY3R3dWdDUDV0ZkFoc3lVYTFndHBlbXgxbjN5TnVIUDFUWVo2MTREWVVYYzBzM2R6YlQ5Ti1HSWJpdXJoMUlYVWR2eDRacUJKRG9EWlZuRk1jM3dMWEVDM0VSUWpoNWZTbF9oTXhnN3liN0F2S05VLW50Y0pUOHVyVExITEw1eTdldEhXU1R3?oc=5
-- Summary: Self-Defense Possible Motive In Fatal Stabbing At Northport Apartment Complex &nbsp;&nbsp; Patch
-
-### S45. Westminster vs Thorsby - Boys Junior Varsity Basketball 12/29/2026 | Live & On Demand
-- Outlet: NFHS Network (via Google News: Oak Mountain/280)
-- Published: Fri Nov 20, 10:17 PM
-- Link: https://news.google.com/rss/articles/CBMixgJBVV95cUxONEwwYlJmeE1kRDJsZjlwSGVWOTFFTTZQSFkwRUx0Y2ZFckJLczZ4NTlFNVlGek9GamlIbG55UXg1YlVBU1hSN1JISl81RjNSUW96NXU4LVQ1YUVoX1Z1VkgwY3BDTS1mMExSMUVNQUpMbUR1VDZ6T0wtZnM5aVdRcmJQX2tybFY0WER3XzZOZERRTUQ4NXdsNmxmWDhDUGV0SmpqbkRGU0RJaFUxbGwtOGl3dzRoTEo5dF9wdGNzMGhSVVA4WVpYMjdIWlRzR29UQ3ZWWk9UeWZvWkJVOWhFQmNjb21ubmd1OWNZc2hJLUxSSE9kZXFLLUNEVEctdzFMdkpYSEo4SzMxZVJYeG9ndld3YVk4V1BrT2xnUHd6dHRhRE1VYUZ0ZG85eEttQnZYeE1iYjFjZUVWaDJmXzFwOEtxUHk0dw?oc=5
-- Summary: Westminster vs Thorsby - Boys Junior Varsity Basketball 12/29/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
-
-### S46. Pizza place scores 71 on Jefferson County inspection; inspectors cite dirty dough cutter
-- Outlet: WBRC 6 News (via Google News: Oak Mountain/280)
-- Published: Fri Nov 20, 2:19 PM
-- Link: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ1pVRzdGV0M2ZDFzbnI3ODBvTzEzcFdFcTg3LUFobndqeEtUU1pRUVRRakRxUE9lNEJQdU5UbkFNZ1cwenFuLTBvckJfY28tWjZQc1VzVkVOTlVBSzA4ejdfZzlBa2pSS0RNSW9zd1FBbG96b1BKc2xBVEk0bURJcTN1MDU1WXVCQTdLUTM5RHI4UFdJSW1PeFdUWUh0ajZuMWswQ3otQzdOY1huamg1aXl6cjlDeUI50gHMAUFVX3lxTE1HaVY5ZTZ2TTYxRDQ5ZVpuYXRER1dzWEs0UzV3Y2pOd2t1YTlqOWVfaHgzMlFrRk1tZVllSG1WZG41eVlMeTdtRzVtWVplaW52M3NWel9KRzM0UGJsMEhYVTBrdDg2TEFnOXRScDdTT0NLUHNwX2l2Z0U4ZjhQMi15R2NRSGVObHFkY0JMMGhuVHJGR2pjSmZHTU9OMUJHNDBSdExGa3ltaUdhUnBXRVc3T1ZBbE5JRkR2VkFBNHFWN2xtYk5oN19mWUkwWA?oc=5
-- Summary: Pizza place scores 71 on Jefferson County inspection; inspectors cite dirty dough cutter &nbsp;&nbsp; WBRC 6 News
-
-### S47. The Arc of Shelby County to host special needs estate planni...
-- Outlet: Shelby County Reporter (via Google News: Oak Mountain/280)
-- Published: Fri Nov 20, 12:55 PM
-- Link: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOVhpQ3h1V2ZLaldlMEFfMFNVR3gzbkdBanZUdk5RNjNTcmFrQVVXQi1BVVU3VU5MZjcwcE8wel8yYUNBWGJFa2RMWHFxcmdlZ1l6Z0NUZ0Q0dzQ2WTNzc0dVcEtpbnZMYXNzalhDbnJXV1VYbTdWVTFWLWsyNU8zY0hHc2tyNUJ4UUNMTHZvTmxzcVNSUGg4MVd2ZXRHSENTWXRLd3hxZFNLTWZFRGJFTDJHVk9FWEpoNTh6Vmcxaw?oc=5
-- Summary: The Arc of Shelby County to host special needs estate planni... &nbsp;&nbsp; Shelby County Reporter
-
-### S48. Altamont vs Fultondale - Girls Varsity Basketball 11/21/2026 | Live & On Demand
-- Outlet: NFHS Network (via Google News: Oak Mountain/280)
-- Published: Fri Nov 20, 10:50 PM
-- Link: https://news.google.com/rss/articles/CBMitAJBVV95cUxQUk1mTGtzOGFwTExuSExVOURHZUdoMGpZaGhBX3pfUFBreXFuUWlJOWs0R1o2QTE4VnM3UUdHVlJBc3FjdVU1U21OV3VYQnpJanBDbjY4RFFOOWJSWXI3OVpFNEwzOG50OGZDdlBxcm1lMlhGcUQtdDZ5STFuNXFZYVdpZ0F1WGZpTVFCaGdNYTlhT3I4bF9TdnVlVTh4RlEyNVJWVDFHX1RLS3FWNnJHdzJBNVItRFhzcGhxOHFWNGpMRzNxQlpYTWd1UWhybXhCUEJPRHlyX2FCckgtN2FEdTNOVDlQU09sV2x5VmRYVUg1Wm8tcnhTalZNblhpQ2dNUGxvQ0Rac2VDVnZrejJOaW8yTDFVbWMwc0lCTWN3UndxUW4yNUdaazhVcGswR0lYdjFaUA?oc=5
-- Summary: Altamont vs Fultondale - Girls Varsity Basketball 11/21/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
-
-### S49. Shades Valley vs Tarrant - Boys Varsity Basketball 11/20/2026 | Live & On Demand
-- Outlet: NFHS Network (via Google News: Oak Mountain/280)
-- Published: Fri Nov 20, 4:09 PM
-- Link: https://news.google.com/rss/articles/CBMimAJBVV95cUxQSlJRUlBCMk96TlQxY1c5c2FVSDhVSGQwTDVfQmRiMVMtbGY2bG5USjlMNnJGNWdZeWd2QWl3Wnh3cjJqMW50SHpHS19ndU9SRDF4WGZGZVNfaG5WTFRfQ0dpVWVNMmE4Y1BhWUdOeDJlc0dONmtNemE0UEVaaFNIOG91dVc1YXYtd2NkRTFDazdiWE90NS0xQ3I5VDlYSVpsMUVDUktzTDR3bFBmQkRVM2dBMXUzTk05V0xQQWR2Zk1RSTFJSG9FSHNvNG1xMXFMOS01UE93eXhIUENmQmt2cC1TYVJWZ1ktN0hGenVvVWNDQURqNHJfT0JNbFMzSzFrWTl3MGNvcEstaF9ScDR1T2NhOHlIM180?oc=5
-- Summary: Shades Valley vs Tarrant - Boys Varsity Basketball 11/20/2026 | Live & On Demand &nbsp;&nbsp; NFHS Network
-
-### S50. Central-Phenix City High School vs. Vestavia Hills High School
-- Outlet: NFHS Network (via Google News: Vestavia/Mountain Brook)
-- Published: Sat Nov 21, 4:12 AM
-- Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxPX1gzTDh3LVZob2w2WWJiQ3VOT0Z5RFJVbGdudXZ6V3NHa00wa2lWYVlramxram1falVNdnBDeDJxTEZxR0JYWUl6U3Z2RVJDTmVqZ2l3RFkycWZpb0VLa1pRbGx6d3NnUDNsb2dvX3J4Tk96Y2l6RVZYMDl0NnRpM0RSQWdSOWZLZVh2aWlzV2N0ZE9QUktlQw?oc=5
-- Summary: Central-Phenix City High School vs. Vestavia Hills High School &nbsp;&nbsp; NFHS Network
-
-### S51. Friday~FOOTBALL! Central - Phenix City vs. Vestavia Hills LIVE Free Updates On TV CHANNEL
-- Outlet: Pique Newsmagazine (via Google News: Vestavia/Mountain Brook)
-- Published: Fri Nov 20, 8:03 PM
-- Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUhrdVpPX3B1X1ZITzdXcjExNktWcVdPMVBmenhDZmh2YnJaYmdOVHA5M1o0VGp5NTNEU2RtRmZMRFFSRndzYXRUQlJoT0pKczJ0ZV9jS2lMQzUtZmdKVzFPQ29FZk1ZdVJ2dmFKSUFpQS1PelJBOFpOcFhBV01YSjd6bXlmYVhrM2twUTk1ZVdMZ0JjeVgzdA?oc=5
-- Summary: Friday~FOOTBALL! Central - Phenix City vs. Vestavia Hills LIVE Free Updates On TV CHANNEL &nbsp;&nbsp; Pique Newsmagazine
-
-### S52. Leeds vs Vestavia Hills Boys Basketball - Nov 21, 2026
-- Outlet: Sports Illustrated (via Google News: Vestavia/Mountain Brook)
-- Published: Fri Nov 20, 4:37 PM
-- Link: https://news.google.com/rss/articles/CBMimAFBVV95cUxOVlF6X2dNSUpFeWU4MHJwaVJkVTMwS1NvSnBvZGxlVVptWlA2OElCeFJVWEZ1RzAzanNkMXloTDlpQUpJV2xIVzVQSUE4YUNucHpkZ2p0dUVVXzVTQnhvSmFsRm9XRjlfSU4xdl9RYXlJaGhCeHZoQUpTMDBkWHFudU42YTdxU3c5RVNHVDVMMDZDaC15NFk2Wg?oc=5
-- Summary: Leeds vs Vestavia Hills Boys Basketball - Nov 21, 2026 &nbsp;&nbsp; Sports Illustrated
-
-### S53. Colles (bennett) Jordan - Mountain Brook Spartans Boys Basketball (Birmingham, AL)
-- Outlet: Sports Illustrated (via Google News: Vestavia/Mountain Brook)
-- Published: Fri Nov 20, 6:53 PM
-- Link: https://news.google.com/rss/articles/CBMiygFBVV95cUxQaV9lYl9vRjMwVWd4MkpYX3RFVUtSc3J5dzN4cktnS3lSR2x3bXd1RncySHBjc0ptdWQ4ckNNQ0k1WmlidEV2RGd5MXNjcWxqSGY4SHhuYlhUemMxcXk4aThKMkJQb1hGMnhNN24xZS1sMlNHR1o4Y014UGNlZXQzLXpDcVRuZ3B2T0JWb2IwSEo5WG9IWXNuYnJ2Y0JhazBfUERIQVdDY0VqZldDck5uUWl6a2JCTXBpMnNWUTZHMmdaX2Z6c0lacTRB?oc=5
-- Summary: Colles (bennett) Jordan - Mountain Brook Spartans Boys Basketball (Birmingham, AL) &nbsp;&nbsp; Sports Illustrated
-
-### S54. School bus, staff offer help during train incident in Calera
-- Outlet: WBMA (via Google News: local schools)
-- Published: Fri Nov 20, 9:20 PM
-- Link: https://news.google.com/rss/articles/CBMilAFBVV95cUxNd0thcDFyd0VRREJTbmZWaVRpMFRnNHE2NXdnTUdkVlU4MHZrSk5SWTg1ci1RUUtJOGRRUzJKX2h0NWZNZU5aNUFmZnpNM0l5bkFnU3V0LVQweWlYZ2ZwRU9UTE9BcUpVbjYxZERRaExZaXpWODV6YXpHVGRyS1I5X1lJemtQc1ZNUi1odVJTRXFIaHVX?oc=5
-- Summary: School bus, staff offer help during train incident in Calera &nbsp;&nbsp; WBMA
-
-### S55. Richmond says he won’t close more schools this year. But he may demolish vacant ones.
-- Outlet: Daily Memphian (via Google News: local schools)
-- Published: Fri Nov 20, 12:47 PM
-- Link: https://news.google.com/rss/articles/CBMihgFBVV95cUxQRGJVNG95RUlZLV9ISFA5MkF6aVM4NU9SdVAtclc0cTBlOWhJaDVNU3RXTTZvUFdaNzk2UmNyUUwyaTlOVEdWSEVhaHFuTzQ2Ni1VTExSSTJ5QlBSTVB5RTd0emo3Um5nU3lqZnFqRUdfMURCSDBRd05RODVKOEhzS3Rzd1JXZw?oc=5
-- Summary: Richmond says he won’t close more schools this year. But he may demolish vacant ones. &nbsp;&nbsp; Daily Memphian
-
-### S56. MSCS receives lowest academic growth rating
-- Outlet: Action News 5 (via Google News: local schools)
-- Published: Fri Nov 20, 9:53 AM
-- Link: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUW5idTlVdURjaVdpQ2pHUFdKMHFvQ25KQmNhSm9wNlZ3SW1JR1JNZXU0ZklUdWFIUGs2bmFYVFNUTlJrNk11NHdTaU5zWVF5Nk1XQ2VDejVibFU5SGxoWWpRZTJjc1pvaFRrMWhMRy15LUUwd1JBVzJIM0YtTndWSjdPdzZhWHhuSFhn0gGfAUFVX3lxTE0yWVlmSWFxSEQ1akFvTDRZUW00TEJNS3REZWxmVGpOYWVpc2JGUHpodTdUR2EtdWxuaS02dWszbU1PZnZEc25ZU3R0N3NySjVIVExCbm9QOG9BRGdDZ2pqc0VvUHRkVW5iTWdBY1dOdGZvYWJYc3VPUTh1Y0U1TWRPa0s4T3hOT2hkNXRkSkhFcnh5YnJ1aFdVSFVMUi1hcw?oc=5
-- Summary: MSCS receives lowest academic growth rating &nbsp;&nbsp; Action News 5
-
 ## Tier 3 — Birmingham metro (use only with a clear local angle)
 
-### S57. Court records: Holt High School band teacher had sex with student multiple times
+### S47. Delta says ‘automation’ issues causing delays nationwide
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 10:17 AM
-- Link: https://www.wbrc.com/2026/11/20/court-records-holt-high-school-band-teacher-had-sex-with-student-multiple-times/
-- Summary: According to the Tuscaloosa Violent Crimes Unit, information was given Tuesday to a Tuscaloosa County Sheriff’s Office school resource officer that a teacher and a student had been in an inappropriate relationship at Holt High School.
+- Published: Sun Nov 22, 10:49 AM
+- Link: https://www.wbrc.com/2026/11/22/delta-says-automation-issues-causing-delays-nationwide/
+- Summary: Delays are mounting across the country for Delta Air Lines flights after a ground stop and ground delay caused by a technical issue, the Atlanta-based airline said.
 
-### S58. Man, 22, missing after falling from boat near Logan Martin Dam
+### S48. Tom Jackson, former Broncos star and ‘Sunday NFL Countdown’ analyst, dead at 75
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 9:33 AM
+- Published: Sun Nov 22, 10:07 AM
+- Link: https://www.wbrc.com/2026/11/22/former-broncos-star-espn-broadcaster-tom-jackson-dead-75/
+- Summary: Broncos legend and ESPN sportscaster Tom Jackson has died. He was 75.
+
+### S49. Fiona to be honored at upcoming Macy’s Thanksgiving Day Parade
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 9:35 AM
+- Link: https://www.wbrc.com/2026/11/22/fiona-be-honored-upcoming-macys-thanksgiving-day-parade/
+- Summary: Macy’s has announced that Fiona will be honored at the upcoming 100th Macy’s Thanksgiving Day Parade.
+
+### S50. MikCas BBQ Sauce: Air fried BBQ Chicken Wings
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 9:02 AM
+- Link: https://www.wbrc.com/2026/11/22/mikcas-bbq-sauce-air-fried-bbq-chicken-wings/
+- Summary: Air fried BBQ Chicken Wings
+
+### S51. Chadwick Boseman’s father, Leroy Boseman, dies at 82
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 8:27 AM
+- Link: https://www.wbrc.com/2026/11/22/chadwick-bosemans-father-leroy-boseman-dies-82/
+- Summary: Leroy Boseman, the father of actor Chadwick Boseman, died at 82 after a brief illness, according to a statement from his family. The family announced his death Saturday.
+
+### S52. First Alert Weather: Above-average temperatures Sunday afternoon
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 8:19 AM
+- Link: https://www.wbrc.com/2026/11/22/first-alert-weather-above-average-temperatures-sunday-afternoon/
+- Summary: Enjoy one more day of temperatures well above average for this time of the year.
+
+### S53. Pedestrian hit, killed in Tuscaloosa Saturday night
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 7:36 AM
+- Link: https://www.wbrc.com/2026/11/22/pedestrian-hit-killed-tuscaloosa-saturday-night/
+- Summary: The driver stayed at the location after the crash.
+
+### S54. Reported pipeline explosion in Sumter County seen from miles away
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 7:22 AM
+- Link: https://www.wbrc.com/2026/11/22/reported-pipeline-explosion-sumter-county-seen-miles-away/
+- Summary: The explosion could be seen from nearby York.
+
+### S55. Father stabbed to death by ex in middle of the night in front of 3-year-old son, authorities say
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sun Nov 22, 4:51 AM
+- Link: https://www.wbrc.com/2026/11/22/father-stabbed-death-by-ex-middle-night-front-3-year-old-son-authorities-say/
+- Summary: A family is grieving after a father was allegedly stabbed to death by his ex in the middle of the night in front of their young son.
+
+### S56. SEC announces official kickoff time for 91st Iron Bowl
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sat Nov 21, 10:29 PM
+- Link: https://www.wbrc.com/2026/11/22/sec-announces-official-kickoff-time-91st-iron-bowl/
+- Summary: Kickoff time for the 91st Iron Bowl has officially been announced.
+
+### S57. Man, 22, missing after falling from boat near Logan Martin Dam
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sat Nov 21, 10:10 PM
 - Link: https://www.wbrc.com/2026/11/21/man-22-missing-after-falling-boat-near-logan-martin-dam/
 - Summary: First responders were dispatched at around 3:45 a.m.
 
-### S59. Interstate 459 South reopens after crash involving tractor-trailer Saturday morning
+### S58. 3-year-old rescued during fire at Tuscaloosa apartment complex
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 9:12 AM
-- Link: https://www.wbrc.com/2026/11/21/interstate-459-south-reopens-after-crash-involving-tractor-trailer-saturday-morning/
+- Published: Sat Nov 21, 10:10 PM
+- Link: https://www.wbrc.com/2026/11/21/3-year-old-rescued-during-fire-tuscaloosa-apartment-complex/
+- Summary: Officials said the fire was extinguished quickly.
+
+### S59. ALEA: Man killed after head-on collision on I-459 Saturday morning
+- Outlet: WBRC Fox 6 (via WBRC Fox 6)
+- Published: Sat Nov 21, 10:09 PM
+- Link: https://www.wbrc.com/2026/11/22/alea-man-killed-after-head-on-collision-i-459-saturday-morning/
 - Summary: The crash happened at around 3:20 a.m.
 
-### S60. First Alert Weather: Isolated showers in east Alabama Saturday
+### S60. Alabama women’s cross country wins 1st national championship
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 8:29 AM
-- Link: https://www.wbrc.com/2026/11/21/first-alert-weather-isolated-showers-east-alabama-saturday/
-- Summary: Plan for a few showers for the Jacksonville State and Auburn football games today.
+- Published: Sat Nov 21, 10:08 PM
+- Link: https://www.wbrc.com/2026/11/21/alabama-womens-cross-country-wins-1st-national-championship/
+- Summary: The women’s team scored 120 points Saturday morning to clinch the title.
 
-### S61. Man accused of pouring toxic oil into woman’s Waffle House drink before child drank from it, reports say
+### S61. Home Instead collecting donations for ‘Be a Santa to a Senior’ program in Jefferson, Shelby counties
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 8:16 AM
-- Link: https://www.wbrc.com/2026/11/21/man-accused-pouring-toxic-oil-into-womans-waffle-house-drink-before-child-drank-it-reports-say/
-- Summary: A Florida man is accused of pouring essential oil into a woman’s Waffle House drink, which a child later drank from, according to multiple reports.
+- Published: Sat Nov 21, 10:08 PM
+- Link: https://www.wbrc.com/2026/11/22/home-instead-collecting-donations-be-santa-senior-program-jefferson-shelby-counties/
+- Summary: The deadline to drop off donations is Dec. 11.
 
-### S62. Investigators: Evidence supports self-defense claim in death of man, 42, in Northport
+### S62. Brunch with Santa: Pajama Edition event to be held at Boutwell Auditorium
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Sat Nov 21, 7:10 AM
-- Link: https://www.wbrc.com/2026/11/21/investigators-evidence-supports-self-defense-claim-death-man-42-northport/
-- Summary: This is a developing story and will be updated with more information as it becomes available.
+- Published: Sat Nov 21, 9:09 PM
+- Link: https://www.wbrc.com/2026/11/22/brunch-with-santa-pajama-edition-event-be-held-boutwell-auditorium/
+- Summary: Officials said the event will have a catered brunch, special surprises throughout the afternoon, and more.
 
-### S63. Mr., Mrs. Claus assist after Calera Railroad Museum train comes off tracks, no injures reported
+### S63. Bigfoot files quietly released by US Forest Service
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 11:02 PM
-- Link: https://www.wbrc.com/2026/11/21/mr-mrs-claus-assist-after-calera-railroad-museum-train-comes-off-tracks-no-injures-reported/
-- Summary: No injures were reported.
+- Published: Sat Nov 21, 8:58 PM
+- Link: https://www.wbrc.com/2026/11/22/bigfoot-files-quietly-released-by-us-forest-service/
+- Summary: Forest Service records describe reported Bigfoot tracks in Montana and Washington, including an investigation that found signs of a possible hoax.
 
-### S64. Cullman man indicted on multiple charges after hours-long standoff in October
+### S64. Local dance company to present ‘Brown Sugar Nutcracker’, tickets now available
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 10:57 PM
-- Link: https://www.wbrc.com/2026/11/21/cullman-man-indicted-multiple-charges-after-hours-long-standoff-october/
-- Summary: The situation happened in October after police were called to a home on 3rd Avenue.
+- Published: Sat Nov 21, 8:56 PM
+- Link: https://www.wbrc.com/2026/11/22/local-dance-company-present-brown-sugar-nutcracker-tickets-now-available/
+- Summary: The show will be held Dec. 12 at the Dorothy Jemison Day Theater in Birmingham, with showtimes at 2:30 and 7:00 p.m.
 
-### S65. First Alert Weather: Showers possible in eastern counties on Saturday
+### S65. Auburn overwhelms Samford 59-17 behind explosive offensive performance
 - Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 10:00 PM
-- Link: https://www.wbrc.com/2026/11/20/first-alert-weather-tropical-system-could-bring-showers-parts-area-saturday/
-- Summary: Overnight lows will range from the upper 40s in the colder locations to the low 50s.
+- Published: Sat Nov 21, 6:18 PM
+- Link: https://www.wbrc.com/2026/11/22/auburn-overwhelms-samford-59-17-behind-explosive-offensive-performance/
+- Summary: Auburn put together a dominant offensive performance Saturday, rolling past Samford 59-17 behind a balanced attack that produced multiple explosive plays and seven touchdowns.
 
-### S66. Bipartisan lawmakers push for final passage of film and TV production tax incentive
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 9:51 PM
-- Link: https://www.wbrc.com/2026/11/21/bipartisan-lawmakers-push-final-passage-film-tv-production-tax-incentive/
-- Summary: A bipartisan group of lawmakers is pushing for final passage of a bill that would create a federal tax incentive to keep filmmakers working in the United States.
-
-### S67. Tuscaloosa City Schools raise thousands of dollars for United Way
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 9:39 PM
-- Link: https://www.wbrc.com/2026/11/21/tuscaloosa-city-schools-raise-thousands-dollars-united-way/
-- Summary: A big time achievement for the Tuscaloosa city school district, and students played a huge role in it.
-
-### S68. Birmingham, property owner reach agreement to address nuisance buildings on Southside
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 9:36 PM
-- Link: https://www.wbrc.com/2026/11/21/birmingham-property-owner-reach-agreement-address-nuisance-buildings-southside/
-- Summary: The city of Birmingham and the owner of three Southside properties have reached an agreement that calls for cleanup and demolition.
-
-### S69. Alabama loses ‘Iron Bowl’ annual food drive to Auburn
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 9:32 PM
-- Link: https://www.wbrc.com/2026/11/21/alabama-loses-iron-bowl-annual-food-drive-auburn/
-- Summary: According to Feed America, one in six people in Alabama struggled with food insecurity.
-
-### S70. Univ. of Alabama’s Million Dollar Band to play in Macy’s Thanksgiving Day parade
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 9:10 PM
-- Link: https://www.wbrc.com/2026/11/21/univ-alabamas-million-dollar-band-play-macys-thanksgiving-day-parade/
-- Summary: UA leaders said the band is joining just 9 other marching bands after being selected from 100 applicants.
-
-### S71. Pipe mounted to fire ladder breaks away with firefighter at top
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 7:51 PM
-- Link: https://www.wbrc.com/2026/11/21/pipe-mounted-fire-ladder-breaks-away-with-firefighter-top/
-- Summary: A water-carrying pipe and nozzle mounted to a ladder on a St. Louis Fire Department truck broke away Saturday night while a firefighter was at the top of the ladder.
-
-### S72. Maryland volunteers build beds for children who don’t have one
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 7:34 PM
-- Link: https://www.wbrc.com/2026/11/21/maryland-volunteers-build-beds-children-who-dont-have-one/
-- Summary: The nonprofit Sleep in Heavenly Peace estimates nearly 3% of children in America don't have a bed to sleep in. It has 400 chapters nationwide and has delivered 400,000 beds. In Montgomery County, Maryland, volunteers cut the pieces, deliver them and assemble the beds on the spot.
-
-### S73. Teen, juvenile arrested after allegedly shooting into occupied home
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 6:00 PM
-- Link: https://www.wbrc.com/2026/11/21/teen-juvenile-arrested-after-allegedly-shooting-into-occupied-home/
-- Summary: Police said the investigation is still ongoing and more charges could be filed.
-
-### S74. Actor Patrick Stewart’s cause of death revealed
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 6:00 PM
-- Link: https://www.wbrc.com/2026/11/21/actor-patrick-stewarts-cause-death-revealed/
-- Summary: ‘Star Trek’ actor Patrick Stewart’s cause of death has been released.
-
-### S75. AAA expects Thanksgiving travel to dip for first time since 2023
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 5:56 PM
-- Link: https://www.wbrc.com/2026/11/20/aaa-expects-thanksgiving-travel-dip-first-time-since-2023/
-- Summary: AAA Alabama said Tuesday and Wednesday before the holiday will be the busiest travel days.
-
-### S76. Child riding bike taken to hospital after colliding with car in Homewood
-- Outlet: WBRC Fox 6 (via WBRC Fox 6)
-- Published: Fri Nov 20, 5:52 PM
-- Link: https://www.wbrc.com/2026/11/20/child-riding-bike-taken-hospital-after-colliding-with-car-homewood/
-- Summary: Officials said the boy was taken to the hospital with injuries sustained in the incident.
-
-### S77. TheMillion Dollar Band will be back in New York for 100th Macy’s parade
+### S66. Best NFL prediction market promos for NFL Week 11: Get up to $590 in bonuses
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:42 AM
-- Link: https://www.al.com/news/2026/11/alabama-million-dollar-band-will-return-to-new-york-for-historic-macys-parade.html
-- Summary: The University of Alabama Million Dollar Band will return to New York for its second Macy’s Thanksgiving Day Parade appearance.
+- Published: Sun Nov 22, 11:00 AM
+- Link: https://www.al.com/betting/2026/11/best-nfl-prediction-market-promos-for-nfl-week-11-get-up-to-590-in-bonuses.html
+- Summary: New users can claim the best NFL prediction market promos Week 11, worth up to $590!
 
-### S78. Watch South Carolina fan shave head to look like Paul Finebaum
+### S67. Plus500 Promo Code ALCOM: Trade $10, get $20 cash for NFL Week 11
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:23 AM
-- Link: https://www.al.com/sports/2026/11/watch-south-carolina-fan-shave-head-to-look-like-paul-finebaum.html
-- Summary: Tim Tebow did the honors on SEC Nation on Saturday
+- Published: Sun Nov 22, 11:00 AM
+- Link: https://www.al.com/betting/2026/11/plus500-promo-code-alcom-trade-10-get-20-cash-for-nfl-week-11.html
+- Summary: Claim the Plus500 promo code ALCOM to make predictions and trade on Week 11 NFL. Trade $10 and receive a $20 cash bonus.
 
-### S79. Top cartel boss, one of FBI’s 10 most wanted fugitives captured in Mexico
+### S68. Novig Promo Code ALCOM: Get $50 bonus to trade Week 11 NFL early slate
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:22 AM
-- Link: https://www.al.com/news/2026/11/top-cartel-boss-one-of-fbis-10-most-wanted-fugitives-captured-in-mexico.html
-- Summary: Meza Flores was one of the FBI’s 10 most wanted fugitives and a top cartel leader.
+- Published: Sun Nov 22, 11:00 AM
+- Link: https://www.al.com/betting/2026/11/novig-promo-code-alcom-get-50-bonus-to-trade-week-11-nfl-early-slate.html
+- Summary: Claim the Novig promo code ALCOM and get a $50 trading bonus for NFL Week 11. Use the Novig invite code ALCOM for a $50 bonus to trade on NFL Week 11.
 
-### S80. Alabama wins first non-football national championship since 2014
+### S69. These ‘soft and dreamy’ Nordstrom pajamas are up to 60% off for Black Friday, priced as low as $26
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:19 AM
-- Link: https://www.al.com/alabama/2026/11/alabama-wins-first-non-football-national-championship-since-2014.html
-- Summary: Alabama cross country made history Saturday morning.
+- Published: Sun Nov 22, 11:00 AM
+- Link: https://www.al.com/shopping/2026/11/these-soft-and-dreamy-nordstrom-pajamas-are-up-to-60-off-for-black-friday-priced-as-low-as-26.html
+- Summary: With over 1,000 reviews and ratings each, the Nordstrom Moonlight Eco pajama sets have earned a devoted following.
 
-### S81. Polymarket Promo Code AL25BONUS: Get a $25 bonus for college football today
+### S70. Delta outage disrupts flights just as Thanksgiving travel rush gets underway
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:15 AM
-- Link: https://www.al.com/betting/2026/11/polymarket-promo-code-al25bonus-get-a-25-bonus-for-college-football-today.html
-- Summary: Use the Polymarket promo code AL25BONUS to trade CFB Week 12 games today. Score a $25 bonus after making a first-time deposit of $10.
+- Published: Sun Nov 22, 10:55 AM
+- Link: https://www.al.com/news/2026/11/delta-outage-hits-thanksgiving-travel-rush-heres-what-passengers-should-know.html
+- Summary: A Delta Air Lines outage delayed flights ahead of Thanksgiving, creating new travel headaches as millions of passengers prepare to fly this week.
 
-### S82. Kalshi Promo Code AL55: Claim a $55 bonus to trade Week 12 college football today
+### S71. See when ‘High Potential,’ ‘The Rookie’ and more ABC shows return in 2027
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:15 AM
-- Link: https://www.al.com/betting/2026/11/kalshi-promo-code-al55-claim-a-55-bonus-to-trade-week-12-college-football-today.html
-- Summary: Claim the Kalshi promo code AL55 and get a $55 trading bonus to trade on Week 12 college football. Use the Kalshi invite code AL55 for a $55 bonus to trade CFB.
+- Published: Sun Nov 22, 10:51 AM
+- Link: https://www.al.com/tv/2026/11/see-when-high-potential-the-rookie-and-more-abc-shows-return-in-2027.html
+- Summary: See when ‘Will Trent,’ ‘Shifting Gears’ and more ABC shows return in 2027
 
-### S83. Nick Saban has praise for Alabama native, former South Alabama QB Gio Lopez
+### S72. Medicare coverage will cost more in 2027: What that means for Social Security recipients
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:12 AM
-- Link: https://www.al.com/sports/2026/11/nick-saban-has-high-praise-for-alabama-native-former-south-alabama-qb-gio-lopez.html
-- Summary: Lopez has led Wake Forest to 9-1 record this season
+- Published: Sun Nov 22, 10:50 AM
+- Link: https://www.al.com/news/2026/11/medicare-coverage-will-cost-more-in-2027-what-that-means-for-social-security-recipients.html
+- Summary: The Centers for Medicare and Medicaid Services said the change is due to projected increases in healthcare spending
 
-### S84. 1 dead, 1 hospitalized after fiery head-on crash on I-459 near Birmingham
+### S73. Polymarket Promo Code AL25BONUS launches a $25 trading bonus for Week 11 NFL games
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:09 AM
-- Link: https://www.al.com/news/2026/11/1-dead-1-hospitalized-after-fiery-head-on-crash-on-i-459-near-birmingham.html
-- Summary: A wrong-way driver caused a fiery head-on crash on I-459 early Saturday, killing one person and sending a tractor-trailer driver to the hospital.
+- Published: Sun Nov 22, 10:45 AM
+- Link: https://www.al.com/betting/2026/11/polymarket-promo-code-al25bonus-launches-a-25-trading-bonus-for-week-11-nfl-games.html
+- Summary: New Polymarket users can claim a $25 trading bonus with promo code AL25BONUS. Make a $10 deposit and use the bonus to trade on Week 11 NFL games.
 
-### S85. Plus500 Promo Code: Trade $10, get $20 cash bonus for Week 12 CFB
+### S74. Kalshi Promo Code AL55 unlocks a $55 bonus for trading anytime TDs in NFL Week 11
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/betting/2026/11/plus500-promo-code-trade-10-get-20-cash-bonus-for-week-12-cfb.html
-- Summary: Claim the Plus500 promo code ALCOM and get a $20 cash bonus after trading $10 on Week 12 college football.
+- Published: Sun Nov 22, 10:45 AM
+- Link: https://www.al.com/betting/2026/11/kalshi-promo-code-al55-unlocks-a-55-bonus-for-trading-anytime-tds-in-nfl-week-11.html
+- Summary: Sign up with the Kalshi promo code AL55 to unlock a $55 trading bonus when you trade $25 or more in cash.
 
-### S86. Novig Promo Code ALCOM: Get a $50 bonus to trade Week 12 CFB
+### S75. Kaitlan Collins explains why she missed Bill Maher show after White House hot mic
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/betting/2026/11/novig-promo-code-alcom-get-a-50-bonus-to-trade-week-12-cfb.html
-- Summary: New users can claim a $50 welcome bonus by signing up with Novig promo code ALCOM and depositing $10 to trade on Week 12 college football.
+- Published: Sun Nov 22, 10:28 AM
+- Link: https://www.al.com/politics/2026/11/kaitlan-collins-explains-why-she-missed-bill-maher-show-after-white-house-hot-mic.html
+- Summary: CNN's Kaitlan Collins clarified why she missed Bill Maher's season finale.
 
-### S87. Dear Annie: At 52, I feel like I'm losing everyone who makes me feel like I'm home
+### S76. Polymarket Promo Code AL25BONUS: Give thanks for $25 bonus for Week 11 anytime TD trading
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/advice/2026/11/dear-annie-at-52-i-feel-like-im-losing-everyone-who-makes-me-feel-like-im-home.html
-- Summary: Annie: Technology has changed how we connect, but it can also help bridge the distance when we’re miles apart.
+- Published: Sun Nov 22, 10:15 AM
+- Link: https://www.al.com/betting/2026/11/polymarket-promo-code-al25bonus-give-thanks-for-25-bonus-for-week-11-anytime-td-trading.html
+- Summary: Use the Polymarket promo code AL25BONUS when signing up to unlock a $25 bonus for trading on anytime touchdowns and other NFL Week 11 prediction markets.
 
-### S88. Highest RTP slots to maximize the new Caesars Casino promo code ALCOM1100FS this weekend
+### S77. Extended Kalshi Promo Code AL55 scores a $55 trading bonus for NFL Week 11 today
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/casinos/2026/11/highest-rtp-slots-to-maximize-the-new-caesars-casino-promo-code-alcom1100fs-this-weekend.html
-- Summary: Discover three high-return slot games to play with the new Caesars Casino promo code ALCOM1100FS, including Blood Suckers with 98% RTP and tips for maximizing your bonus spins.
+- Published: Sun Nov 22, 10:15 AM
+- Link: https://www.al.com/betting/2026/11/extended-kalshi-promo-code-al55-scores-a-55-trading-bonus-for-nfl-week-11-today.html
+- Summary: Grab the Kalshi promo code AL55 to trade $25 on NFL Week 11 and receive a $55 bonus.
 
-### S89. Best prediction market promos supply $590 in bonuses for today’s college football Week 12 action
+### S78. Where to watch Carlos Alcaraz vs. Alexander Zverev tennis for free
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/betting/2026/11/best-prediction-market-promos-supply-590-in-bonuses-for-todays-college-football-week-12-action.html
-- Summary: Nearly $600 in trading bonuses are available when you claim the best prediction market promos ahead of the college football Week 12 slate.
+- Published: Sun Nov 22, 10:04 AM
+- Link: https://www.al.com/tv/2026/11/where-to-watch-carlos-alcaraz-vs-alexander-zverev-atp-finals-tennis-for-free-today.html
+- Summary: Alcaraz and Zverev face off in the ATP Finals championship Sunday at 3 p.m. ET.
 
-### S90. How to watch Alabama football vs. Chattanooga for free today
+### S79. Vote for the top Alabama high school football performance from this week’s playoff action
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 10:00 AM
-- Link: https://www.al.com/tv/2026/11/how-to-watch-alabama-football-vs-chattanooga-for-free-today.html
-- Summary: No. 3 Alabama hosts Chattanooga at Bryant-Denny Stadium today at 2 p.m. ET on SEC Network+. Fubo's free trial gives new subscribers up to five days of access.
+- Published: Sun Nov 22, 10:00 AM
+- Link: https://www.al.com/highschoolsports/central/2026/11/vote-for-the-top-alabama-high-school-football-performance-from-this-weeks-playoff-action.html
+- Summary: Cast your votes for the top high school football performance from Round 3 of the playoffs.
 
-### S91. How to watch the Union take on the Revolution in the MLS playoffs live  today
+### S80. Dear Annie: What do I do when my kids won’t eat dinners I work so hard to make?
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:47 AM
-- Link: https://www.al.com/tv/2026/11/how-to-watch-the-philadelphia-union-vs-new-england-revolution-mls-playoffs-game-1-live-for-free-today.html
-- Summary: The Philadelphia Union square off against the New England Revolution today in Game 1 of this MLS Cup Playoffs first-round series.
+- Published: Sun Nov 22, 10:00 AM
+- Link: https://www.al.com/advice/2026/11/dear-annie-what-do-i-do-when-my-kids-wont-eat-dinners-i-work-so-hard-to-make.html
+- Summary: I feel like no one appreciates the effort I put into feeding this family.
 
-### S92. 3 Alabama starters ruled out for game against Chattanooga
+### S81. Young men abandoned Trump’s GOP in 2026 midterms, new analysis shows
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:39 AM
-- Link: https://www.al.com/alabamafootball/2026/11/3-alabama-starters-ruled-out-for-game-against-chattanooga.html
-- Summary: No. 3 Alabama will face Chattanooga on Saturday at 1 p.m. CT at Bryant-Denny Stadium.
+- Published: Sun Nov 22, 10:00 AM
+- Link: https://www.al.com/politics/2026/11/young-men-abandoned-trumps-gop-in-2026-midterms-new-analysis-shows.html
+- Summary: Young male voters shifted toward Democrats in a resounding rebuke of the Republican Party, according to a recent New York Times analysis.
 
-### S93. Watch Dwayne Johnson ‘Rock bottom’ Pat McAfee through table on College GameDay
+### S82. How to watch Lions vs. Buccaneers game today for FREE (11/22)
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:37 AM
-- Link: https://www.al.com/sports/2026/11/watch-dwayne-johnson-rock-bottom-pat-mcafee-through-table-on-college-gameday.html
-- Summary: WWE, Hollywood star, former Miami player was guest picker on Saturday
+- Published: Sun Nov 22, 10:00 AM
+- Link: https://www.al.com/tv/2026/11/how-to-watch-lions-vs-buccaneers-game-today-for-free-1122.html
+- Summary: The Detroit Lions and Jared Goff welcome the Tampa Bay Buccaneers to Ford Field today, Nov. 22, in a Week 11, NFC contest.
 
-### S94. Nick Saban reveals which non-football stadium he’d love to coach in
+### S83. Movie star, 43, found dead in apartment
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:14 AM
-- Link: https://www.al.com/alabamafootball/2026/11/nick-saban-reveals-which-non-football-stadium-hed-love-to-coach-in.html
-- Summary: Harvard-Yale game takes place at Fenway Park on Saturday
+- Published: Sun Nov 22, 9:47 AM
+- Link: https://www.al.com/life/2026/11/movie-star-43-found-dead-in-apartment.html
+- Summary: Lance Broadway, a former MLB pitcher who appeared in ‘Olympus Has Fallen,’ was found dead in a Dallas apartment stairwell at 43.
 
-### S95. This $16 FAO Schwarz Hermès-inspired handbag just got added to my daughter’s wishlist
+### S84. Former NFL star, legendary ESPN broadcaster dies at 75
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:05 AM
-- Link: https://www.al.com/shopping/2026/11/this-16-fao-schwarz-hermes-inspired-handbag-just-got-added-to-my-daughters-wishlist.html
-- Summary: No, it's not a $32,000 Kelly bag, it's a designer-inspired look scaled down for little fashionistas. And beyond being adorable, it's on sale for Black Friday
+- Published: Sun Nov 22, 9:47 AM
+- Link: https://www.al.com/sports/2026/11/former-nfl-star-legendary-espn-broadcaster-dies-at-75.html
+- Summary: He was a Hall of Fame broadcaster after starring for the Denver Broncos.
 
-### S96. Doctors didn’t think this beloved TV actor’s injuries were ‘anything serious’ — then he died
+### S85. The new Caesars Casino bonus instantly makes it the best gambling app for real money
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:04 AM
-- Link: https://www.al.com/life/2026/11/doctors-didnt-think-this-beloved-tv-actors-injuries-were-anything-serious-then-he-died.html
-- Summary: The veteran actor died on Wednesday at age 66.
+- Published: Sun Nov 22, 9:30 AM
+- Link: https://www.al.com/casinos/2026/11/the-new-caesars-casino-bonus-instantly-makes-it-the-best-gambling-app-for-real-money.html
+- Summary: The new Caesars Palace Casino bonus offers 1,100 spins to players in New Jersey, Michigan, Pennsylvania and West Virginia who make a first wager of $5 or more.
 
-### S97. Dressing or stuffing: Thanksgiving’s most divisive issue
+### S86. Dyson cordless vacuums as low as $270 for Black Friday at Amazon
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:00 AM
-- Link: https://www.al.com/life/2026/11/dressing-or-stuffing-the-answer-to-thanksgivings-most-divisive-issue.html
-- Summary: The difference, historically, was in how the dish was cooked.
+- Published: Sun Nov 22, 9:25 AM
+- Link: https://www.al.com/shopping/2026/11/dyson-cordless-vacuums-as-low-as-270-for-black-friday-at-amazon.html
+- Summary: It's officially vacuum buying season — we found these Dyson standouts at insane prices during Amazon's Black Friday sale.
 
-### S98. Country music singer who stepped away from stage teases new music: ‘Work in progress’
+### S87. ‘Stranger Things’ actress makes guest appearance at Alabama football game
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:00 AM
-- Link: https://www.al.com/life/2026/11/country-music-singer-who-stepped-away-from-stage-teases-new-music-work-in-progress.html
-- Summary: He went on indefinite hiatus earlier this year.
+- Published: Sun Nov 22, 9:22 AM
+- Link: https://www.al.com/alabamafootball/2026/11/stranger-things-actress-makes-guest-appearance-at-alabama-football-game.html
+- Summary: Actress Calista Craig, known for her role in 'Stranger Things,' joined Alabama's dance team for its third-quarter routine.
 
-### S99. De’Longhi’s Starbucks-style espresso machine is on sale $500 off
+### S88. How big a favorite is Alabama over Auburn in 2026 Iron Bowl?
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 9:00 AM
-- Link: https://www.al.com/shopping/2026/11/delonghis-starbucks-style-espresso-machine-is-on-sale-500-off.html
-- Summary: Target’s highly rated De’Longhi Eletta Explore espresso machine makes Starbucks-style drinks at home, including iced lattes with cold foam and cold brew.
+- Published: Sun Nov 22, 9:22 AM
+- Link: https://www.al.com/sports/2026/11/how-big-a-favorite-is-alabama-over-auburn-in-2026-iron-bowl.html
+- Summary: Crimson Tide hosts Tigers in annual showdown on Saturday night
 
-### S100. Dabo Swinney after upset win over Duke: ‘I’m like Chick-fil-A ... I’m going to be me’
+### S89. Inside Auburn's historic receiving performance that helped produce 59 points
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 8:57 AM
-- Link: https://www.al.com/sports/2026/11/dabo-swinney-after-upset-win-over-duke-so-many-people-have-quit-on-our-team.html
-- Summary: Tigers were 12-point underdog to Blue Devils on Friday night
+- Published: Sun Nov 22, 9:15 AM
+- Link: https://www.al.com/auburnfootball/2026/11/two-transfers-followed-alex-golesh-to-auburn-now-theyve-rewritten-the-record-books-together.html
+- Summary: Chas Nimrod and Keshaun Singleton have already combined for more yards and touchdowns than Auburn's entire 2025 receiving room, capping it off with a historic performance on Saturday.
 
-### S101. A 10% drop for US stock market feels scary, but it’s not that unusual
+### S90. Why is cranberry sauce a Thanksgiving dish? Plus, the fresh vs. canned debate
 - Outlet: AL.com (via AL.com)
-- Published: Sat Nov 21, 8:42 AM
-- Link: https://www.al.com/news/2026/11/a-10-drop-for-us-stock-market-feels-scary-but-its-not-that-unusual.html
-- Summary: The fall for the S&amp;P 500 is steep enough that Wall Street has a name for it: a “correction.”
+- Published: Sun Nov 22, 9:00 AM
+- Link: https://www.al.com/life/2026/11/canned-vs-fresh-cranberry-sauce-which-one-wins-thanksgiving-at-your-house.html
+- Summary: Canned cranberry sauce is in danger of developing a case of low shelf-esteem, but is its reputation deserved?
+
+### S91. Pedestrian killed in overnight Tuscaloosa crash
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sun Nov 22, 8:03 AM
+- Link: https://www.alabamas42.com/news/traffic-news/pedestrian-killed-in-overnight-tuscaloosa-crash/
+- Summary: A pedestrian was killed in a Tuscaloosa crash late Saturday night.
+
+### S92. Man killed in fiery I-459 crash involving tractor-trailer
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sun Nov 22, 8:13 AM
+- Link: https://www.alabamas42.com/news/traffic-news/man-killed-in-fiery-i-459-crash-involving-tractor-trailer/
+- Summary: A man was killed in a crash involving a tractor-trailer on Interstate 459 early Saturday morning, according to the Alabama Law Enforcement Agency.
+
+### S93. Warm Weekend Weather, Cooler Thanksgiving Week Forecast With Rain Chances Ahead
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sun Nov 22, 6:20 AM
+- Link: https://www.alabamas42.com/weather-birmingham-forecast/warm-weekend-weather-cooler-thanksgiving-week-forecast-with-rain-chances-ahead/
+- Summary: Alabama's 42 Weather Live Channel: Weekend Outlook: Sunday, a cold front will move into the state from the northwest later in the day. Most of the day will be partly cloudy, mild, breezy, and dry, with highs in the lower to mid-70s. The cold front arrives Sunday night into Monday with clouds and a few [...]
+
+### S94. Tuscaloosa apartment fire sends 3-year-old to hospital
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 4:29 PM
+- Link: https://www.alabamas42.com/news/local/tuscaloosa-apartment-fire-sends-3-year-old-to-hospital/
+- Summary: A 3-year-old child was taken to a hospital after Tuscaloosa firefighters responded to an apartment fire Saturday.
+
+### S95. UAB Falls to UTSA 19-17 in Senior Night Home Finale
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sun Nov 22, 8:25 AM
+- Link: https://www.alabamas42.com/sports/uab/uab-falls-to-utsa-19-17-in-senior-night-home-finale/
+- Summary: UAB football rallied from an early 14-point deficit and had an opportunity to take the lead in the final minute, but a 57-yard field goal attempt fell short as UTSA escaped Protective Stadium with a 19-17 victory Saturday night.
+
+### S96. Auburn players react to 59-17 win over Samford
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 8:29 PM
+- Link: https://www.alabamas42.com/sports/auburn/auburn-players-react-to-59-17-win-over-samford/
+- Summary: AUBURN, Ala. (WIAT) — Auburn improved to 7-4 with a blowout win over Samford in its home finale Saturday. The Tigers set a new program record for passing yards with 480 in the game. Byrum Brown, Jeremiah Cobb, Stanton Ramil and Tristan Ti'a spoke with reporters following the victory. Watch the full press conference in [...]
+
+### S97. Auburn smokes Samford 59-17, enters Iron Bowl at 7-4
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 7:42 PM
+- Link: https://www.alabamas42.com/sports/auburn-smokes-samford-59-17-enters-iron-bowl-at-7-4/
+- Summary: AUBURN, Ala. (WIAT) — Auburn made the most of "cupcake week" in its final home game of 2026 Saturday. The Tigers dominated Samford 59-17, clinching their first winning season in seven years. Byrum Brown played just two snaps in the game, and both resulted in touchdowns. Jeremiah Cobb ran for a 62-yard touchdown on Auburn's [...]
+
+### S98. Alabama players react to 47-0 victory over Chattanooga
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 4:45 PM
+- Link: https://www.alabamas42.com/sports/alabama-players-react-to-47-0-victory-over-chattanooga/
+- Summary: TUSCALOOSA, Ala. (WIAT) - Alabama players met with the media following the Tide's 47-0 victory over Chattanooga. Austin Mack finished 20/25 for 254 yards and 4 passing touchdowns in the victory. It marked his first collegiate start. Next up, Alabama hosts Auburn in the Iron Bowl. Watch the full player availabilities above.
+
+### S99. Austin Mack throws 4 TD passes as Alabama beats Chattanooga 47-0
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 4:13 PM
+- Link: https://www.alabamas42.com/sports/alabama/austin-mack-throws-4-td-passes-as-alabama-beats-chattanooga-47-0/
+- Summary: Austin Mack threw for 254 yards and four touchdowns, leading No. 7 Alabama past Chattanooga 47-0 on Saturday in its final tuneup before the Iron Bowl.
+
+### S100. Sweet Hickory BBQ targets mid-December opening in Clay
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 11:30 AM
+- Link: https://www.alabamas42.com/trussville-tribune/sweet-hickory-bbq-targets-mid-december-opening-in-clay/
+- Summary: A new barbecue restaurant, Sweet Hickory BBQ, is planning a mid-December opening at 6633 Old Springville Road in Clay, according to owner and pitmaster Jody Strickland.
+
+### S101. UAB Falls to South Carolina in NCAA Tournament First Round
+- Outlet: CBS 42 (via CBS 42)
+- Published: Sat Nov 21, 8:28 AM
+- Link: https://www.alabamas42.com/sports/uab/uab-falls-to-south-carolina-in-ncaa-tournament-first-round/
+- Summary: UAB women's soccer (12-9-1, 6-4-0 American) saw its historic 2026 season come to an end Friday night as the Blazers fell to South Carolina (16-2-3, 6-1-3 SEC) 2-0 in the first round of the NCAA Tournament at Stone Stadium.
 
 ### S102. Man killed in Northport stabbing
 - Outlet: CBS 42 (via CBS 42)
@@ -619,321 +619,177 @@ Collected 10:52 AM CT · 147 news stories from the last 28 hours, plus 6 upcomin
 - Link: https://www.alabamas42.com/news/crime/man-killed-in-northport-stabbing/
 - Summary: A man was killed in stabbing at a Northport apartment complex Friday.
 
-### S103. Warm Weekend Weather for Football, Cooler Thanksgiving Week Forecast With Rain Chances Ahead
-- Outlet: CBS 42 (via CBS 42)
-- Published: Sat Nov 21, 6:55 AM
-- Link: https://www.alabamas42.com/weather-birmingham-forecast/warm-weekend-weather-for-football-cooler-thanksgiving-week-forecast-with-rain-chances-ahead/
-- Summary: Alabama's 42 Weather Live Channel: Weekend Outlook: The ridge of high pressure will remain northeast of Alabama through Saturday, allowing more dry air to move into the state. In addition, a cut-off low will be over the eastern Gulf to Florida. NHC is giving this system a low chance of developing into a subtropical storm [...]
-
-### S104. FBI looking into possible breach of its crime database: Report
-- Outlet: CBS 42 (via CBS 42)
-- Published: Sat Nov 21, 9:22 AM
-- Link: https://www.alabamas42.com/news/national/fbi-looking-into-possible-breach-of-its-crime-database-report/
-- Summary: The Federal Bureau of Investigation (FBI) is looking into a potential breach of its nationwide criminal information database, a second breach in recent months coming on the heels of nationwide technology outages.
-
-### S105. Your favorite Thanksgiving dishes won’t cost substantially more this year – here's why
-- Outlet: CBS 42 (via CBS 42)
-- Published: Sat Nov 21, 9:01 AM
-- Link: https://www.alabamas42.com/news/national/your-favorite-thanksgiving-dishes-wont-cost-substantially-more-this-year-heres-why/
-- Summary: Inflation-weary Americans have at least some good news to cheer this holiday season.
-
-### S106. Former defense secretary suggests Iran war may last until 2029: 'It's just gonna take a long time'
-- Outlet: CBS 42 (via CBS 42)
-- Published: Sat Nov 21, 8:52 AM
-- Link: https://www.alabamas42.com/hill-politics/former-defense-secretary-suggests-iran-war-may-last-until-2029-its-just-gonna-take-a-long-time/
-- Summary: Former Defense Secretary Mark Esper said on Friday the ongoing war in Iran would go into 2027 but questioned whether it could go into as far as 2029, noting it “takes time.”
-
-### S107. Alabama’s regular gun deer season opens Saturday; officials share safety and rule reminders
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 6:25 PM
-- Link: https://www.alabamas42.com/news/alabamas-regular-gun-deer-season-opens-saturday-officials-share-safety-and-rule-reminders/
-- Summary: VESTAVIA HILLS, Ala. (WIAT) — Hunters across Central Alabama are making final preparations ahead of sunrise Saturday, Nov. 21, marking the opening day of Alabama’s regular firearms deer season. The season runs through Feb. 10 across Zones A, B and C—covering most of Central Alabama—bringing thousands of hunters into the woods on both private property and [...]
-
-### S108. Alabama Power reports 2027 rate reduction
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 12:17 PM
-- Link: https://www.alabamas42.com/news/local/alabama-power-to-reduce-rates-in-2027/
-- Summary: BIRMINGHAM, Ala. (WIAT) -- Alabama Power says that customers can expect lower rates in 2027. The company filed with the Alabama Public Service Commission to reduce customer rates by $160 million in the next year. "A residential customer using 1,000 kilowatt-hours each month will save more than $50 a year compared with current rates at [...]
-
-### S109. UAB Falls to South Carolina in NCAA Tournament First Round
-- Outlet: CBS 42 (via CBS 42)
-- Published: Sat Nov 21, 8:28 AM
-- Link: https://www.alabamas42.com/sports/uab/uab-falls-to-south-carolina-in-ncaa-tournament-first-round/
-- Summary: UAB women's soccer (12-9-1, 6-4-0 American) saw its historic 2026 season come to an end Friday night as the Blazers fell to South Carolina (16-2-3, 6-1-3 SEC) 2-0 in the first round of the NCAA Tournament at Stone Stadium.
-
-### S110. Peachtree Entertainment ceases operations; Rock the South future uncertain
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 2:47 PM
-- Link: https://www.alabamas42.com/news/national/peachtree-entertainment-ceases-operations-rock-the-south-future-uncertain/
-- Summary: The city of Decatur says that Peachtree Entertainment, the organizers of Rock the South, has shut down.
-
-### S111. Calera Railroad Museum train derails, public asked to avoid area
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 8:04 PM
-- Link: https://www.alabamas42.com/news/local/calera-railroad-museum-train-derails-public-asked-to-avoid-area/
-- Summary: CALERA, Ala. (WIAT) -- The Calera Police Department is asking the public to avoid the area of County Road 306 and County Road 301 after the Railroad Museum train became derailed Friday evening. Police said that no injuries have been reported. The police and fire departments are on scene. Drivers are being asked to use [...]
-
-### S112. 'Foodees Fest' coming to Gadsden in December
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 7:49 PM
-- Link: https://www.alabamas42.com/news/foodees-fest-coming-to-gadsden-in-december/
-- Summary: GADSDEN, Ala. (WIAT) -- A festival featuring food trucks, restaurants, artisans and more is coming to Gadsden in October. Foodees Fest will be held at the Gadsden Mall from Dec. 18-20. The event is free to attend. “We are thrilled to bring Foodees Fest back to Gadsden, Alabama." Tricia Croft, owner of Foodees, LLC., said [...]
-
-### S113. Jones' Late Heroics Lift UAB Past Unbeaten George Washington, 81-76
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 3:41 PM
-- Link: https://www.alabamas42.com/sports/jones-late-heroics-lift-uab-past-unbeaten-george-washington-81-76/
-- Summary: WHITE SULPHUR SPRINGS, W.Va. – Deuce Jones scored a game-high 24 points, including eight in the final three minutes, as UAB Men's Basketball held off previously unbeaten George Washington, 81-76, Friday afternoon at Colonial Hall in the Greenbrier Tip-Off. The Blazers (4-2) earned their second consecutive victory and handed George Washington (5-1) its first loss [...]
-
-### S114. University of Alabama's Million Dollar Band preparing for Macy's Thanksgiving Day Parade
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 1:40 PM
-- Link: https://www.alabamas42.com/news/university-of-alabamas-million-dollar-band-preparing-for-macys-thanksgiving-day-parade/
-- Summary: TUSCALOOSA, Ala. (WIAT) – The University of Alabama’s Million Dollar Band is getting ready to make their second debut in the 100th Annual Macy’s Thanksgiving Day Parade. The Macy’s Thanksgiving Day Parade is one of the most iconic celebrations that takes place in America. Auditions begin around two years in advance. More than 100 bands [...]
-
-### S115. Historic Calera cemetery receives $48,000 grant for preservation efforts
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 12:08 PM
-- Link: https://www.alabamas42.com/news/historic-calera-cemetery-receives-48000-grant-for-preservation-efforts/
-- Summary: CALERA, Ala. (WIAT) — One year ago, family members of loved ones buried in a historic cemetery in Calera, along with a local researcher, pushed to preserve the site. Now, the Alabama Historical Commission has awarded a $48,000 grant to First Baptist Church in Calera to help restore the historic cemetery. Preservation efforts have begun, [...]
-
-### S116. 68-year-old Dora woman identified in fatal Jefferson County crash
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 10:17 AM
-- Link: https://www.alabamas42.com/traffic/68-year-old-dora-woman-identified-in-fatal-jefferson-county-crash/
-- Summary: DORA, Ala. (WIAT) -- A 68-year-old woman who was killed in a single-vehicle crash Thursday has been identified. Nancy Campbell, of Dora, was driving a vehicle involved in a single-vehicle crash around 11:49 a.m. in the 5800 block of Littleton Kilgore Road. She was pronounced dead at the scene. Jefferson County Sheriff's Office is investigating [...]
-
-### S117. Hoover man arrested after BB gun strikes multiple vehicles
-- Outlet: CBS 42 (via CBS 42)
-- Published: Fri Nov 20, 10:12 AM
-- Link: https://www.alabamas42.com/news/crime/hoover-man-arrested-after-bb-gun-strikes-multiple-vehicles/
-- Summary: HOOVER, Ala. (WIAT) -- Hoover police announced that a man was taken into custody after allegedly striking multiple vehicles with a BB gun. On Nov. 3, detectives with Hoover police began an investigation after a vehicle was reportedly struck by an unknown object initially believed to be gunfire. As the investigation progressed, detectives determined the [...]
-
-### S118. Northport police investigate fatal stabbing at Valley Hills Apartments
+### S103. Patient sets new record after 1 year with pig kidney transplant
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 10:16 AM
-- Link: https://www.wvtm13.com/article/homicide-investigation-underway-in-northport/74496837
-- Summary: A 42-year-old man was fatally stabbed at Valley Hills Apartments in Northport after allegedly attacking his wife, with their 19-year-old son reportedly acting in self-defense.
+- Published: Sun Nov 22, 10:42 AM
+- Link: https://www.wvtm13.com/article/boston-hospital-patient-1-year-pig-kidney-transplant/74501129
+- Summary: A medical milestone offers hope to thousands of Americans currently on dialysis.
 
-### S119. Voters oust some sheriffs who signed pacts to help Trump's immigration enforcement efforts
+### S104. Denver Broncos star and ESPN Hall of Fame broadcaster dies at 75
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 10:16 AM
-- Link: https://www.wvtm13.com/article/voters-reject-sheriffs-ice-cooperation/74497713
-- Summary: Trump has encouraged local law enforcement agencies to sign partnerships with U.S. Immigration and Customs Enforcement; however, sheriffs who had cooperated with ICE were defeated in the midterms to challengers opposed to the ICE agreements.
+- Published: Sun Nov 22, 10:25 AM
+- Link: https://www.wvtm13.com/article/tom-jackson-broncos-espn-hall-of-fame-dies/74501148
+- Summary: Tom Jackson, an ESPN Hall of Fame broadcaster known for his pivotal role on the Denver Broncos' "Orange Crush" defense, has died.
 
-### S120. Alabama's forecast brings in some rain ahead of Thanksgiving next week
+### S105. Alabama's forecast brings in some rain ahead of Thanksgiving
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 10:08 AM
+- Published: Sun Nov 22, 10:15 AM
 - Link: https://www.wvtm13.com/article/alabama-weather-forecast-cold-rain-thanksgiving/74495599
-- Summary: Warm weekend days and then some rain in the Thanksgiving week forecast
+- Summary: Rain is likely Wednesday ahead of a cooler, drier Thanksgiving in Alabama.
 
-### S121. Caught on camera: Officer saves 86-year-old man who fell on train tracks
+### S106. Indonesia candy factory fire leaves 3 workers dead and 37 others unaccounted for
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 8:52 AM
-- Link: https://www.wvtm13.com/article/florida-man-falls-train-tracks-rescued/74497449
-- Summary: A Florida police officer rushed to pull the man to safety after his walker got caught in the tracks. The retired New York attorney says the rescue meant even more because of his lifelong connection to law enforcement.
+- Published: Sun Nov 22, 10:04 AM
+- Link: https://www.wvtm13.com/article/indonesia-candy-factory-fire/74501115
+- Summary: A fire swept through a candy factory in Indonesia's Banten province, killing at least three workers and leaving 37 others unaccounted for, officials said Sunday.
 
-### S122. The FBI was hacked again, this time the breach targeted its crime database
+### S107. 'Best price ever' on these items as new Black Friday deals hit digital shelves
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 8:19 AM
-- Link: https://www.wvtm13.com/article/fbi-ncic-database-breach-investigation/74497434
-- Summary: The FBI is investigating an apparent breach of its nationwide criminal information database, according to reports.
+- Published: Sun Nov 22, 9:54 AM
+- Link: https://www.wvtm13.com/article/amazon-black-friday-deals-best-price-ever/74475467
+- Summary: You don't have to wait until Black Friday to score some of the best deals this holiday season.
 
-### S123. Trump floats 'tremendous tax' on companies that build data centers overseas
+### S108. 'Best of both worlds': Miley Cyrus and Maxx Morando tie the knot after 5 years of dating
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 7:30 AM
-- Link: https://www.wvtm13.com/article/trump-floats-tremendous-tax-on-companies-that-build-data-centers-overseas/74497229
-- Summary: President Donald Trump framed the proposal as part of a broader competition with China on artificial intelligence.
+- Published: Sun Nov 22, 9:20 AM
+- Link: https://www.wvtm13.com/article/miley-cyrus-maxx-morando-marry/74500882
+- Summary: It's the "best both worlds" and a "party in the USA" for singer Miley Cyrus after she married Maxx Morando after five years of dating, multiple outlets said.
 
-### S124. Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI
+### S109. FBI investigating suspected hack of national crime database, AP reports
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 7:21 AM
-- Link: https://www.wvtm13.com/article/anthropic-claude-riemann-hypothesis-proof/74497243
-- Summary: A mathematician who works for AI giant Anthropic claims he has solved a Holy Grail of math problems with the help of the company's AI tool Claude.
+- Published: Sun Nov 22, 9:07 AM
+- Link: https://www.wvtm13.com/article/fbi-suspected-hack-national-crime-database-ap-reports/74500671
+- Summary: It's the second reported breach affecting the FBI in recent months.
 
-### S125. Endurance athlete swims in Strait of Hormuz to highlight Iran war's impact on wildlife
+### S110. Whether you're team plastic or wood, here's how to sanitize your cutting board
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 6:02 AM
-- Link: https://www.wvtm13.com/article/lewis-pugh-strait-of-hormuz-swim-iran-war/74497133
-- Summary: British endurance swimmer Lewis Pugh has swum the Strait of Hormuz while tankers were attacked and blown up nearby.
+- Published: Sun Nov 22, 8:50 AM
+- Link: https://www.wvtm13.com/article/how-to-sanitize-wood-plastic-cutting-board/74500859
+- Summary: If cutting boards are given a second thought, it's usually in the debate over whether to use wood or plastic. But the more important issue is how to clean and care for the boards you already own.
 
-### S126. Cartel kingpin on FBI’s most wanted list captured in dramatic Mexican military operation
+### S111. UN climate talks break down without an overarching agreement
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Sat Nov 21, 5:24 AM
-- Link: https://www.wvtm13.com/article/mexico-military-captures-fbi-most-wanted-fugitive/74497077
-- Summary: Mexico’s military captured an alleged drug lord listed among the FBI’s 10 most wanted fugitives, sparking violent exchanges of gunfire in Sinaloa state.
+- Published: Sun Nov 22, 8:34 AM
+- Link: https://www.wvtm13.com/article/un-climate-talks-without-overarching-agreement/74500821
+- Summary: Chaotic United Nations climate talks in Turkey couldn't reach an overarching agreement on Sunday amid disagreements over whether to mention the fossil fuels that cause global warming.
 
-### S127. New babies, new homes, higher power bills; what Alabama Power’s rate cut means for two families
+### S112. Will Congress cap credit card interest rates? Trump seeking bipartisan cooperation on the policy
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 10:37 PM
-- Link: https://www.wvtm13.com/article/alabama-power-utility-company-electricity-rate-bill-drop-decrease-discount/74496158
-- Summary: Two families with new babies say their power bills jumped after moving into new homes. Alabama Power’s 2027 rate reduction could offer some relief, but how much will customers actually save?
+- Published: Sun Nov 22, 7:57 AM
+- Link: https://www.wvtm13.com/article/congress-credit-card-interest-rates-trump-bipartisan-cooperation/74500458
+- Summary: The proposal has gotten little traction in the Republican-led Congress, but that could change when Democrats take charge.
 
-### S128. Hundreds briefly stranded, including Santa, after North Pole Express train derailment in Alabama
+### S113. Gas main explosion visible from York, Alabama
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 10:26 PM
-- Link: https://www.wvtm13.com/article/heart-of-dixie-railroad-museum-train-derailment/74496073
-- Summary: A Christmas train ride took an unexpected turn Friday night, leaving hundreds of passengers briefly stranded. No injuries were reported.
+- Published: Sun Nov 22, 7:46 AM
+- Link: https://www.wvtm13.com/article/gas-main-explosion-visible-from-york-alabama/74500700
+- Summary: Emergency officials are investigating a gas explosion near York, Alabama, as city leaders monitor the situation.
 
-### S129. Navy won't rename carrier slated to honor Black war hero
+### S114. Russian attack near Ukraine's capital strikes apartment building: 2 dead, 4 injured
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 10:19 PM
-- Link: https://www.wvtm13.com/article/navy-wont-rename-carrier-to-honor-black-war-hero/74496238
-- Summary: The U.S. Navy is no longer considering renaming an aircraft carrier under construction that was set to honor a Black sailor hailed for his heroic actions during the attack on Pearl Harbor.
+- Published: Sun Nov 22, 7:41 AM
+- Link: https://www.wvtm13.com/article/russian-attack-ukraines-capital-strikes-apartment-building/74500693
+- Summary: A Russian attack struck an apartment building in a village near Ukraine's capital on Sunday, killing at least two people and wounding four others, authorities said. Nearly a dozen people were feared trapped beneath the rubble.
 
-### S130. Federal jury convicts man of starting the deadly 2025 Palisades Fire in Los Angeles
+### S115. 'We got a situation': Flight delayed after cat escapes kennel, roams around cabin
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 8:20 PM
-- Link: https://www.wvtm13.com/article/jury-convicts-man-palisades-fire-los-angeles/74495350
-- Summary: The man accused of sparking last year's deadly Palisades Fire was found guilty of arson charges Friday after his first federal case earlier this year ended in a mistrial.
+- Published: Sun Nov 22, 7:18 AM
+- Link: https://www.wvtm13.com/article/boston-tampa-delta-flight-delayed-cat-loose/74500496
+- Summary: A flight from Boston, Massachusetts to Tampa, Florida was briefly delayed Friday when a cat escaped its kennel while the aircraft was taxiing before takeoff, according to a Delta spokesperson.
 
-### S131. Explore popular Christmas markets around the world this holiday season
+### S116. California billionaire tax proposal faced major setback despite big wins for progressives
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 8:00 PM
-- Link: https://www.wvtm13.com/article/christmas-markets-around-the-world-2026/74493104
-- Summary: The holiday season is about to kick off. See what Christmas markets are taking place around the world this year
+- Published: Sun Nov 22, 6:25 AM
+- Link: https://www.wvtm13.com/article/california-billionaire-tax-proposal-setbacks-progressives/74500369
+- Summary: In an election with major wins for Democrats and progressives nationwide, California voters not only rejected the biggest test yet for a state wealth tax: they also approved a measure making it much harder to enact one in the future.
 
-### S132. Alabama holiday market expects more than 400,000 visitors this year
+### S117. Paolo Bulgari, the Italian jeweler who turned a family business into global luxury brand, dies at 89
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 7:41 PM
-- Link: https://www.wvtm13.com/article/cullman-christkindlmarkt-holiday-market/74495755
-- Summary: Looking for holiday fun? This massive market brings a taste of Germany to Alabama
+- Published: Sun Nov 22, 5:50 AM
+- Link: https://www.wvtm13.com/article/paolo-bulgari-italian-jeweler-dies-89/74500306
+- Summary: Paolo Bulgari, the grandson of a Greek silversmith who helped transform the family jewelry business into a global luxury brand synonymous with Italian glamour and design, has died. He was 89.
 
-### S133. 'We have to get the money': Trump pushes Congress to approve $50 billion for FAA upgrades
+### S118. Recall roundup: Pastas, breakfast foods, whipped cream and more recalled across U.S.
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 7:16 PM
-- Link: https://www.wvtm13.com/article/trump-pushes-congress-approve-50-billion-faa-upgrades/74495071
-- Summary: President Trump addressed last week's FAA ground stop, citing modernization efforts as the cause and urging Congress to approve $50 billion for aviation infrastructure upgrades.
+- Published: Sun Nov 22, 5:29 AM
+- Link: https://www.wvtm13.com/article/food-recalls-cars-helmets-united-states/74492479
+- Summary: Breakfast sandwiches, whipped cream and bicycle helmets are among the latest products recalled across the nation.
 
-### S134. Zohran Mamdani is injured in soccer match against journalists
+### S119. Kids and adult toothpaste, mouthwash recalled nationwide: Over 51K units affected
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 7:11 PM
-- Link: https://www.wvtm13.com/article/zohran-mamdani-tore-achilles-soccer-game/74495666
-- Summary: Mamdani said Friday that he tore his Achilles tendon during a pickup soccer match against the City Hall press corps.
+- Published: Sun Nov 22, 5:07 AM
+- Link: https://www.wvtm13.com/article/kids-adult-toothpaste-mouthwash-nationwide-recall/74500065
+- Summary: The United States Food and Drug Administration is recalling more than 51,000 units of toothpaste and mouthwash made for kids and adults nationwide after federal testing detected hormones in product samples.
 
-### S135. What’s next for three vacant buildings at the center of a city lawsuit?
+### S120. Court records: U.S. Army plans to carry out lead azide detonation after federal court pause
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 7:10 PM
-- Link: https://www.wvtm13.com/article/birmingham-vacant-buildings-demolition/74495456
-- Summary: A judge has approved an agreement to address three vacant properties after the city raised safety concerns. Here’s what happens next.
+- Published: Sun Nov 22, 4:25 AM
+- Link: https://www.wvtm13.com/article/lead-azide-bomb-detonation-iowa-tuesday/74499995
+- Summary: A court filing said the U.S. Army still plans a controlled blast of lead azide waste after a federal appeals court paused the EPA permit.
 
-### S136. 'Hippopotamus for Christmas’ singer reflects on Fiona the hippo’s death
+### S121. Immigration officers make arrests at Seattle airport in 'distressing' scene, delaying flight
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 6:36 PM
-- Link: https://www.wvtm13.com/article/singer-gayla-peevey-reflects-fiona-the-hippo-death/74495768
-- Summary: Gayla Peevey, known for her 1953 hit "I Want a Hippopotamus for Christmas," shares her grief over the death of Fiona, the Cincinnati Zoo’s beloved hippo, who died after swallowing a hat.
+- Published: Sun Nov 22, 3:55 AM
+- Link: https://www.wvtm13.com/article/immigration-officers-arrests-seattle-airport-flights-delayed/74499948
+- Summary: Video showed officers dragging away at least one person at Seattle-Tacoma International Airport as a woman screams that her daughter is being taken and she has a work permit.
 
-### S137. Court approves $7.25 billion settlement with Bayer over claims Roundup weed killer caused cancer
+### S122. Leroy Boseman, father of actor Chadwick Boseman, has died
 - Outlet: WVTM 13 (via WVTM 13)
-- Published: Fri Nov 20, 6:24 PM
-- Link: https://www.wvtm13.com/article/bayer-roundup-settlement-approved-missouri-judge/74495537
-- Summary: Bayer will pay up to $7.25 billion over 20 years to settle thousands of U.S. claims related to Roundup after a Missouri judge approved the settlement Friday.
+- Published: Sat Nov 21, 10:20 PM
+- Link: https://www.wvtm13.com/article/leroy-boseman-father-of-chadwick-boseman-died/74499272
+- Summary: The husband and father died in South Carolina at age 82 following a brief illness, a family spokesperson said
 
-### S138. Travelers with sensory needs have new option at BHM airport
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 1:25 PM
-- Link: https://bhamnow.com/2026/11/20/travelers-with-sensory-needs-have-new-option-at-bhm-airport/#utm_source=rss&utm_medium=rss&utm_campaign=travelers-with-sensory-needs-have-new-option-at-bhm-airport
-- Summary: 🎧 NEW HELP IN THE BHM SECURITY LINE: Crowds and noise too much? TSA agents at Birmingham's airport now hand out bright red backpacks with headphones + tinted glasses to travelers who need them. Just ask.
-
-### S139. Starz Adventures opens in Moody Nov. 24 with 14 bowling lanes
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 12:05 PM
-- Link: https://bhamnow.com/2026/11/20/starz-adventures-opens-in-moody-nov-24-with-14-bowling-lanes/#utm_source=rss&utm_medium=rss&utm_campaign=starz-adventures-opens-in-moody-nov-24-with-14-bowling-lanes
-- Summary: 🎳 MOODY'S NEW HANGOUT IS ALMOST HERE: Trampolines, bowling lanes, an arcade and a sports bar all under one 48,000-square-foot roof.
-
-### S140. Want to help Alabama veterans? These careers are now hiring
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 11:53 AM
-- Link: https://bhamnow.com/2026/11/20/help-alabama-veterans-careers-now-hiring/#utm_source=rss&utm_medium=rss&utm_campaign=help-alabama-veterans-careers-now-hiring
-- Summary: 🇺🇸 1,172 VETERANS SERVED: DYK you can get a job helping vets get back on solid ground? Check out open roles with this Bham-based United Way program. 👇 NowPartner
-
-### S141. 4 ways your donations create new opportunities for Bham nonprofits—give by Dec. 9
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 11:29 AM
-- Link: https://bhamnow.com/2026/11/20/new-opportunities-for-bham-nonprofits-give-by-dec-9/#utm_source=rss&utm_medium=rss&utm_campaign=new-opportunities-for-bham-nonprofits-give-by-dec-9
-- Summary: 🎁 4 NONPROFITS, 1 EASY WAY TO HELP: Coffee jobs for adults with disabilities, home repairs for seniors, art programs in shelters and Parkinson's classes at the Y. Donations of any size help fund what comes next, and the deadline is Dec. 9. 👇 NowPartner
-
-### S142. Michelin-praised pitmaster to open new BBQ joint in Birmingham-metro
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 11:23 AM
-- Link: https://bhamnow.com/2026/11/20/michelin-praised-pitmaster-to-open-new-bbq-joint-in-birmingham-metro/#utm_source=rss&utm_medium=rss&utm_campaign=michelin-praised-pitmaster-to-open-new-bbq-joint-in-birmingham-metro
-- Summary: 🔥 NEW BBQ FIRING UP IN CLAY: One of the pitmasters behind Austin Whereabouts is lending his experience to Sweet Hickory BBQ, opening mid-December on Old Springville Road.
-
-### S143. Glow Wild 2026 will light up the Birmingham Zoo + how to get tickets, 11/21–1/3
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 10:25 AM
-- Link: https://bhamnow.com/2026/11/20/glow-wild-2026-will-light-up-the-birmingham-zoo-how-to-get-tickets-11-21-1-3/#utm_source=rss&utm_medium=rss&utm_campaign=glow-wild-2026-will-light-up-the-birmingham-zoo-how-to-get-tickets-11-21-1-3
-- Summary: ✨ OVER A MILLION LIGHTS AT THE ZOO: Glow Wild lights up the Bham Zoo starting Nov. 21, with a mile-long lantern trail, spiked cocoa + the newly restored Protective Carousel back in action. Get tickets before they sell out.👇 NowPartner
-
-### S144. The Dance Foundation’s latest Homewood renovations give old floor a second life
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 10:23 AM
-- Link: https://bhamnow.com/2026/11/20/the-dance-foundations-latest-homewood-renovations/#utm_source=rss&utm_medium=rss&utm_campaign=the-dance-foundations-latest-homewood-renovations
-- Summary: 🩰 DANCED 'TIL THE FLOOR WORE OUT: After 20+ years and ~100k dancers, The Dance Foundation's old Homewood stage floor got a second life as keychains, and the first batch already sold out.
-
-### S145. 10 new + coming soon homes in Birmingham
-- Outlet: Bham Now (via Bham Now)
-- Published: Fri Nov 20, 7:54 AM
-- Link: https://bhamnow.com/2026/11/20/10-new-coming-soon-homes-in-birmingham/#utm_source=rss&utm_medium=rss&utm_campaign=10-new-coming-soon-homes-in-birmingham
-- Summary: 🏡 PROPERTY WATCH: See new + coming soon homes around Birmingham. NowPartner
-
-### S146. Give the Gift of Reading Through the UAB RNICU Bookworms Book Drive
-- Outlet: Birmingham Times (via Birmingham Times)
-- Published: Fri Nov 20, 10:35 PM
-- Link: https://www.birminghamtimes.com/2026/11/give-the-gift-of-reading-through-the-uab-rnicu-bookworms-book-drive/
-- Summary: By Anna Jones &#124; UAB News Blazers and community members interested in donating books for families of infants in the University of Alabama at Birmingham Hospital Regional Newborn Intensive Care Unit can drop new books in boxes located across campus during a book drive hosted by UAB Libraries and the University Writing Center through Dec. [&#8230;]
-
-### S147. Money Matters: Celebrate the Holidays Without Breaking the Bank
-- Outlet: Birmingham Times (via Birmingham Times)
-- Published: Fri Nov 20, 10:18 PM
-- Link: https://www.birminghamtimes.com/2026/11/money-matters-celebrate-the-holidays-without-breaking-the-bank/
-- Summary: The holiday season is upon us, bringing family gatherings, celebrations, gift exchanges, and, unfortunately, financial pressure. Between Thanksgiving dinner, gift giving, travel, decorations, and holiday entertaining, expenses can accumulate quickly. Before you know it, the joy of the season can turn into the stress of January&#8217;s credit card bills. But here&#8217;s the good news: You [&#8230;]
+### S123. BW Recommends | November 22, 2026
+- Outlet: Birmingham Watch (via Birmingham Watch)
+- Published: Sun Nov 22, 5:36 AM
+- Link: https://birminghamwatch.org/2026/11/22/bw-recommends-november-22-2026/
+- Summary: News and features you might have missed this week from around the region. The post BW Recommends | November 22, 2026 appeared first on BirminghamWatch .
 
 ## Upcoming events and public meetings (city calendars and agendas — dates may be the event date or the posting date; open the link to confirm)
 
-### S148. INVERNESS-RIVERCHASE SEWER BOARD
+### S124. INVERNESS-RIVERCHASE SEWER BOARD
 - Outlet: Hoover public meetings (via Hoover public meetings)
 - Published: Tue Nov 17, 2:54 PM
 - Link: https://www.hooveralabama.gov/m/calendar/event/detail/11492
 - Summary: Event date: November 24, 2026 Event Time: 04:00 PM - 11:59 PM Location: 100 Municipal Lane Hoover, AL 35216
 
-### S149. Christmas Tree Lighting
+### S125. Christmas Tree Lighting
 - Outlet: Hoover city calendar (via Hoover city calendar)
 - Published: Wed Nov 18, 2:26 PM
 - Link: https://www.hooveralabama.gov/m/calendar/event/detail/11366
 - Summary: Event date: December 1, 2026 Event Time: 06:00 PM - 08:00 PM Location: Hoover City Hall 100 Municipal Drive Hoover, AL 35216
 
-### S150. County Administration Building 1:00PM
+### S126. County Administration Building 1:00PM
 - Outlet: Shelby County agendas (via Shelby County agendas)
 - Published: Thu Nov 19, 9:26 AM
 - Link: https://www.shelbyal.com/AgendaCenter/PreviousVersions/740
 - Summary: County Administration Building 1:00PM Update: Minutes added or updated
 
-### S151. November 23, 2026 Shelby County Commission Meeting
+### S127. November 23, 2026 Shelby County Commission Meeting
 - Outlet: Shelby County agendas (via Shelby County agendas)
 - Published: Wed Nov 18, 8:42 AM
 - Link: https://www.shelbyal.com/AgendaCenter/PreviousVersions/745
 - Summary: November 23, 2026 Shelby County Commission Meeting
 
-### S152. Shelby County Planning Commission Public Hearing Agenda for December 7, 2026
+### S128. Shelby County Planning Commission Public Hearing Agenda for December 7, 2026
 - Outlet: Shelby County agendas (via Shelby County agendas)
 - Published: Wed Nov 18, 8:15 AM
 - Link: https://www.shelbyal.com/AgendaCenter/PreviousVersions/746
 - Summary: Shelby County Planning Commission Public Hearing Agenda for December 7, 2026
 
-### S153. County Administration Building 2:00PM
+### S129. County Administration Building 2:00PM
 - Outlet: Shelby County agendas (via Shelby County agendas)
 - Published: Mon Nov 16, 11:47 AM
 - Link: https://www.shelbyal.com/AgendaCenter/PreviousVersions/744
 - Summary: County Administration Building 2:00PM
 
 ## Feed health
-- ✅ Hoover Sun: 0 kept
-- ❌ 280 Living: couldn't load (ConnectTimeout)
-- ✅ Shelby County Reporter: 17 kept
-- ✅ Village Living: 1 kept
+- ❌ Hoover Sun: couldn't load (ConnectTimeout)
+- ✅ 280 Living: 2 kept
+- ✅ Shelby County Reporter: 3 kept
+- ✅ Village Living: 3 kept
 - ✅ Vestavia Voice: 2 kept
-- ✅ The Homewood Star: 0 kept
+- ✅ The Homewood Star: 3 kept
 - ✅ City of Homewood: 0 kept
 - ✅ City of Vestavia Hills: 0 kept
 - ✅ Hoover public meetings: 1 kept
@@ -942,16 +798,16 @@ Collected 10:52 AM CT · 147 news stories from the last 28 hours, plus 6 upcomin
 - ✅ Chelsea council agendas: 0 kept
 - ✅ Shelby County agendas: 4 kept
 - ✅ Google News: Hoover: 8 kept
-- ✅ Google News: Shelby County: 8 kept
+- ✅ Google News: Shelby County: 7 kept
 - ✅ Google News: Pelham/Alabaster/Helena: 8 kept
-- ✅ Google News: Oak Mountain/280: 5 kept
-- ✅ Google News: Vestavia/Mountain Brook: 4 kept
-- ✅ Google News: local schools: 3 kept
-- ✅ WBRC Fox 6: 20 kept
+- ✅ Google News: Oak Mountain/280: 4 kept
+- ✅ Google News: Vestavia/Mountain Brook: 5 kept
+- ✅ Google News: local schools: 1 kept
+- ✅ WBRC Fox 6: 19 kept
 - ✅ AL.com: 25 kept
-- ✅ CBS 42: 16 kept
+- ✅ CBS 42: 12 kept
 - ✅ WVTM 13: 20 kept
-- ✅ Bham Now: 8 kept
-- ✅ Birmingham Watch: 0 kept
-- ✅ Birmingham Times: 2 kept
+- ✅ Bham Now: 0 kept
+- ✅ Birmingham Watch: 1 kept
+- ✅ Birmingham Times: 0 kept
 - ✅ BirminghamMommy: 0 kept
